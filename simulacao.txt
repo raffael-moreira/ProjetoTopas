@@ -1,0 +1,115 @@
+# Simulação de uma pequena caixa Parent de 85.18x125.76x14.48 (x, y, z) [42.59x62.88x7.24 HL] sólida de PS (G4_POLYSTYRENE) com 96 pequenos cilindros 
+# child sólidos de H2O (G4_WATER) com dimensões 3.375 de raio, e 10.91 de altura [5.455 HL], e espaçamento de 2.23 entre sí [1.115 HL]
+# A fonte produz raios gamma (raio-x) com energia fixa de 6 MeV, à uma distância de 1000 do isocentro. A fonte é estática e está à exatos 90º do plano 
+# cartesiano
+# Todas as dimensões de distância são em milímetros
+
+#Geometria
+#includeFile 								= cilindrogigante.txt
+#includeFile 								= Placas/geom1.txt
+includeFile 								= Camadas/demo/demo.txt
+#includeFile 								= Camadas/camada0.txt
+#includeFile 								= Camadas/camada1.txt
+#includeFile 								= Camadas/camada2.txt
+#includeFile 								= Camadas/camada3.txt
+s:Ge/Microtitulacao/Color					= "lightblue"
+s:Ge/2Microtitulacao/Color					= "lightblue"
+s:Ge/3Microtitulacao/Color					= "lightblue"
+s:Ge/4Microtitulacao/Color					= "lightblue"
+s:Ge/11Microtitulacao/Color					= "lightblue"
+s:Ge/12Microtitulacao/Color					= "lightblue"
+s:Ge/13Microtitulacao/Color					= "lightblue"
+s:Ge/14Microtitulacao/Color					= "lightblue"
+s:Ge/21Microtitulacao/Color					= "lightblue"
+s:Ge/22Microtitulacao/Color					= "lightblue"
+s:Ge/23Microtitulacao/Color					= "lightblue"
+s:Ge/24Microtitulacao/Color					= "lightblue"
+s:Ge/31Microtitulacao/Color					= "lightblue"
+s:Ge/32Microtitulacao/Color					= "lightblue"
+s:Ge/33Microtitulacao/Color					= "lightblue"
+s:Ge/34Microtitulacao/Color					= "lightblue"
+
+#Outputs
+includeFile 								= Scoring/enegiadepos.txt
+includeFile 								= Scoring/histdose.txt
+
+# Setando o Parent supremo "World" onde ocorrerá a simulação
+s:Ge/World/Type 							= "TsBox"
+s:Ge/World/Material						 	= "Air"
+d:Ge/World/HLX 								= 0.2 m
+d:Ge/World/HLY					 			= 0.2 m
+d:Ge/World/HLZ 								= 2 m
+d:Ge/World/TransX 							= 0. m
+d:Ge/World/TransY 							= 0. m
+d:Ge/World/TransZ 							= 0. m
+d:Ge/World/RotX 							= 0. deg
+d:Ge/World/RotY 							= 0. deg
+d:Ge/World/RotZ 							= 0. deg
+
+# Setando a fonte 
+s:So/Fonte/Type 							= "Beam" 
+s:So/Fonte/Component 						= "BeamPosition"
+s:So/Fonte/BeamParticle 					= "gamma"
+d:So/Fonte/BeamEnergy 						= 6. MeV
+u:So/Fonte/BeamEnergySpread 				= 0.1
+s:So/Fonte/BeamPositionDistribution 		= "Flat"
+s:So/Fonte/BeamPositionCutoffShape 			= "Rectangle" 
+dc:So/Fonte/BeamPositionCutoffX 			= 86. mm
+dc:So/Fonte/BeamPositionCutoffY 			= 127. mm
+d:So/Fonte/BeamPositionSpreadX 				= 0.1 cm
+d:So/Fonte/BeamPositionSpreadY 				= 0.1 cm
+s:So/Fonte/BeamAngularDistribution 			= "Gaussian"
+d:So/Fonte/BeamAngularCutoffX 				= 90. deg
+d:So/Fonte/BeamAngularCutoffY 				= 90. deg
+d:So/Fonte/BeamAngularSpreadX 				= 0.0032 rad
+d:So/Fonte/BeamAngularSpreadY 				= 0.0032 rad
+ic:So/Fonte/NumberOfHistoriesInRun 			= 100
+i:So/Fonte/NumberOfHistoriesInRandomJob 	= 0
+
+# Setando posicionamento da fonte 
+s:Ge/BeamPosition/Parent   					= "World"
+s:Ge/BeamPosition/Type     					= "Group"
+d:Ge/BeamPosition/TransX   					= 0. m
+d:Ge/BeamPosition/TransY 					= 0. m
+d:Ge/BeamPosition/TransZ   					= 1 m
+d:Ge/BeamPosition/RotX 					    = 180. deg
+d:Ge/BeamPosition/RotY     					= 0. deg
+d:Ge/BeamPosition/RotZ     					= 0. deg
+b:Ge/World/Invisible 						= "True"
+
+# Checando se não vai ocorrer problemas com a geometria (nos teste, manter o CFO false, mas colocar como true antes de rodar a simulação)
+b:Ge/CheckForOverlaps                		= "False"
+b:Ge/CheckInsideEnvelopesForOverlaps 		= "True"
+i:Ge/CheckForOverlapsResolution      		= 1000
+d:Ge/CheckForOverlapsTolerance       		= 0. mm
+b:Ge/QuitIfOverlapDetected           		= "True"
+i:Ge/NumberOfPointsPerOverlapCheck   		= 1000
+b:Ge/CheckForUnusedComponents        		= "False"
+
+# Configuração de visualizacão da interface gráfica
+Ts/UseQt					  				= "True" #Interface gráfica 3D
+b:Gr/Enable                   				= "True" #Mostrar interface gráfica
+s:Gr/eventos/Type            				= "OpenGL"
+i:Gr/eventos/WindowSizeX      				= 1366
+i:Gr/eventos/WindowSizeY      				= 768
+d:Gr/eventos/Theta           				= 55 deg
+d:Gr/eventos/Phi              				= 20 deg
+s:Gr/eventos/Projection       				= "Perspective"
+d:Gr/eventos/PerspectiveAngle 				= 30 deg
+u:Gr/eventos/Zoom             				= 0.4
+b:Ts/PauseBeforeQuit         				= "True" #Pausa após o fim da simulação
+b:Ts/ShowCPUTime              				= "True"
+
+#Setas de orientação
+b:Gr/eventos/IncludeAxes				 	= "False"
+d:Gr/eventos/AxesSize 		  				= 1 m 
+
+#Configurações de salvamento após a run
+#b:Gr/eventos/CopyOpenGLToPDF 		 		= "True" #salva PDF no final da simulação
+#s:Gr/eventos/FileName 						= "/home/raffaelmoreira/topas/mysim/Runs/MyRun"
+#b:Gr/eventos/IncludeGeometry 		 		= "True"
+#b:Gr/eventos/IncludeTrajectories	 		= "True"
+
+#Física
+sv:Ph/Default/Modules 						= 1 "g4em-standard_opt0" #física para testes
+#sv:Ph/Default/Modules 						= 6 "g4em-standard_opt4" "g4h-phy_QGSP_BIC_HP" "g4decay" "g4ion-binarycascade" "g4h-elastic_HP" “g4stopping"

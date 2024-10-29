@@ -1,0 +1,5 @@
+s:Gr/MyGraphic1/ColorBy = "Charge" # "Charge", "ParticleType", "OriginComponent", "Energy", "Momentum", "Generation", "CreatorProcess"
+sv:Gr/MyGraphic1/ColorByChargeColors = 3 "blue" "green" "red" # colors for neg, neutral, pos
+sv:Gr/MyGraphic1/ColorByParticleTypeNames = 4 "e-" "gamma" "proton" "neutron" # any number of particle names
+sv:Gr/MyGraphic1/ColorByParticleTypeColors = 4 "red" "green" "blue" "yellow" # for each particle type above. All other particles will be set to grey.
+gamma green, e- red, e+ blue, proton ciano, neutron amarelo

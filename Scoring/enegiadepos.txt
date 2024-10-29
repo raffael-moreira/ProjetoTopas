@@ -1,0 +1,130 @@
+s:Sc/EnergiaDepositada1/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada1/Component 					= "Microtitulacao"
+s:Sc/EnergiaDepositada1/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada1/OutputType                	= "csv"
+s:Sc/EnergiaDepositada1/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada1/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada1/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada2/Quantity					= "EnergyDeposit"
+s:Sc/EnergiaDepositada2/Component 					= "2Microtitulacao"
+s:Sc/EnergiaDepositada2/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada2/OutputType                	= "csv"
+s:Sc/EnergiaDepositada2/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada2/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada2/PropagateToChildren			= "True"
+
+s:Sc/EnergiaDepositada3/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada3/Component 					= "3Microtitulacao"
+s:Sc/EnergiaDepositada3/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada3/OutputType                	= "csv"
+s:Sc/EnergiaDepositada3/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada3/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada3/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada4/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada4/Component 					= "4Microtitulacao"
+s:Sc/EnergiaDepositada4/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada4/OutputType                	= "csv"
+s:Sc/EnergiaDepositada4/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada4/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada4/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada11/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada11/Component 					= "11Microtitulacao"
+s:Sc/EnergiaDepositada11/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada11/OutputType                	= "csv"
+s:Sc/EnergiaDepositada11/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada11/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada11/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada12/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada12/Component 					= "12Microtitulacao"
+s:Sc/EnergiaDepositada12/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada12/OutputType                	= "csv"
+s:Sc/EnergiaDepositada12/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada12/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada12/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada13/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada13/Component 					= "13Microtitulacao"
+s:Sc/EnergiaDepositada13/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada13/OutputType                	= "csv"
+s:Sc/EnergiaDepositada13/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada13/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada13/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada14/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada14/Component 					= "14Microtitulacao"
+s:Sc/EnergiaDepositada14/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada14/OutputType                	= "csv"
+s:Sc/EnergiaDepositada14/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada14/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada14/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada21/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada21/Component 					= "21Microtitulacao"
+s:Sc/EnergiaDepositada21/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada21/OutputType                	= "csv"
+s:Sc/EnergiaDepositada21/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada21/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada21/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada22/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada22/Component 					= "22Microtitulacao"
+s:Sc/EnergiaDepositada22/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada22/OutputType                	= "csv"
+s:Sc/EnergiaDepositada22/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada22/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada22/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada23/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada23/Component 					= "23Microtitulacao"
+s:Sc/EnergiaDepositada23/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada23/OutputType                	= "csv"
+s:Sc/EnergiaDepositada23/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada23/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada23/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada24/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada24/Component 					= "24Microtitulacao"
+s:Sc/EnergiaDepositada24/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada24/OutputType                	= "csv"
+s:Sc/EnergiaDepositada24/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada24/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada24/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada31/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada31/Component 					= "31Microtitulacao"
+s:Sc/EnergiaDepositada31/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada31/OutputType                	= "csv"
+s:Sc/EnergiaDepositada31/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada31/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada31/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada32/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada32/Component 					= "32Microtitulacao"
+s:Sc/EnergiaDepositada32/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada32/OutputType                	= "csv"
+s:Sc/EnergiaDepositada32/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada32/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada32/PropagateToChildren 			= "True"
+
+s:Sc/EnergiaDepositada33/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada33/Component 					= "33Microtitulacao"
+s:Sc/EnergiaDepositada33/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada33/OutputType                	= "csv"
+s:Sc/EnergiaDepositada33/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada33/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada33/PropagateToChildren 		= "True"
+
+s:Sc/EnergiaDepositada34/Quantity 					= "EnergyDeposit"
+s:Sc/EnergiaDepositada34/Component 					= "34Microtitulacao"
+s:Sc/EnergiaDepositada34/OutputFile                	= "Output/energia/EnergiaDepositada"
+s:Sc/EnergiaDepositada34/OutputType                	= "csv"
+s:Sc/EnergiaDepositada34/IfOutputFileAlreadyExists 	= "Increment" #Exit, overwrite ou increment
+b:Sc/EnergiaDepositada34/OutputToConsole 			= "False"
+b:Sc/EnergiaDepositada34/PropagateToChildren 		= "True"
+
+#16 "Microtitulacao" "2Microtitulacao" "3Microtitulacao" "4Microtitulacao" "11Microtitulacao" "12Microtitulacao" "13Microtitulacao" "14Microtitulacao" "21Microtitulacao" "22Microtitulacao" 
+#"23Microtitulacao" "24Microtitulacao" "31Microtitulacao" "32Microtitulacao" "33Microtitulacao" "34Microtitulacao"

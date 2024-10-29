@@ -1,0 +1,7 @@
+i:Ge/TestBox/XBins    = 2
+i:Ge/TestBox/YBins    = 2
+i:Ge/TestBox/ZBins    = 2
+
+i:Ge/TestCylinder/RBins    = 2
+i:Ge/TestCylinder/PhiBins  = 2
+i:Ge/TestCylinder/ZBins    = 2

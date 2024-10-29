@@ -1,0 +1,76 @@
+#Somente demonstração para a geometria de 4 camadas de 4 placas sobrepostas
+
+includeFile = Placas/geom1.txt
+d:Ge/Microtitulacao/TransX = -43.09 mm
+d:Ge/Microtitulacao/TransY = 63.38 mm 
+d:Ge/Microtitulacao/TransZ = 7.24 mm
+
+s:Ge/Demo/Material = "G4_POLYSTYRENE"
+s:Ge/Demo/Parent = "World"
+s:Ge/Demo/Type = "TsBox"
+d:Ge/Demo/HLX = 42.59 mm
+d:Ge/Demo/HLY = 62.88 mm
+d:Ge/Demo/HLZ = 7.24 mm
+d:Ge/Demo/RotX = 0. deg
+d:Ge/Demo/RotY = 0. deg
+d:Ge/Demo/RotZ = 0. deg
+d:Ge/Demo/TransX = -43.09 mm
+d:Ge/Demo/TransY = 63.38 mm
+d:Ge/Demo/TransZ = 22.22 mm
+
+s:Ge/Demo1/Material = "G4_POLYSTYRENE"
+s:Ge/Demo1/Parent = "World"
+s:Ge/Demo1/Type = "TsBox"
+d:Ge/Demo1/HLX = 42.59 mm
+d:Ge/Demo1/HLY = 62.88 mm
+d:Ge/Demo1/HLZ = 7.24 mm
+d:Ge/Demo1/TransX = -43.09 mm
+d:Ge/Demo1/TransY = 63.38 mm
+d:Ge/Demo1/TransZ = 37.2 mm
+d:Ge/Demo1/RotX = 0. deg
+d:Ge/Demo1/RotY = 0. deg
+d:Ge/Demo1/RotZ = 0. deg
+
+includeFile = Placas/geom31.txt
+d:Ge/31Microtitulacao/TransX = -43.09 mm
+d:Ge/31Microtitulacao/TransY = 63.38 mm
+d:Ge/31Microtitulacao/TransZ = 52.18 mm
+
+s:Ge/Demo2/Material = "G4_POLYSTYRENE"
+s:Ge/Demo2/Parent = "World"
+s:Ge/Demo2/Type = "TsBox"
+d:Ge/Demo2/HLX = 42.59 mm
+d:Ge/Demo2/HLY = 62.88 mm
+d:Ge/Demo2/HLZ = 7.24 mm
+d:Ge/Demo2/TransX = 43.09 mm
+d:Ge/Demo2/TransY = 63.38 mm 
+d:Ge/Demo2/TransZ = 7.24 mm
+d:Ge/Demo2/RotX = 0. deg
+d:Ge/Demo2/RotY = 0. deg
+d:Ge/Demo2/RotZ = 0. deg
+
+s:Ge/Demo3/Material = "G4_POLYSTYRENE"
+s:Ge/Demo3/Parent = "World"
+s:Ge/Demo3/Type = "TsBox"
+d:Ge/Demo3/HLX = 42.59 mm
+d:Ge/Demo3/HLY = 62.88 mm
+d:Ge/Demo3/HLZ = 7.24 mm
+d:Ge/Demo3/TransX = -43.09 mm
+d:Ge/Demo3/TransY = -63.38 mm 
+d:Ge/Demo3/TransZ = 7.24 mm
+d:Ge/Demo3/RotX = 0. deg
+d:Ge/Demo3/RotY = 0. deg
+d:Ge/Demo3/RotZ = 0. deg
+
+s:Ge/Demo4/Material = "G4_POLYSTYRENE"
+s:Ge/Demo4/Parent = "World"
+s:Ge/Demo4/Type = "TsBox"
+d:Ge/Demo4/HLX = 42.59 mm
+d:Ge/Demo4/HLY = 62.88 mm
+d:Ge/Demo4/HLZ = 7.24 mm
+d:Ge/Demo4/TransX = 43.09 mm
+d:Ge/Demo4/TransY = -63.38 mm 
+d:Ge/Demo4/TransZ = 7.24 mm
+d:Ge/Demo4/RotX = 0. deg
+d:Ge/Demo4/RotY = 0. deg
+d:Ge/Demo4/RotZ = 0. deg

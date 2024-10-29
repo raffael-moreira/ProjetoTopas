@@ -1,0 +1,207 @@
+# Primeira camada da demontração 
+#Esse arquivo serve para rodar mais rápido a geometria 4x4 de placas, pois nao carrega os poços das placas (exceto da placa 1 da camada 3, para exemplificação)
+s:Ge/Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/Microtitulacao/Parent = "World"
+s:Ge/Microtitulacao/Type = "TsBox"
+d:Ge/Microtitulacao/HLX = 42.59 mm
+d:Ge/Microtitulacao/HLY = 62.88 mm
+d:Ge/Microtitulacao/HLZ = 7.24 mm
+d:Ge/Microtitulacao/TransX = -43.09 mm
+d:Ge/Microtitulacao/TransY = 63.38 mm 
+d:Ge/Microtitulacao/TransZ = 7.24 mm
+d:Ge/Microtitulacao/RotX = 0. deg
+d:Ge/Microtitulacao/RotY = 0. deg
+d:Ge/Microtitulacao/RotZ = 0. deg
+i:Ge/Microtitulacao/XBins    = 10
+i:Ge/Microtitulacao/YBins    = 20
+i:Ge/Microtitulacao/ZBins    = 5
+
+s:Ge/2Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/2Microtitulacao/Parent = "World"
+s:Ge/2Microtitulacao/Type = "TsBox"
+d:Ge/2Microtitulacao/HLX = 42.59 mm
+d:Ge/2Microtitulacao/HLY = 62.88 mm
+d:Ge/2Microtitulacao/HLZ = 7.24 mm
+d:Ge/2Microtitulacao/TransX = 43.09 mm
+d:Ge/2Microtitulacao/TransY = 63.38 mm
+d:Ge/2Microtitulacao/TransZ = 7.24 mm
+d:Ge/2Microtitulacao/RotX = 0. deg
+d:Ge/2Microtitulacao/RotY = 0. deg
+d:Ge/2Microtitulacao/RotZ = 0. deg
+
+s:Ge/3Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/3Microtitulacao/Parent = "World"
+s:Ge/3Microtitulacao/Type = "TsBox"
+d:Ge/3Microtitulacao/HLX = 42.59 mm
+d:Ge/3Microtitulacao/HLY = 62.88 mm
+d:Ge/3Microtitulacao/HLZ = 7.24 mm
+d:Ge/3Microtitulacao/TransX = -43.09 mm
+d:Ge/3Microtitulacao/TransY = -63.38 mm
+d:Ge/3Microtitulacao/TransZ = 7.24 mm
+d:Ge/3Microtitulacao/RotX = 0. deg
+d:Ge/3Microtitulacao/RotY = 0. deg
+d:Ge/3Microtitulacao/RotZ = 0. deg
+
+s:Ge/4Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/4Microtitulacao/Parent = "World"
+s:Ge/4Microtitulacao/Type = "TsBox"
+d:Ge/4Microtitulacao/HLX = 42.59 mm
+d:Ge/4Microtitulacao/HLY = 62.88 mm
+d:Ge/4Microtitulacao/HLZ = 7.24 mm
+d:Ge/4Microtitulacao/TransX = 43.09 mm
+d:Ge/4Microtitulacao/Transy = -63.38 mm
+d:Ge/4Microtitulacao/TransZ = 7.24 mm
+d:Ge/4Microtitulacao/RotX = 0. deg
+d:Ge/4Microtitulacao/RotY = 0. deg
+d:Ge/4Microtitulacao/RotZ = 0. deg
+
+#Segunda camada da demonstração (sem os poços)
+s:Ge/11Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/11Microtitulacao/Parent = "World"
+s:Ge/11Microtitulacao/Type = "TsBox"
+d:Ge/11Microtitulacao/HLX = 42.59 mm
+d:Ge/11Microtitulacao/HLY = 62.88 mm
+d:Ge/11Microtitulacao/HLZ = 7.24 mm
+d:Ge/11Microtitulacao/TransX = -43.09 mm
+d:Ge/11Microtitulacao/TransY = 63.38 mm
+d:Ge/11Microtitulacao/TransZ = 22.22 mm
+d:Ge/11Microtitulacao/RotX = 0. deg
+d:Ge/11Microtitulacao/RotY = 0. deg
+d:Ge/11Microtitulacao/RotZ = 0. deg
+
+s:Ge/12Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/12Microtitulacao/Parent = "World"
+s:Ge/12Microtitulacao/Type = "TsBox"
+d:Ge/12Microtitulacao/HLX = 42.59 mm
+d:Ge/12Microtitulacao/HLY = 62.88 mm
+d:Ge/12Microtitulacao/HLZ = 7.24 mm
+d:Ge/12Microtitulacao/TransX = 43.09 mm
+d:Ge/12Microtitulacao/TransY = 63.38 mm
+d:Ge/12Microtitulacao/TransZ = 22.22 mm
+d:Ge/12Microtitulacao/RotX = 0. deg
+d:Ge/12Microtitulacao/RotY = 0. deg
+d:Ge/12Microtitulacao/RotZ = 0. deg
+
+s:Ge/13Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/13Microtitulacao/Parent = "World"
+s:Ge/13Microtitulacao/Type = "TsBox"
+d:Ge/13Microtitulacao/HLX = 42.59 mm
+d:Ge/13Microtitulacao/HLY = 62.88 mm
+d:Ge/13Microtitulacao/HLZ = 7.24 mm
+d:Ge/13Microtitulacao/TransX = -43.09 mm
+d:Ge/13Microtitulacao/TransY = -63.38 mm
+d:Ge/13Microtitulacao/TransZ = 22.22 mm
+d:Ge/13Microtitulacao/RotX = 0. deg
+d:Ge/13Microtitulacao/RotY = 0. deg
+d:Ge/13Microtitulacao/RotZ = 0. deg
+
+s:Ge/14Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/14Microtitulacao/Parent = "World"
+s:Ge/14Microtitulacao/Type = "TsBox"
+d:Ge/14Microtitulacao/HLX = 42.59 mm
+d:Ge/14Microtitulacao/HLY = 62.88 mm
+d:Ge/14Microtitulacao/HLZ = 7.24 mm
+d:Ge/14Microtitulacao/TransX = 43.09 mm
+d:Ge/14Microtitulacao/Transy = -63.38 mm
+d:Ge/14Microtitulacao/TransZ = 22.22 mm
+d:Ge/14Microtitulacao/RotX = 0. deg
+d:Ge/14Microtitulacao/RotY = 0. deg
+d:Ge/14Microtitulacao/RotZ = 0. deg
+
+#Terceira camada da demonstração
+s:Ge/21Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/21Microtitulacao/Parent = "World"
+s:Ge/21Microtitulacao/Type = "TsBox"
+d:Ge/21Microtitulacao/HLX = 42.59 mm
+d:Ge/21Microtitulacao/HLY = 62.88 mm
+d:Ge/21Microtitulacao/HLZ = 7.24 mm
+d:Ge/21Microtitulacao/TransX = -43.09 mm
+d:Ge/21Microtitulacao/TransY = 63.38 mm
+d:Ge/21Microtitulacao/TransZ = 37.2 mm
+d:Ge/21Microtitulacao/RotX = 0. deg
+d:Ge/21Microtitulacao/RotY = 0. deg
+d:Ge/21Microtitulacao/RotZ = 0. deg
+
+s:Ge/22Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/22Microtitulacao/Parent = "World"
+s:Ge/22Microtitulacao/Type = "TsBox"
+d:Ge/22Microtitulacao/HLX = 42.59 mm
+d:Ge/22Microtitulacao/HLY = 62.88 mm
+d:Ge/22Microtitulacao/HLZ = 7.24 mm
+d:Ge/22Microtitulacao/TransX = 43.09 mm
+d:Ge/22Microtitulacao/TransY = 63.38 mm
+d:Ge/22Microtitulacao/TransZ = 37.2 mm
+d:Ge/22Microtitulacao/RotX = 0. deg
+d:Ge/22Microtitulacao/RotY = 0. deg
+d:Ge/22Microtitulacao/RotZ = 0. deg
+
+s:Ge/23Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/23Microtitulacao/Parent = "World"
+s:Ge/23Microtitulacao/Type = "TsBox"
+d:Ge/23Microtitulacao/HLX = 42.59 mm
+d:Ge/23Microtitulacao/HLY = 62.88 mm
+d:Ge/23Microtitulacao/HLZ = 7.24 mm
+d:Ge/23Microtitulacao/TransX = -43.09 mm
+d:Ge/23Microtitulacao/TransY = -63.38 mm
+d:Ge/23Microtitulacao/TransZ = 37.2 mm
+d:Ge/23Microtitulacao/RotX = 0. deg
+d:Ge/23Microtitulacao/RotY = 0. deg
+d:Ge/23Microtitulacao/RotZ = 0. deg
+
+s:Ge/24Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/24Microtitulacao/Parent = "World"
+s:Ge/24Microtitulacao/Type = "TsBox"
+d:Ge/24Microtitulacao/HLX = 42.59 mm
+d:Ge/24Microtitulacao/HLY = 62.88 mm
+d:Ge/24Microtitulacao/HLZ = 7.24 mm
+d:Ge/24Microtitulacao/TransX = 43.09 mm
+d:Ge/24Microtitulacao/Transy = -63.38 mm
+d:Ge/24Microtitulacao/TransZ = 37.2 mm
+d:Ge/24Microtitulacao/RotX = 0. deg
+d:Ge/24Microtitulacao/RotY = 0. deg
+d:Ge/24Microtitulacao/RotZ = 0. deg
+
+#Quarta camada da demonstração. Primeira placa com os poços, restante sem.
+includeFile = Placas/geom31.txt
+d:Ge/31Microtitulacao/TransX = -43.09 mm
+d:Ge/31Microtitulacao/TransY = 63.38 mm
+d:Ge/31Microtitulacao/TransZ = 52.18 mm
+
+s:Ge/32Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/32Microtitulacao/Parent = "World"
+s:Ge/32Microtitulacao/Type = "TsBox"
+d:Ge/32Microtitulacao/HLX = 42.59 mm
+d:Ge/32Microtitulacao/HLY = 62.88 mm
+d:Ge/32Microtitulacao/HLZ = 7.24 mm
+d:Ge/32Microtitulacao/TransX = 43.09 mm
+d:Ge/32Microtitulacao/TransY = 63.38 mm
+d:Ge/32Microtitulacao/TransZ = 52.18 mm
+d:Ge/32Microtitulacao/RotX = 0. deg
+d:Ge/32Microtitulacao/RotY = 0. deg
+d:Ge/32Microtitulacao/RotZ = 0. deg
+
+s:Ge/33Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/33Microtitulacao/Parent = "World"
+s:Ge/33Microtitulacao/Type = "TsBox"
+d:Ge/33Microtitulacao/HLX = 42.59 mm
+d:Ge/33Microtitulacao/HLY = 62.88 mm
+d:Ge/33Microtitulacao/HLZ = 7.24 mm
+d:Ge/33Microtitulacao/TransX = -43.09 mm
+d:Ge/33Microtitulacao/TransY = -63.38 mm
+d:Ge/33Microtitulacao/TransZ = 52.18 mm
+d:Ge/33Microtitulacao/RotX = 0. deg
+d:Ge/33Microtitulacao/RotY = 0. deg
+d:Ge/33Microtitulacao/RotZ = 0. deg
+
+s:Ge/34Microtitulacao/Material = "G4_POLYSTYRENE"
+s:Ge/34Microtitulacao/Parent = "World"
+s:Ge/34Microtitulacao/Type = "TsBox"
+d:Ge/34Microtitulacao/HLX = 42.59 mm
+d:Ge/34Microtitulacao/HLY = 62.88 mm
+d:Ge/34Microtitulacao/HLZ = 7.24 mm
+d:Ge/34Microtitulacao/TransX = 43.09 mm
+d:Ge/34Microtitulacao/Transy = -63.38 mm
+d:Ge/34Microtitulacao/TransZ = 52.18 mm
+d:Ge/34Microtitulacao/RotX = 0. deg
+d:Ge/34Microtitulacao/RotY = 0. deg
+d:Ge/34Microtitulacao/RotZ = 0. deg
