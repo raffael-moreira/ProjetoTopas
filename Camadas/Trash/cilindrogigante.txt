@@ -1,0 +1,12 @@
+s:Ge/34Poco12e7/Material = "G4_WATER"
+s:Ge/34Poco12e7/Parent = "World"
+s:Ge/34Poco12e7/Type = "TsCylinder"
+d:Ge/34Poco12e7/RMax=  10 cm
+d:Ge/34Poco12e7/RMin= 0. mm
+d:Ge/34Poco12e7/HL= 10 cm
+d:Ge/34Poco12e7/TransX= -22.45 mm
+d:Ge/34Poco12e7/TransY= -49.89 mm
+d:Ge/34Poco12e7/TransZ= 1.785 mm
+i:Ge/34Poco12e7/RBins    = 3 #
+i:Ge/34Poco12e7/PhiBins  = 3 #
+i:Ge/34Poco12e7/ZBins    = 3 #

@@ -1,0 +1,44 @@
+s:Sc/Dose/Quantity 						= "DoseToMedium"
+s:Sc/Dose/Component 					= "Camada1"
+s:Sc/Dose/OutputFile                	= "Output/dose/DoseCamada1"
+s:Sc/Dose/OutputType                	= "csv"
+s:Sc/Dose/IfOutputFileAlreadyExists 	= "overwrite"
+b:Sc/Dose/OutputToConsole 				= "True"
+b:Sc/Dose/PropagateToChildren 			= "True"
+i:Sc/Dose/XBins 						= 158
+i:Sc/Dose/YBins 						= 208
+i:Sc/Dose/ZBins	 						= 1
+
+
+s:Sc/Dose2/Quantity 					= "DoseToMedium"
+s:Sc/Dose2/Component 					= "Camada2"
+s:Sc/Dose2/OutputFile                	= "Output/dose/DoseCamada2"
+s:Sc/Dose2/OutputType                	= "csv"
+s:Sc/Dose2/IfOutputFileAlreadyExists 	= "overwrite"
+b:Sc/Dose2/OutputToConsole 				= "True"
+b:Sc/Dose2/PropagateToChildren 			= "True"
+i:Sc/Dose2/XBins 						= 158
+i:Sc/Dose2/YBins 						= 208
+i:Sc/Dose2/ZBins 						= 1
+
+s:Sc/Dose3/Quantity 					= "DoseToMedium"
+s:Sc/Dose3/Component 					= "Camada3"
+s:Sc/Dose3/OutputFile                	= "Output/dose/DoseCamada3"
+s:Sc/Dose3/OutputType                	= "csv"
+s:Sc/Dose3/IfOutputFileAlreadyExists 	= "overwrite"
+b:Sc/Dose3/OutputToConsole 				= "True"
+b:Sc/Dose3/PropagateToChildren 			= "True"
+i:Sc/Dose3/XBins 						= 158
+i:Sc/Dose3/YBins 						= 208
+i:Sc/Dose3/ZBins	 					= 1
+
+s:Sc/Dose4/Quantity 					= "DoseToMedium"
+s:Sc/Dose4/Component 					= "Camada4"
+s:Sc/Dose4/OutputFile                	= "Output/dose/DoseCamada4"
+s:Sc/Dose4/OutputType                	= "csv"
+s:Sc/Dose4/IfOutputFileAlreadyExists 	= "overwrite"
+b:Sc/Dose4/OutputToConsole 				= "True"
+b:Sc/Dose4/PropagateToChildren 			= "True"
+i:Sc/Dose4/XBins 						= 158
+i:Sc/Dose4/YBins 						= 208
+i:Sc/Dose4/ZBins	 					= 1

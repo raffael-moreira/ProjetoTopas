@@ -5,3 +5,388 @@ i:Ge/TestBox/ZBins    = 2
 i:Ge/TestCylinder/RBins    = 2
 i:Ge/TestCylinder/PhiBins  = 2
 i:Ge/TestCylinder/ZBins    = 2
+
+
+i:Ge/Poco1e1/RBins   = 3 #
+i:Ge/Poco1e1/PhiBins = 3 #
+i:Ge/Poco1e1/ZBins   = 3 #
+
+i:Ge/Poco1e2/RBins   = 3 #
+i:Ge/Poco1e2/PhiBins = 3 #
+i:Ge/Poco1e2/ZBins   = 3 #
+
+i:Ge/Poco1e3/RBins   = 3 #
+i:Ge/Poco1e3/PhiBins = 3 #
+i:Ge/Poco1e3/ZBins   = 3 #
+
+i:Ge/Poco1e4/RBins   = 3 #
+i:Ge/Poco1e4/PhiBins = 3 #
+i:Ge/Poco1e4/ZBins   = 3 #
+
+i:Ge/Poco1e5/RBins   = 3 #
+i:Ge/Poco1e5/PhiBins = 3 #
+i:Ge/Poco1e5/ZBins   = 3 #
+
+i:Ge/Poco1e6/RBins   = 3 #
+i:Ge/Poco1e6/PhiBins = 3 #
+i:Ge/Poco1e6/ZBins   = 3 #
+
+i:Ge/Poco1e7/RBins   = 3 #
+i:Ge/Poco1e7/PhiBins = 3 #
+i:Ge/Poco1e7/ZBins   = 3 #
+
+i:Ge/Poco1e8/RBins   = 3 #
+i:Ge/Poco1e8/PhiBins = 3 #
+i:Ge/Poco1e8/ZBins   = 3 #
+
+i:Ge/Poco2e1/RBins   = 3 #
+i:Ge/Poco2e1/PhiBins = 3 #
+i:Ge/Poco2e1/ZBins   = 3 #
+
+i:Ge/Poco2e2/RBins   = 3 #
+i:Ge/Poco2e2/PhiBins = 3 #
+i:Ge/Poco2e2/ZBins   = 3 #
+
+i:Ge/Poco2e3/RBins   = 3 #
+i:Ge/Poco2e3/PhiBins = 3 #
+i:Ge/Poco2e3/ZBins   = 3 #
+
+i:Ge/Poco2e4/RBins   = 3 #
+i:Ge/Poco2e4/PhiBins = 3 #
+i:Ge/Poco2e4/ZBins   = 3 #
+
+i:Ge/Poco2e5/RBins   = 3 #
+i:Ge/Poco2e5/PhiBins = 3 #
+i:Ge/Poco2e5/ZBins   = 3 #
+
+i:Ge/Poco2e6/RBins   = 3 #
+i:Ge/Poco2e6/PhiBins = 3 #
+i:Ge/Poco2e6/ZBins   = 3 #
+
+i:Ge/Poco2e7/RBins   = 3 #
+i:Ge/Poco2e7/PhiBins = 3 #
+i:Ge/Poco2e7/ZBins   = 3 #
+
+i:Ge/Poco2e8/RBins   = 3 #
+i:Ge/Poco2e8/PhiBins = 3 #
+i:Ge/Poco2e8/ZBins   = 3 #
+
+i:Ge/Poco3e1/RBins   = 3 #
+i:Ge/Poco3e1/PhiBins = 3 #
+i:Ge/Poco3e1/ZBins   = 3 #
+
+i:Ge/Poco3e2/RBins   = 3 #
+i:Ge/Poco3e2/PhiBins = 3 #
+i:Ge/Poco3e2/ZBins   = 3 #
+
+i:Ge/Poco3e3/RBins   = 3 #
+i:Ge/Poco3e3/PhiBins = 3 #
+i:Ge/Poco3e3/ZBins   = 3 #
+
+i:Ge/Poco3e4/RBins   = 3 #
+i:Ge/Poco3e4/PhiBins = 3 #
+i:Ge/Poco3e4/ZBins   = 3 #
+
+i:Ge/Poco3e5/RBins   = 3 #
+i:Ge/Poco3e5/PhiBins = 3 #
+i:Ge/Poco3e5/ZBins   = 3 #
+
+i:Ge/Poco3e6/RBins   = 3 #
+i:Ge/Poco3e6/PhiBins = 3 #
+i:Ge/Poco3e6/ZBins   = 3 #
+
+i:Ge/Poco3e7/RBins   = 3 #
+i:Ge/Poco3e7/PhiBins = 3 #
+i:Ge/Poco3e7/ZBins   = 3 #
+
+i:Ge/Poco3e8/RBins   = 3 #
+i:Ge/Poco3e8/PhiBins = 3 #
+i:Ge/Poco3e8/ZBins   = 3 #
+
+i:Ge/Poco4e1/RBins   = 3 #
+i:Ge/Poco4e1/PhiBins = 3 #
+i:Ge/Poco4e1/ZBins   = 3 #
+
+i:Ge/Poco4e2/RBins   = 3 #
+i:Ge/Poco4e2/PhiBins = 3 #
+i:Ge/Poco4e2/ZBins   = 3 #
+
+i:Ge/Poco4e3/RBins   = 3 #
+i:Ge/Poco4e3/PhiBins = 3 #
+i:Ge/Poco4e3/ZBins   = 3 #
+
+i:Ge/Poco4e4/RBins   = 3 #
+i:Ge/Poco4e4/PhiBins = 3 #
+i:Ge/Poco4e4/ZBins   = 3 #
+
+i:Ge/Poco4e5/RBins   = 3 #
+i:Ge/Poco4e5/PhiBins = 3 #
+i:Ge/Poco4e5/ZBins   = 3 #
+
+i:Ge/Poco4e6/RBins   = 3 #
+i:Ge/Poco4e6/PhiBins = 3 #
+i:Ge/Poco4e6/ZBins   = 3 #
+
+i:Ge/Poco4e7/RBins   = 3 #
+i:Ge/Poco4e7/PhiBins = 3 #
+i:Ge/Poco4e7/ZBins   = 3 #
+
+i:Ge/Poco4e8/RBins   = 3 #
+i:Ge/Poco4e8/PhiBins = 3 #
+i:Ge/Poco4e8/ZBins   = 3 #
+
+i:Ge/Poco5e1/RBins   = 3 #
+i:Ge/Poco5e1/PhiBins = 3 #
+i:Ge/Poco5e1/ZBins   = 3 #
+
+i:Ge/Poco5e2/RBins   = 3 #
+i:Ge/Poco5e2/PhiBins = 3 #
+i:Ge/Poco5e2/ZBins   = 3 #
+
+i:Ge/Poco5e3/RBins   = 3 #
+i:Ge/Poco5e3/PhiBins = 3 #
+i:Ge/Poco5e3/ZBins   = 3 #
+
+i:Ge/Poco5e4/RBins   = 3 #
+i:Ge/Poco5e4/PhiBins = 3 #
+i:Ge/Poco5e4/ZBins   = 3 #
+
+i:Ge/Poco5e5/RBins   = 3 #
+i:Ge/Poco5e5/PhiBins = 3 #
+i:Ge/Poco5e5/ZBins   = 3 #
+
+i:Ge/Poco5e6/RBins   = 3 #
+i:Ge/Poco5e6/PhiBins = 3 #
+i:Ge/Poco5e6/ZBins   = 3 #
+
+i:Ge/Poco5e7/RBins   = 3 #
+i:Ge/Poco5e7/PhiBins = 3 #
+i:Ge/Poco5e7/ZBins   = 3 #
+
+i:Ge/Poco5e8/RBins   = 3 #
+i:Ge/Poco5e8/PhiBins = 3 #
+i:Ge/Poco5e8/ZBins   = 3 #
+
+i:Ge/Poco6e1/RBins   = 3 #
+i:Ge/Poco6e1/PhiBins = 3 #
+i:Ge/Poco6e1/ZBins   = 3 #
+
+i:Ge/Poco6e2/RBins   = 3 #
+i:Ge/Poco6e2/PhiBins = 3 #
+i:Ge/Poco6e2/ZBins   = 3 #
+
+i:Ge/Poco6e3/RBins   = 3 #
+i:Ge/Poco6e3/PhiBins = 3 #
+i:Ge/Poco6e3/ZBins   = 3 #
+
+i:Ge/Poco6e4/RBins   = 3 #
+i:Ge/Poco6e4/PhiBins = 3 #
+i:Ge/Poco6e4/ZBins   = 3 #
+
+i:Ge/Poco6e5/RBins   = 3 #
+i:Ge/Poco6e5/PhiBins = 3 #
+i:Ge/Poco6e5/ZBins   = 3 #
+
+i:Ge/Poco6e6/RBins   = 3 #
+i:Ge/Poco6e6/PhiBins = 3 #
+i:Ge/Poco6e6/ZBins   = 3 #
+
+i:Ge/Poco6e7/RBins   = 3 #
+i:Ge/Poco6e7/PhiBins = 3 #
+i:Ge/Poco6e7/ZBins   = 3 #
+
+i:Ge/Poco6e8/RBins   = 3 #
+i:Ge/Poco6e8/PhiBins = 3 #
+i:Ge/Poco6e8/ZBins   = 3 #
+
+i:Ge/Poco7e1/RBins   = 3 #
+i:Ge/Poco7e1/PhiBins = 3 #
+i:Ge/Poco7e1/ZBins   = 3 #
+
+i:Ge/Poco7e2/RBins   = 3 #
+i:Ge/Poco7e2/PhiBins = 3 #
+i:Ge/Poco7e2/ZBins   = 3 #
+
+i:Ge/Poco7e3/RBins   = 3 #
+i:Ge/Poco7e3/PhiBins = 3 #
+i:Ge/Poco7e3/ZBins   = 3 #
+
+i:Ge/Poco7e4/RBins   = 3 #
+i:Ge/Poco7e4/PhiBins = 3 #
+i:Ge/Poco7e4/ZBins   = 3 #
+
+i:Ge/Poco7e5/RBins   = 3 #
+i:Ge/Poco7e5/PhiBins = 3 #
+i:Ge/Poco7e5/ZBins   = 3 #
+
+i:Ge/Poco7e6/RBins   = 3 #
+i:Ge/Poco7e6/PhiBins = 3 #
+i:Ge/Poco7e6/ZBins   = 3 #
+
+i:Ge/Poco7e7/RBins   = 3 #
+i:Ge/Poco7e7/PhiBins = 3 #
+i:Ge/Poco7e7/ZBins   = 3 #
+
+i:Ge/Poco7e8/RBins   = 3 #
+i:Ge/Poco7e8/PhiBins = 3 #
+i:Ge/Poco7e8/ZBins   = 3 #
+
+i:Ge/Poco8e1/RBins   = 3 #
+i:Ge/Poco8e1/PhiBins = 3 #
+i:Ge/Poco8e1/ZBins   = 3 #
+
+i:Ge/Poco8e2/RBins   = 3 #
+i:Ge/Poco8e2/PhiBins = 3 #
+i:Ge/Poco8e2/ZBins   = 3 #
+
+i:Ge/Poco8e3/RBins   = 3 #
+i:Ge/Poco8e3/PhiBins = 3 #
+i:Ge/Poco8e3/ZBins   = 3 #
+
+i:Ge/Poco8e4/RBins   = 3 #
+i:Ge/Poco8e4/PhiBins = 3 #
+i:Ge/Poco8e4/ZBins   = 3 #
+
+i:Ge/Poco8e5/RBins   = 3 #
+i:Ge/Poco8e5/PhiBins = 3 #
+i:Ge/Poco8e5/ZBins   = 3 #
+
+i:Ge/Poco8e6/RBins   = 3 #
+i:Ge/Poco8e6/PhiBins = 3 #
+i:Ge/Poco8e6/ZBins   = 3 #
+
+i:Ge/Poco8e7/RBins   = 3 #
+i:Ge/Poco8e7/PhiBins = 3 #
+i:Ge/Poco8e7/ZBins   = 3 #
+
+i:Ge/Poco8e8/RBins   = 3 #
+i:Ge/Poco8e8/PhiBins = 3 #
+i:Ge/Poco8e8/ZBins   = 3 #
+
+i:Ge/Poco9e1/RBins   = 3 #
+i:Ge/Poco9e1/PhiBins = 3 #
+i:Ge/Poco9e1/ZBins   = 3 #
+
+i:Ge/Poco9e2/RBins   = 3 #
+i:Ge/Poco9e2/PhiBins = 3 #
+i:Ge/Poco9e2/ZBins   = 3 #
+
+i:Ge/Poco9e3/RBins   = 3 #
+i:Ge/Poco9e3/PhiBins = 3 #
+i:Ge/Poco9e3/ZBins   = 3 #
+
+i:Ge/Poco9e4/RBins   = 3 #
+i:Ge/Poco9e4/PhiBins = 3 #
+i:Ge/Poco9e4/ZBins   = 3 #
+
+i:Ge/Poco9e5/RBins   = 3 #
+i:Ge/Poco9e5/PhiBins = 3 #
+i:Ge/Poco9e5/ZBins   = 3 #
+
+i:Ge/Poco9e6/RBins   = 3 #
+i:Ge/Poco9e6/PhiBins = 3 #
+i:Ge/Poco9e6/ZBins   = 3 #
+
+i:Ge/Poco9e7/RBins   = 3 #
+i:Ge/Poco9e7/PhiBins = 3 #
+i:Ge/Poco9e7/ZBins   = 3 #
+
+i:Ge/Poco9e8/RBins   = 3 #
+i:Ge/Poco9e8/PhiBins = 3 #
+i:Ge/Poco9e8/ZBins   = 3 #
+
+i:Ge/Poco10e1/RBins   = 3 #
+i:Ge/Poco10e1/PhiBins = 3 #
+i:Ge/Poco10e1/ZBins   = 3 #
+
+i:Ge/Poco10e2/RBins   = 3 #
+i:Ge/Poco10e2/PhiBins = 3 #
+i:Ge/Poco10e2/ZBins   = 3 #
+
+i:Ge/Poco10e3/RBins   = 3 #
+i:Ge/Poco10e3/PhiBins = 3 #
+i:Ge/Poco10e3/ZBins   = 3 #
+
+i:Ge/Poco10e4/RBins   = 3 #
+i:Ge/Poco10e4/PhiBins = 3 #
+i:Ge/Poco10e4/ZBins   = 3 #
+
+i:Ge/Poco10e5/RBins   = 3 #
+i:Ge/Poco10e5/PhiBins = 3 #
+i:Ge/Poco10e5/ZBins   = 3 #
+
+i:Ge/Poco10e6/RBins   = 3 #
+i:Ge/Poco10e6/PhiBins = 3 #
+i:Ge/Poco10e6/ZBins   = 3 #
+
+i:Ge/Poco10e7/RBins   = 3 #
+i:Ge/Poco10e7/PhiBins = 3 #
+i:Ge/Poco10e7/ZBins   = 3 #
+
+i:Ge/Poco10e8/RBins   = 3 #
+i:Ge/Poco10e8/PhiBins = 3 #
+i:Ge/Poco10e8/ZBins   = 3 #
+
+i:Ge/Poco11e1/RBins   = 3 #
+i:Ge/Poco11e1/PhiBins = 3 #
+i:Ge/Poco11e1/ZBins   = 3 #
+
+i:Ge/Poco11e2/RBins   = 3 #
+i:Ge/Poco11e2/PhiBins = 3 #
+i:Ge/Poco11e2/ZBins   = 3 #
+
+i:Ge/Poco11e3/RBins   = 3 #
+i:Ge/Poco11e3/PhiBins = 3 #
+i:Ge/Poco11e3/ZBins   = 3 #
+
+i:Ge/Poco11e4/RBins   = 3 #
+i:Ge/Poco11e4/PhiBins = 3 #
+i:Ge/Poco11e4/ZBins   = 3 #
+
+i:Ge/Poco11e5/RBins   = 3 #
+i:Ge/Poco11e5/PhiBins = 3 #
+i:Ge/Poco11e5/ZBins   = 3 #
+
+i:Ge/Poco11e6/RBins   = 3 #
+i:Ge/Poco11e6/PhiBins = 3 #
+i:Ge/Poco11e6/ZBins   = 3 #
+
+i:Ge/Poco11e7/RBins   = 3 #
+i:Ge/Poco11e7/PhiBins = 3 #
+i:Ge/Poco11e7/ZBins   = 3 #
+
+i:Ge/Poco11e8/RBins   = 3 #
+i:Ge/Poco11e8/PhiBins = 3 #
+i:Ge/Poco11e8/ZBins   = 3 #
+
+i:Ge/Poco12e1/RBins   = 3 #
+i:Ge/Poco12e1/PhiBins = 3 #
+i:Ge/Poco12e1/ZBins   = 3 #
+
+i:Ge/Poco12e2/RBins   = 3 #
+i:Ge/Poco12e2/PhiBins = 3 #
+i:Ge/Poco12e2/ZBins   = 3 #
+
+i:Ge/Poco12e3/RBins   = 3 #
+i:Ge/Poco12e3/PhiBins = 3 #
+i:Ge/Poco12e3/ZBins   = 3 #
+
+i:Ge/Poco12e4/RBins   = 3 #
+i:Ge/Poco12e4/PhiBins = 3 #
+i:Ge/Poco12e4/ZBins   = 3 #
+
+i:Ge/Poco12e5/RBins   = 3 #
+i:Ge/Poco12e5/PhiBins = 3 #
+i:Ge/Poco12e5/ZBins   = 3 #
+
+i:Ge/Poco12e6/RBins   = 3 #
+i:Ge/Poco12e6/PhiBins = 3 #
+i:Ge/Poco12e6/ZBins   = 3 #
+
+i:Ge/Poco12e7/RBins   = 3 #
+i:Ge/Poco12e7/PhiBins = 3 #
+i:Ge/Poco12e7/ZBins   = 3 #
+
+i:Ge/Poco12e8/RBins   = 3 #
+i:Ge/Poco12e8/PhiBins = 3 #
+i:Ge/Poco12e8/ZBins   = 3 #

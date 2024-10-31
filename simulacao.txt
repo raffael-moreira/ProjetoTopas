@@ -5,13 +5,12 @@
 # Todas as dimensões de distância são em milímetros
 
 #Geometria
-#includeFile 								= cilindrogigante.txt
-#includeFile 								= Placas/geom1.txt
-includeFile 								= Camadas/demo/demo.txt
-#includeFile 								= Camadas/camada0.txt
-#includeFile 								= Camadas/camada1.txt
-#includeFile 								= Camadas/camada2.txt
-#includeFile 								= Camadas/camada3.txt
+includeFile 								= Camadas/Trash/Placas/geom1.txt
+#includeFile 								= Camadas/camadasolida1.txt
+#includeFile 								= Camadas/camadasolida2.txt
+#includeFile									= Camadas/camadasolida3.txt
+#includeFile									= Camadas/camadasolida4.txt
+
 s:Ge/Microtitulacao/Color					= "lightblue"
 s:Ge/2Microtitulacao/Color					= "lightblue"
 s:Ge/3Microtitulacao/Color					= "lightblue"
@@ -30,8 +29,7 @@ s:Ge/33Microtitulacao/Color					= "lightblue"
 s:Ge/34Microtitulacao/Color					= "lightblue"
 
 #Outputs
-includeFile 								= Scoring/enegiadepos.txt
-includeFile 								= Scoring/histdose.txt
+#includeFile 								= Scoring/dose.txt
 
 # Setando o Parent supremo "World" onde ocorrerá a simulação
 s:Ge/World/Type 							= "TsBox"
@@ -63,7 +61,7 @@ d:So/Fonte/BeamAngularCutoffX 				= 90. deg
 d:So/Fonte/BeamAngularCutoffY 				= 90. deg
 d:So/Fonte/BeamAngularSpreadX 				= 0.0032 rad
 d:So/Fonte/BeamAngularSpreadY 				= 0.0032 rad
-ic:So/Fonte/NumberOfHistoriesInRun 			= 100
+ic:So/Fonte/NumberOfHistoriesInRun 			= 1000000
 i:So/Fonte/NumberOfHistoriesInRandomJob 	= 0
 
 # Setando posicionamento da fonte 
@@ -87,8 +85,9 @@ i:Ge/NumberOfPointsPerOverlapCheck   		= 1000
 b:Ge/CheckForUnusedComponents        		= "False"
 
 # Configuração de visualizacão da interface gráfica
-Ts/UseQt					  				= "True" #Interface gráfica 3D
-b:Gr/Enable                   				= "True" #Mostrar interface gráfica
+Ts/UseQt					  				= "FALSE"
+
+b:Gr/Enable                   				= "TRUE"
 s:Gr/eventos/Type            				= "OpenGL"
 i:Gr/eventos/WindowSizeX      				= 1366
 i:Gr/eventos/WindowSizeY      				= 768
@@ -97,15 +96,15 @@ d:Gr/eventos/Phi              				= 20 deg
 s:Gr/eventos/Projection       				= "Perspective"
 d:Gr/eventos/PerspectiveAngle 				= 30 deg
 u:Gr/eventos/Zoom             				= 0.4
-b:Ts/PauseBeforeQuit         				= "True" #Pausa após o fim da simulação
+b:Ts/PauseBeforeQuit         				= "True"
 b:Ts/ShowCPUTime              				= "True"
 
 #Setas de orientação
-b:Gr/eventos/IncludeAxes				 	= "False"
-d:Gr/eventos/AxesSize 		  				= 1 m 
+b:Gr/eventos/IncludeAxes				 	= "True"
+d:Gr/eventos/AxesSize 		  				= 130 mm
 
 #Configurações de salvamento após a run
-#b:Gr/eventos/CopyOpenGLToPDF 		 		= "True" #salva PDF no final da simulação
+#b:Gr/eventos/CopyOpenGLToPDF 		 		= "True"
 #s:Gr/eventos/FileName 						= "/home/raffaelmoreira/topas/mysim/Runs/MyRun"
 #b:Gr/eventos/IncludeGeometry 		 		= "True"
 #b:Gr/eventos/IncludeTrajectories	 		= "True"
