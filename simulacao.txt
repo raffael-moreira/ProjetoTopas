@@ -5,11 +5,11 @@
 # Todas as dimensões de distância são em milímetros
 
 #Geometria
-includeFile 								= Camadas/Trash/Placas/geom1.txt
-#includeFile 								= Camadas/camadasolida1.txt
-#includeFile 								= Camadas/camadasolida2.txt
-#includeFile									= Camadas/camadasolida3.txt
-#includeFile									= Camadas/camadasolida4.txt
+#includeFile 								= Camadas/Trash/Placas/geom1.txt
+includeFile 								= Camadas/camadasolida1.txt
+includeFile 								= Camadas/camadasolida2.txt
+includeFile									= Camadas/camadasolida3.txt
+includeFile									= Camadas/camadasolida4.txt
 
 s:Ge/Microtitulacao/Color					= "lightblue"
 s:Ge/2Microtitulacao/Color					= "lightblue"
@@ -29,7 +29,7 @@ s:Ge/33Microtitulacao/Color					= "lightblue"
 s:Ge/34Microtitulacao/Color					= "lightblue"
 
 #Outputs
-#includeFile 								= Scoring/dose.txt
+includeFile 								= Scoring/dose.txt
 
 # Setando o Parent supremo "World" onde ocorrerá a simulação
 s:Ge/World/Type 							= "TsBox"
@@ -61,7 +61,7 @@ d:So/Fonte/BeamAngularCutoffX 				= 90. deg
 d:So/Fonte/BeamAngularCutoffY 				= 90. deg
 d:So/Fonte/BeamAngularSpreadX 				= 0.0032 rad
 d:So/Fonte/BeamAngularSpreadY 				= 0.0032 rad
-ic:So/Fonte/NumberOfHistoriesInRun 			= 1000000
+ic:So/Fonte/NumberOfHistoriesInRun 			= 100000
 i:So/Fonte/NumberOfHistoriesInRandomJob 	= 0
 
 # Setando posicionamento da fonte 
@@ -87,7 +87,7 @@ b:Ge/CheckForUnusedComponents        		= "False"
 # Configuração de visualizacão da interface gráfica
 Ts/UseQt					  				= "FALSE"
 
-b:Gr/Enable                   				= "TRUE"
+b:Gr/Enable                   				= "FALSE"
 s:Gr/eventos/Type            				= "OpenGL"
 i:Gr/eventos/WindowSizeX      				= 1366
 i:Gr/eventos/WindowSizeY      				= 768
