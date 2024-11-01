@@ -1,0 +1,3885 @@
+b:Ge/CheckForOverlaps                		= "False"
+b:Ge/CheckInsideEnvelopesForOverlaps 		= "True"
+Ts/UseQt					  				= "True"
+b:Gr/Enable                   				= "True"
+s:Gr/eventos/Type            				= "OpenGL"
+i:Gr/eventos/WindowSizeX      				= 1366
+i:Gr/eventos/WindowSizeY      				= 768
+d:Gr/eventos/Theta           				= 55 deg
+d:Gr/eventos/Phi              				= 20 deg
+s:Gr/eventos/Projection       				= "Perspective"
+d:Gr/eventos/PerspectiveAngle 				= 30 deg
+u:Gr/eventos/Zoom             				= 0.4
+b:Ts/PauseBeforeQuit         				= "True"
+b:Ts/ShowCPUTime              				= "True"
+b:Ge/World/Invisible 						= "True"
+
+
+
+
+
+# Setando o Parent supremo "World" onde ocorrerá a simulação
+s:Ge/World/Type 							= "TsBox"
+s:Ge/World/Material						 	= "Air"
+d:Ge/World/HLX 								= 0.2 m
+d:Ge/World/HLY					 			= 0.2 m
+d:Ge/World/HLZ 								= 2 m
+d:Ge/World/TransX 							= 0. m
+d:Ge/World/TransY 							= 0. m
+d:Ge/World/TransZ 							= 0. m
+d:Ge/World/RotX 							= 0. deg
+d:Ge/World/RotY 							= 0. deg
+d:Ge/World/RotZ 							= 0. deg
+
+s:Ge/Camada1/Material 			= "G4_POLYSTYRENE"
+s:Ge/Camada1/Parent 			= "World"
+s:Ge/Camada1/Type 				= "TsBox"
+d:Ge/Camada1/HLX 				= 86.18 mm
+d:Ge/Camada1/HLY 				= 126.76 mm
+d:Ge/Camada1/HLZ 				= 0.05 mm
+d:Ge/Camada1/TransX 			= 0. m
+d:Ge/Camada1/TransY 			= 0. m
+d:Ge/Camada1/TransZ 			= 7.24 mm
+d:Ge/Camada1/RotX 				= 0. deg
+d:Ge/Camada1/RotY 				= 0. deg
+d:Ge/Camada1/RotZ 				= 0. deg
+
+s:Ge/Poco1e1/Material			= "G4_WATER"
+s:Ge/Poco1e1/Parent				= "Camada1"
+s:Ge/Poco1e1/Type				= "TsCylinder"
+d:Ge/Poco1e1/RMax				= 3.375 mm
+d:Ge/Poco1e1/RMin				= 0. mm
+d:Ge/Poco1e1/HL					= 0.04 mm
+d:Ge/Poco1e1/TransX				= -74.52 mm
+d:Ge/Poco1e1/TransY				= -112.27 mm
+d:Ge/Poco1e1/TransZ				= 0 mm
+
+s:Ge/Poco1e2/Material			= "G4_WATER"
+s:Ge/Poco1e2/Parent				= "Camada1"
+s:Ge/Poco1e2/Type				= "TsCylinder"
+d:Ge/Poco1e2/RMax				= 3.375 mm
+d:Ge/Poco1e2/RMin				= 0. mm
+d:Ge/Poco1e2/HL					= 0.04 mm
+d:Ge/Poco1e2/TransX				= -74.52 mm
+d:Ge/Poco1e2/TransY				= -103.29 mm
+d:Ge/Poco1e2/TransZ				= 0 mm
+
+s:Ge/Poco1e3/Material			= "G4_WATER"
+s:Ge/Poco1e3/Parent				= "Camada1"
+s:Ge/Poco1e3/Type				= "TsCylinder"
+d:Ge/Poco1e3/RMax				= 3.375 mm
+d:Ge/Poco1e3/RMin				= 0. mm
+d:Ge/Poco1e3/HL					= 0.04 mm
+d:Ge/Poco1e3/TransX				= -74.52 mm
+d:Ge/Poco1e3/TransY				= -94.31 mm
+d:Ge/Poco1e3/TransZ				= 0 mm
+
+s:Ge/Poco1e4/Material			= "G4_WATER"
+s:Ge/Poco1e4/Parent				= "Camada1"
+s:Ge/Poco1e4/Type				= "TsCylinder"
+d:Ge/Poco1e4/RMax				= 3.375 mm
+d:Ge/Poco1e4/RMin				= 0. mm
+d:Ge/Poco1e4/HL					= 0.04 mm
+d:Ge/Poco1e4/TransX				= -74.52 mm
+d:Ge/Poco1e4/TransY				= -85.33 mm
+d:Ge/Poco1e4/TransZ				= 0 mm
+
+s:Ge/Poco1e5/Material			= "G4_WATER"
+s:Ge/Poco1e5/Parent				= "Camada1"
+s:Ge/Poco1e5/Type				= "TsCylinder"
+d:Ge/Poco1e5/RMax				= 3.375 mm
+d:Ge/Poco1e5/RMin				= 0. mm
+d:Ge/Poco1e5/HL					= 0.04 mm
+d:Ge/Poco1e5/TransX				= -74.52 mm
+d:Ge/Poco1e5/TransY				= -76.35 mm
+d:Ge/Poco1e5/TransZ				= 0 mm
+
+s:Ge/Poco1e6/Material			= "G4_WATER"
+s:Ge/Poco1e6/Parent				= "Camada1"
+s:Ge/Poco1e6/Type				= "TsCylinder"
+d:Ge/Poco1e6/RMax				= 3.375 mm
+d:Ge/Poco1e6/RMin				= 0. mm
+d:Ge/Poco1e6/HL					= 0.04 mm
+d:Ge/Poco1e6/TransX				= -74.52 mm
+d:Ge/Poco1e6/TransY				= -67.37 mm
+d:Ge/Poco1e6/TransZ				= 0 mm
+
+s:Ge/Poco1e7/Material			= "G4_WATER"
+s:Ge/Poco1e7/Parent				= "Camada1"
+s:Ge/Poco1e7/Type				= "TsCylinder"
+d:Ge/Poco1e7/RMax				= 3.375 mm
+d:Ge/Poco1e7/RMin				= 0. mm
+d:Ge/Poco1e7/HL					= 0.04 mm
+d:Ge/Poco1e7/TransX				= -74.52 mm
+d:Ge/Poco1e7/TransY				= -58.39 mm
+d:Ge/Poco1e7/TransZ				= 0 mm
+
+s:Ge/Poco1e8/Material			= "G4_WATER"
+s:Ge/Poco1e8/Parent				= "Camada1"
+s:Ge/Poco1e8/Type				= "TsCylinder"
+d:Ge/Poco1e8/RMax				= 3.375 mm
+d:Ge/Poco1e8/RMin				= 0. mm
+d:Ge/Poco1e8/HL					= 0.04 mm
+d:Ge/Poco1e8/TransX				= -74.52 mm
+d:Ge/Poco1e8/TransY				= -49.41 mm
+d:Ge/Poco1e8/TransZ				= 0 mm
+
+s:Ge/Poco1e9/Material			= "G4_WATER"
+s:Ge/Poco1e9/Parent				= "Camada1"
+s:Ge/Poco1e9/Type				= "TsCylinder"
+d:Ge/Poco1e9/RMax				= 3.375 mm
+d:Ge/Poco1e9/RMin				= 0. mm
+d:Ge/Poco1e9/HL					= 0.04 mm
+d:Ge/Poco1e9/TransX				= -74.52 mm
+d:Ge/Poco1e9/TransY				= -40.51 mm
+d:Ge/Poco1e9/TransZ				= 0 mm
+
+s:Ge/Poco1e10/Material			= "G4_WATER"
+s:Ge/Poco1e10/Parent			= "Camada1"
+s:Ge/Poco1e10/Type				= "TsCylinder"
+d:Ge/Poco1e10/RMax				= 3.375 mm
+d:Ge/Poco1e10/RMin				= 0. mm
+d:Ge/Poco1e10/HL				= 0.04 mm
+d:Ge/Poco1e10/TransX			= -74.52 mm
+d:Ge/Poco1e10/TransY			= -31.53 mm
+d:Ge/Poco1e10/TransZ			= 0 mm
+
+s:Ge/Poco1e11/Material			= "G4_WATER"
+s:Ge/Poco1e11/Parent			= "Camada1"
+s:Ge/Poco1e11/Type				= "TsCylinder"
+d:Ge/Poco1e11/RMax				= 3.375 mm
+d:Ge/Poco1e11/RMin				= 0. mm
+d:Ge/Poco1e11/HL				= 0.04 mm
+d:Ge/Poco1e11/TransX			= -74.52 mm
+d:Ge/Poco1e11/TransY			= -22.55 mm
+d:Ge/Poco1e11/TransZ			= 0 mm
+
+s:Ge/Poco1e12/Material			= "G4_WATER"
+s:Ge/Poco1e12/Parent			= "Camada1"
+s:Ge/Poco1e12/Type				= "TsCylinder"
+d:Ge/Poco1e12/RMax				= 3.375 mm
+d:Ge/Poco1e12/RMin				= 0. mm
+d:Ge/Poco1e12/HL				= 0.04 mm
+d:Ge/Poco1e12/TransX			= -74.52 mm
+d:Ge/Poco1e12/TransY			= -13.54 mm
+d:Ge/Poco1e12/TransZ			= 0 mm
+
+s:Ge/Poco1e13/Material			= "G4_WATER"
+s:Ge/Poco1e13/Parent			= "Camada1"
+s:Ge/Poco1e13/Type				= "TsCylinder"
+d:Ge/Poco1e13/RMax				= 3.375 mm
+d:Ge/Poco1e13/RMin				= 0. mm
+d:Ge/Poco1e13/HL				= 0.04 mm
+d:Ge/Poco1e13/TransX			= -74.52 mm
+d:Ge/Poco1e13/TransY			= 13.54 mm
+d:Ge/Poco1e13/TransZ			= 0 mm
+
+s:Ge/Poco1e14/Material			= "G4_WATER"
+s:Ge/Poco1e14/Parent			= "Camada1"
+s:Ge/Poco1e14/Type				= "TsCylinder"
+d:Ge/Poco1e14/RMax				= 3.375 mm
+d:Ge/Poco1e14/RMin				= 0. mm
+d:Ge/Poco1e14/HL				= 0.04 mm
+d:Ge/Poco1e14/TransX			= -74.52 mm
+d:Ge/Poco1e14/TransY			= 22.55 mm
+d:Ge/Poco1e14/TransZ			= 0 mm
+
+s:Ge/Poco1e15/Material			= "G4_WATER"
+s:Ge/Poco1e15/Parent			= "Camada1"
+s:Ge/Poco1e15/Type				= "TsCylinder"
+d:Ge/Poco1e15/RMax				= 3.375 mm
+d:Ge/Poco1e15/RMin				= 0. mm
+d:Ge/Poco1e15/HL				= 0.04 mm
+d:Ge/Poco1e15/TransX			= -74.52 mm
+d:Ge/Poco1e15/TransY			= 31.53 mm
+d:Ge/Poco1e15/TransZ			= 0 mm
+
+s:Ge/Poco1e16/Material			= "G4_WATER"
+s:Ge/Poco1e16/Parent			= "Camada1"
+s:Ge/Poco1e16/Type				= "TsCylinder"
+d:Ge/Poco1e16/RMax				= 3.375 mm
+d:Ge/Poco1e16/RMin				= 0. mm
+d:Ge/Poco1e16/HL				= 0.04 mm
+d:Ge/Poco1e16/TransX			= -74.52 mm
+d:Ge/Poco1e16/TransY			= 40.51 mm
+d:Ge/Poco1e16/TransZ			= 0 mm
+
+s:Ge/Poco1e17/Material			= "G4_WATER"
+s:Ge/Poco1e17/Parent			= "Camada1"
+s:Ge/Poco1e17/Type				= "TsCylinder"
+d:Ge/Poco1e17/RMax				= 3.375 mm
+d:Ge/Poco1e17/RMin				= 0. mm
+d:Ge/Poco1e17/HL				= 0.04 mm
+d:Ge/Poco1e17/TransX			= -74.52 mm
+d:Ge/Poco1e17/TransY			= 49.41 mm
+d:Ge/Poco1e17/TransZ			= 0 mm
+
+s:Ge/Poco1e18/Material			= "G4_WATER"
+s:Ge/Poco1e18/Parent			= "Camada1"
+s:Ge/Poco1e18/Type				= "TsCylinder"
+d:Ge/Poco1e18/RMax				= 3.375 mm
+d:Ge/Poco1e18/RMin				= 0. mm
+d:Ge/Poco1e18/HL				= 0.04 mm
+d:Ge/Poco1e18/TransX			= -74.52 mm
+d:Ge/Poco1e18/TransY			= 58.39 mm
+d:Ge/Poco1e18/TransZ			= 0 mm
+
+s:Ge/Poco1e19/Material			= "G4_WATER"
+s:Ge/Poco1e19/Parent			= "Camada1"
+s:Ge/Poco1e19/Type				= "TsCylinder"
+d:Ge/Poco1e19/RMax				= 3.375 mm
+d:Ge/Poco1e19/RMin				= 0. mm
+d:Ge/Poco1e19/HL				= 0.04 mm
+d:Ge/Poco1e19/TransX			= -74.52 mm
+d:Ge/Poco1e19/TransY			= 67.37 mm
+d:Ge/Poco1e19/TransZ			= 0 mm
+
+s:Ge/Poco1e20/Material			= "G4_WATER"
+s:Ge/Poco1e20/Parent			= "Camada1"
+s:Ge/Poco1e20/Type				= "TsCylinder"
+d:Ge/Poco1e20/RMax				= 3.375 mm
+d:Ge/Poco1e20/RMin				= 0. mm
+d:Ge/Poco1e20/HL				= 0.04 mm
+d:Ge/Poco1e20/TransX			= -74.52 mm
+d:Ge/Poco1e20/TransY			= 76.35 mm
+d:Ge/Poco1e20/TransZ			= 0 mm
+
+s:Ge/Poco1e21/Material			= "G4_WATER"
+s:Ge/Poco1e21/Parent			= "Camada1"
+s:Ge/Poco1e21/Type				= "TsCylinder"
+d:Ge/Poco1e21/RMax				= 3.375 mm
+d:Ge/Poco1e21/RMin				= 0. mm
+d:Ge/Poco1e21/HL				= 0.04 mm
+d:Ge/Poco1e21/TransX			= -74.52 mm
+d:Ge/Poco1e21/TransY			= 85.33 mm
+d:Ge/Poco1e21/TransZ			= 0 mm
+
+s:Ge/Poco1e22/Material			= "G4_WATER"
+s:Ge/Poco1e22/Parent			= "Camada1"
+s:Ge/Poco1e22/Type				= "TsCylinder"
+d:Ge/Poco1e22/RMax				= 3.375 mm
+d:Ge/Poco1e22/RMin				= 0. mm
+d:Ge/Poco1e22/HL				= 0.04 mm
+d:Ge/Poco1e22/TransX			= -74.52 mm
+d:Ge/Poco1e22/TransY			= 94.31 mm
+d:Ge/Poco1e22/TransZ			= 0 mm
+
+s:Ge/Poco1e23/Material			= "G4_WATER"
+s:Ge/Poco1e23/Parent			= "Camada1"
+s:Ge/Poco1e23/Type				= "TsCylinder"
+d:Ge/Poco1e23/RMax				= 3.375 mm
+d:Ge/Poco1e23/RMin				= 0. mm
+d:Ge/Poco1e23/HL				= 0.04 mm
+d:Ge/Poco1e23/TransX			= -74.52 mm
+d:Ge/Poco1e23/TransY			= 103.29 mm
+d:Ge/Poco1e23/TransZ			= 0 mm
+
+s:Ge/Poco1e24/Material			= "G4_WATER"
+s:Ge/Poco1e24/Parent			= "Camada1"
+s:Ge/Poco1e24/Type				= "TsCylinder"
+d:Ge/Poco1e24/RMax				= 3.375 mm
+d:Ge/Poco1e24/RMin				= 0. mm
+d:Ge/Poco1e24/HL				= 0.04 mm
+d:Ge/Poco1e24/TransX			= -74.52 mm
+d:Ge/Poco1e24/TransY			= 112.27 mm
+d:Ge/Poco1e24/TransZ			= 0 mm
+
+s:Ge/Poco2e1/Material			= "G4_WATER"
+s:Ge/Poco2e1/Parent			= "Camada1"
+s:Ge/Poco2e1/Type			= "TsCylinder"
+d:Ge/Poco2e1/RMax			= 3.375 mm
+d:Ge/Poco2e1/RMin			= 0. mm
+d:Ge/Poco2e1/HL			= 0.04 mm
+d:Ge/Poco2e1/TransX			= -65.54 mm
+d:Ge/Poco2e1/TransY			= -112.27 mm
+d:Ge/Poco2e1/TransZ			= 0 mm
+
+s:Ge/Poco2e2/Material			= "G4_WATER"
+s:Ge/Poco2e2/Parent			= "Camada1"
+s:Ge/Poco2e2/Type			= "TsCylinder"
+d:Ge/Poco2e2/RMax			= 3.375 mm
+d:Ge/Poco2e2/RMin			= 0. mm
+d:Ge/Poco2e2/HL			= 0.04 mm
+d:Ge/Poco2e2/TransX			= -65.54 mm
+d:Ge/Poco2e2/TransY			= -103.29 mm
+d:Ge/Poco2e2/TransZ			= 0 mm
+
+s:Ge/Poco2e3/Material			= "G4_WATER"
+s:Ge/Poco2e3/Parent			= "Camada1"
+s:Ge/Poco2e3/Type			= "TsCylinder"
+d:Ge/Poco2e3/RMax			= 3.375 mm
+d:Ge/Poco2e3/RMin			= 0. mm
+d:Ge/Poco2e3/HL			= 0.04 mm
+d:Ge/Poco2e3/TransX			= -65.54 mm
+d:Ge/Poco2e3/TransY			= -94.31 mm
+d:Ge/Poco2e3/TransZ			= 0 mm
+
+s:Ge/Poco2e4/Material			= "G4_WATER"
+s:Ge/Poco2e4/Parent			= "Camada1"
+s:Ge/Poco2e4/Type			= "TsCylinder"
+d:Ge/Poco2e4/RMax			= 3.375 mm
+d:Ge/Poco2e4/RMin			= 0. mm
+d:Ge/Poco2e4/HL			= 0.04 mm
+d:Ge/Poco2e4/TransX			= -65.54 mm
+d:Ge/Poco2e4/TransY			= -85.33 mm
+d:Ge/Poco2e4/TransZ			= 0 mm
+
+s:Ge/Poco2e5/Material			= "G4_WATER"
+s:Ge/Poco2e5/Parent			= "Camada1"
+s:Ge/Poco2e5/Type			= "TsCylinder"
+d:Ge/Poco2e5/RMax			= 3.375 mm
+d:Ge/Poco2e5/RMin			= 0. mm
+d:Ge/Poco2e5/HL			= 0.04 mm
+d:Ge/Poco2e5/TransX			= -65.54 mm
+d:Ge/Poco2e5/TransY			= -76.35 mm
+d:Ge/Poco2e5/TransZ			= 0 mm
+
+s:Ge/Poco2e6/Material			= "G4_WATER"
+s:Ge/Poco2e6/Parent			= "Camada1"
+s:Ge/Poco2e6/Type			= "TsCylinder"
+d:Ge/Poco2e6/RMax			= 3.375 mm
+d:Ge/Poco2e6/RMin			= 0. mm
+d:Ge/Poco2e6/HL			= 0.04 mm
+d:Ge/Poco2e6/TransX			= -65.54 mm
+d:Ge/Poco2e6/TransY			= -67.37 mm
+d:Ge/Poco2e6/TransZ			= 0 mm
+
+s:Ge/Poco2e7/Material			= "G4_WATER"
+s:Ge/Poco2e7/Parent			= "Camada1"
+s:Ge/Poco2e7/Type			= "TsCylinder"
+d:Ge/Poco2e7/RMax			= 3.375 mm
+d:Ge/Poco2e7/RMin			= 0. mm
+d:Ge/Poco2e7/HL			= 0.04 mm
+d:Ge/Poco2e7/TransX			= -65.54 mm
+d:Ge/Poco2e7/TransY			= -58.39 mm
+d:Ge/Poco2e7/TransZ			= 0 mm
+
+s:Ge/Poco2e8/Material			= "G4_WATER"
+s:Ge/Poco2e8/Parent			= "Camada1"
+s:Ge/Poco2e8/Type			= "TsCylinder"
+d:Ge/Poco2e8/RMax			= 3.375 mm
+d:Ge/Poco2e8/RMin			= 0. mm
+d:Ge/Poco2e8/HL			= 0.04 mm
+d:Ge/Poco2e8/TransX			= -65.54 mm
+d:Ge/Poco2e8/TransY			= -49.41 mm
+d:Ge/Poco2e8/TransZ			= 0 mm
+
+s:Ge/Poco2e9/Material			= "G4_WATER"
+s:Ge/Poco2e9/Parent			= "Camada1"
+s:Ge/Poco2e9/Type			= "TsCylinder"
+d:Ge/Poco2e9/RMax			= 3.375 mm
+d:Ge/Poco2e9/RMin			= 0. mm
+d:Ge/Poco2e9/HL			= 0.04 mm
+d:Ge/Poco2e9/TransX			= -65.54 mm
+d:Ge/Poco2e9/TransY			= -40.51 mm
+d:Ge/Poco2e9/TransZ			= 0 mm
+
+s:Ge/Poco2e10/Material			= "G4_WATER"
+s:Ge/Poco2e10/Parent			= "Camada1"
+s:Ge/Poco2e10/Type			= "TsCylinder"
+d:Ge/Poco2e10/RMax			= 3.375 mm
+d:Ge/Poco2e10/RMin			= 0. mm
+d:Ge/Poco2e10/HL			= 0.04 mm
+d:Ge/Poco2e10/TransX			= -65.54 mm
+d:Ge/Poco2e10/TransY			= -31.53 mm
+d:Ge/Poco2e10/TransZ			= 0 mm
+
+s:Ge/Poco2e11/Material			= "G4_WATER"
+s:Ge/Poco2e11/Parent			= "Camada1"
+s:Ge/Poco2e11/Type			= "TsCylinder"
+d:Ge/Poco2e11/RMax			= 3.375 mm
+d:Ge/Poco2e11/RMin			= 0. mm
+d:Ge/Poco2e11/HL			= 0.04 mm
+d:Ge/Poco2e11/TransX			= -65.54 mm
+d:Ge/Poco2e11/TransY			= -22.55 mm
+d:Ge/Poco2e11/TransZ			= 0 mm
+
+s:Ge/Poco2e12/Material			= "G4_WATER"
+s:Ge/Poco2e12/Parent			= "Camada1"
+s:Ge/Poco2e12/Type			= "TsCylinder"
+d:Ge/Poco2e12/RMax			= 3.375 mm
+d:Ge/Poco2e12/RMin			= 0. mm
+d:Ge/Poco2e12/HL			= 0.04 mm
+d:Ge/Poco2e12/TransX			= -65.54 mm
+d:Ge/Poco2e12/TransY			= -13.54 mm
+d:Ge/Poco2e12/TransZ			= 0 mm
+
+s:Ge/Poco2e13/Material			= "G4_WATER"
+s:Ge/Poco2e13/Parent			= "Camada1"
+s:Ge/Poco2e13/Type			= "TsCylinder"
+d:Ge/Poco2e13/RMax			= 3.375 mm
+d:Ge/Poco2e13/RMin			= 0. mm
+d:Ge/Poco2e13/HL			= 0.04 mm
+d:Ge/Poco2e13/TransX			= -65.54 mm
+d:Ge/Poco2e13/TransY			= 13.54 mm
+d:Ge/Poco2e13/TransZ			= 0 mm
+
+s:Ge/Poco2e14/Material			= "G4_WATER"
+s:Ge/Poco2e14/Parent			= "Camada1"
+s:Ge/Poco2e14/Type			= "TsCylinder"
+d:Ge/Poco2e14/RMax			= 3.375 mm
+d:Ge/Poco2e14/RMin			= 0. mm
+d:Ge/Poco2e14/HL			= 0.04 mm
+d:Ge/Poco2e14/TransX			= -65.54 mm
+d:Ge/Poco2e14/TransY			= 22.55 mm
+d:Ge/Poco2e14/TransZ			= 0 mm
+
+s:Ge/Poco2e15/Material			= "G4_WATER"
+s:Ge/Poco2e15/Parent			= "Camada1"
+s:Ge/Poco2e15/Type			= "TsCylinder"
+d:Ge/Poco2e15/RMax			= 3.375 mm
+d:Ge/Poco2e15/RMin			= 0. mm
+d:Ge/Poco2e15/HL			= 0.04 mm
+d:Ge/Poco2e15/TransX			= -65.54 mm
+d:Ge/Poco2e15/TransY			= 31.53 mm
+d:Ge/Poco2e15/TransZ			= 0 mm
+
+s:Ge/Poco2e16/Material			= "G4_WATER"
+s:Ge/Poco2e16/Parent			= "Camada1"
+s:Ge/Poco2e16/Type			= "TsCylinder"
+d:Ge/Poco2e16/RMax			= 3.375 mm
+d:Ge/Poco2e16/RMin			= 0. mm
+d:Ge/Poco2e16/HL			= 0.04 mm
+d:Ge/Poco2e16/TransX			= -65.54 mm
+d:Ge/Poco2e16/TransY			= 40.51 mm
+d:Ge/Poco2e16/TransZ			= 0 mm
+
+s:Ge/Poco2e17/Material			= "G4_WATER"
+s:Ge/Poco2e17/Parent			= "Camada1"
+s:Ge/Poco2e17/Type			= "TsCylinder"
+d:Ge/Poco2e17/RMax			= 3.375 mm
+d:Ge/Poco2e17/RMin			= 0. mm
+d:Ge/Poco2e17/HL			= 0.04 mm
+d:Ge/Poco2e17/TransX			= -65.54 mm
+d:Ge/Poco2e17/TransY			= 49.41 mm
+d:Ge/Poco2e17/TransZ			= 0 mm
+
+s:Ge/Poco2e18/Material			= "G4_WATER"
+s:Ge/Poco2e18/Parent			= "Camada1"
+s:Ge/Poco2e18/Type			= "TsCylinder"
+d:Ge/Poco2e18/RMax			= 3.375 mm
+d:Ge/Poco2e18/RMin			= 0. mm
+d:Ge/Poco2e18/HL			= 0.04 mm
+d:Ge/Poco2e18/TransX			= -65.54 mm
+d:Ge/Poco2e18/TransY			= 58.39 mm
+d:Ge/Poco2e18/TransZ			= 0 mm
+
+s:Ge/Poco2e19/Material			= "G4_WATER"
+s:Ge/Poco2e19/Parent			= "Camada1"
+s:Ge/Poco2e19/Type			= "TsCylinder"
+d:Ge/Poco2e19/RMax			= 3.375 mm
+d:Ge/Poco2e19/RMin			= 0. mm
+d:Ge/Poco2e19/HL			= 0.04 mm
+d:Ge/Poco2e19/TransX			= -65.54 mm
+d:Ge/Poco2e19/TransY			= 67.37 mm
+d:Ge/Poco2e19/TransZ			= 0 mm
+
+s:Ge/Poco2e20/Material			= "G4_WATER"
+s:Ge/Poco2e20/Parent			= "Camada1"
+s:Ge/Poco2e20/Type			= "TsCylinder"
+d:Ge/Poco2e20/RMax			= 3.375 mm
+d:Ge/Poco2e20/RMin			= 0. mm
+d:Ge/Poco2e20/HL			= 0.04 mm
+d:Ge/Poco2e20/TransX			= -65.54 mm
+d:Ge/Poco2e20/TransY			= 76.35 mm
+d:Ge/Poco2e20/TransZ			= 0 mm
+
+s:Ge/Poco2e21/Material			= "G4_WATER"
+s:Ge/Poco2e21/Parent			= "Camada1"
+s:Ge/Poco2e21/Type			= "TsCylinder"
+d:Ge/Poco2e21/RMax			= 3.375 mm
+d:Ge/Poco2e21/RMin			= 0. mm
+d:Ge/Poco2e21/HL			= 0.04 mm
+d:Ge/Poco2e21/TransX			= -65.54 mm
+d:Ge/Poco2e21/TransY			= 85.33 mm
+d:Ge/Poco2e21/TransZ			= 0 mm
+
+s:Ge/Poco2e22/Material			= "G4_WATER"
+s:Ge/Poco2e22/Parent			= "Camada1"
+s:Ge/Poco2e22/Type			= "TsCylinder"
+d:Ge/Poco2e22/RMax			= 3.375 mm
+d:Ge/Poco2e22/RMin			= 0. mm
+d:Ge/Poco2e22/HL			= 0.04 mm
+d:Ge/Poco2e22/TransX			= -65.54 mm
+d:Ge/Poco2e22/TransY			= 94.31 mm
+d:Ge/Poco2e22/TransZ			= 0 mm
+
+s:Ge/Poco2e23/Material			= "G4_WATER"
+s:Ge/Poco2e23/Parent			= "Camada1"
+s:Ge/Poco2e23/Type			= "TsCylinder"
+d:Ge/Poco2e23/RMax			= 3.375 mm
+d:Ge/Poco2e23/RMin			= 0. mm
+d:Ge/Poco2e23/HL			= 0.04 mm
+d:Ge/Poco2e23/TransX			= -65.54 mm
+d:Ge/Poco2e23/TransY			= 103.29 mm
+d:Ge/Poco2e23/TransZ			= 0 mm
+
+s:Ge/Poco2e24/Material			= "G4_WATER"
+s:Ge/Poco2e24/Parent			= "Camada1"
+s:Ge/Poco2e24/Type			= "TsCylinder"
+d:Ge/Poco2e24/RMax			= 3.375 mm
+d:Ge/Poco2e24/RMin			= 0. mm
+d:Ge/Poco2e24/HL			= 0.04 mm
+d:Ge/Poco2e24/TransX			= -65.54 mm
+d:Ge/Poco2e24/TransY			= 112.27 mm
+d:Ge/Poco2e24/TransZ			= 0 mm
+
+s:Ge/Poco3e1/Material			= "G4_WATER"
+s:Ge/Poco3e1/Parent			= "Camada1"
+s:Ge/Poco3e1/Type			= "TsCylinder"
+d:Ge/Poco3e1/RMax			= 3.375 mm
+d:Ge/Poco3e1/RMin			= 0. mm
+d:Ge/Poco3e1/HL			= 0.04 mm
+d:Ge/Poco3e1/TransX			= -56.56 mm
+d:Ge/Poco3e1/TransY			= -112.27 mm
+d:Ge/Poco3e1/TransZ			= 0 mm
+
+s:Ge/Poco3e2/Material			= "G4_WATER"
+s:Ge/Poco3e2/Parent			= "Camada1"
+s:Ge/Poco3e2/Type			= "TsCylinder"
+d:Ge/Poco3e2/RMax			= 3.375 mm
+d:Ge/Poco3e2/RMin			= 0. mm
+d:Ge/Poco3e2/HL			= 0.04 mm
+d:Ge/Poco3e2/TransX			= -56.56 mm
+d:Ge/Poco3e2/TransY			= -103.29 mm
+d:Ge/Poco3e2/TransZ			= 0 mm
+
+s:Ge/Poco3e3/Material			= "G4_WATER"
+s:Ge/Poco3e3/Parent			= "Camada1"
+s:Ge/Poco3e3/Type			= "TsCylinder"
+d:Ge/Poco3e3/RMax			= 3.375 mm
+d:Ge/Poco3e3/RMin			= 0. mm
+d:Ge/Poco3e3/HL			= 0.04 mm
+d:Ge/Poco3e3/TransX			= -56.56 mm
+d:Ge/Poco3e3/TransY			= -94.31 mm
+d:Ge/Poco3e3/TransZ			= 0 mm
+
+s:Ge/Poco3e4/Material			= "G4_WATER"
+s:Ge/Poco3e4/Parent			= "Camada1"
+s:Ge/Poco3e4/Type			= "TsCylinder"
+d:Ge/Poco3e4/RMax			= 3.375 mm
+d:Ge/Poco3e4/RMin			= 0. mm
+d:Ge/Poco3e4/HL			= 0.04 mm
+d:Ge/Poco3e4/TransX			= -56.56 mm
+d:Ge/Poco3e4/TransY			= -85.33 mm
+d:Ge/Poco3e4/TransZ			= 0 mm
+
+s:Ge/Poco3e5/Material			= "G4_WATER"
+s:Ge/Poco3e5/Parent			= "Camada1"
+s:Ge/Poco3e5/Type			= "TsCylinder"
+d:Ge/Poco3e5/RMax			= 3.375 mm
+d:Ge/Poco3e5/RMin			= 0. mm
+d:Ge/Poco3e5/HL			= 0.04 mm
+d:Ge/Poco3e5/TransX			= -56.56 mm
+d:Ge/Poco3e5/TransY			= -76.35 mm
+d:Ge/Poco3e5/TransZ			= 0 mm
+
+s:Ge/Poco3e6/Material			= "G4_WATER"
+s:Ge/Poco3e6/Parent			= "Camada1"
+s:Ge/Poco3e6/Type			= "TsCylinder"
+d:Ge/Poco3e6/RMax			= 3.375 mm
+d:Ge/Poco3e6/RMin			= 0. mm
+d:Ge/Poco3e6/HL			= 0.04 mm
+d:Ge/Poco3e6/TransX			= -56.56 mm
+d:Ge/Poco3e6/TransY			= -67.37 mm
+d:Ge/Poco3e6/TransZ			= 0 mm
+
+s:Ge/Poco3e7/Material			= "G4_WATER"
+s:Ge/Poco3e7/Parent			= "Camada1"
+s:Ge/Poco3e7/Type			= "TsCylinder"
+d:Ge/Poco3e7/RMax			= 3.375 mm
+d:Ge/Poco3e7/RMin			= 0. mm
+d:Ge/Poco3e7/HL			= 0.04 mm
+d:Ge/Poco3e7/TransX			= -56.56 mm
+d:Ge/Poco3e7/TransY			= -58.39 mm
+d:Ge/Poco3e7/TransZ			= 0 mm
+
+s:Ge/Poco3e8/Material			= "G4_WATER"
+s:Ge/Poco3e8/Parent			= "Camada1"
+s:Ge/Poco3e8/Type			= "TsCylinder"
+d:Ge/Poco3e8/RMax			= 3.375 mm
+d:Ge/Poco3e8/RMin			= 0. mm
+d:Ge/Poco3e8/HL			= 0.04 mm
+d:Ge/Poco3e8/TransX			= -56.56 mm
+d:Ge/Poco3e8/TransY			= -49.41 mm
+d:Ge/Poco3e8/TransZ			= 0 mm
+
+s:Ge/Poco3e9/Material			= "G4_WATER"
+s:Ge/Poco3e9/Parent			= "Camada1"
+s:Ge/Poco3e9/Type			= "TsCylinder"
+d:Ge/Poco3e9/RMax			= 3.375 mm
+d:Ge/Poco3e9/RMin			= 0. mm
+d:Ge/Poco3e9/HL			= 0.04 mm
+d:Ge/Poco3e9/TransX			= -56.56 mm
+d:Ge/Poco3e9/TransY			= -40.51 mm
+d:Ge/Poco3e9/TransZ			= 0 mm
+
+s:Ge/Poco3e10/Material			= "G4_WATER"
+s:Ge/Poco3e10/Parent			= "Camada1"
+s:Ge/Poco3e10/Type			= "TsCylinder"
+d:Ge/Poco3e10/RMax			= 3.375 mm
+d:Ge/Poco3e10/RMin			= 0. mm
+d:Ge/Poco3e10/HL			= 0.04 mm
+d:Ge/Poco3e10/TransX			= -56.56 mm
+d:Ge/Poco3e10/TransY			= -31.53 mm
+d:Ge/Poco3e10/TransZ			= 0 mm
+
+s:Ge/Poco3e11/Material			= "G4_WATER"
+s:Ge/Poco3e11/Parent			= "Camada1"
+s:Ge/Poco3e11/Type			= "TsCylinder"
+d:Ge/Poco3e11/RMax			= 3.375 mm
+d:Ge/Poco3e11/RMin			= 0. mm
+d:Ge/Poco3e11/HL			= 0.04 mm
+d:Ge/Poco3e11/TransX			= -56.56 mm
+d:Ge/Poco3e11/TransY			= -22.55 mm
+d:Ge/Poco3e11/TransZ			= 0 mm
+
+s:Ge/Poco3e12/Material			= "G4_WATER"
+s:Ge/Poco3e12/Parent			= "Camada1"
+s:Ge/Poco3e12/Type			= "TsCylinder"
+d:Ge/Poco3e12/RMax			= 3.375 mm
+d:Ge/Poco3e12/RMin			= 0. mm
+d:Ge/Poco3e12/HL			= 0.04 mm
+d:Ge/Poco3e12/TransX			= -56.56 mm
+d:Ge/Poco3e12/TransY			= -13.54 mm
+d:Ge/Poco3e12/TransZ			= 0 mm
+
+s:Ge/Poco3e13/Material			= "G4_WATER"
+s:Ge/Poco3e13/Parent			= "Camada1"
+s:Ge/Poco3e13/Type			= "TsCylinder"
+d:Ge/Poco3e13/RMax			= 3.375 mm
+d:Ge/Poco3e13/RMin			= 0. mm
+d:Ge/Poco3e13/HL			= 0.04 mm
+d:Ge/Poco3e13/TransX			= -56.56 mm
+d:Ge/Poco3e13/TransY			= 13.54 mm
+d:Ge/Poco3e13/TransZ			= 0 mm
+
+s:Ge/Poco3e14/Material			= "G4_WATER"
+s:Ge/Poco3e14/Parent			= "Camada1"
+s:Ge/Poco3e14/Type			= "TsCylinder"
+d:Ge/Poco3e14/RMax			= 3.375 mm
+d:Ge/Poco3e14/RMin			= 0. mm
+d:Ge/Poco3e14/HL			= 0.04 mm
+d:Ge/Poco3e14/TransX			= -56.56 mm
+d:Ge/Poco3e14/TransY			= 22.55 mm
+d:Ge/Poco3e14/TransZ			= 0 mm
+
+s:Ge/Poco3e15/Material			= "G4_WATER"
+s:Ge/Poco3e15/Parent			= "Camada1"
+s:Ge/Poco3e15/Type			= "TsCylinder"
+d:Ge/Poco3e15/RMax			= 3.375 mm
+d:Ge/Poco3e15/RMin			= 0. mm
+d:Ge/Poco3e15/HL			= 0.04 mm
+d:Ge/Poco3e15/TransX			= -56.56 mm
+d:Ge/Poco3e15/TransY			= 31.53 mm
+d:Ge/Poco3e15/TransZ			= 0 mm
+
+s:Ge/Poco3e16/Material			= "G4_WATER"
+s:Ge/Poco3e16/Parent			= "Camada1"
+s:Ge/Poco3e16/Type			= "TsCylinder"
+d:Ge/Poco3e16/RMax			= 3.375 mm
+d:Ge/Poco3e16/RMin			= 0. mm
+d:Ge/Poco3e16/HL			= 0.04 mm
+d:Ge/Poco3e16/TransX			= -56.56 mm
+d:Ge/Poco3e16/TransY			= 40.51 mm
+d:Ge/Poco3e16/TransZ			= 0 mm
+
+s:Ge/Poco3e17/Material			= "G4_WATER"
+s:Ge/Poco3e17/Parent			= "Camada1"
+s:Ge/Poco3e17/Type			= "TsCylinder"
+d:Ge/Poco3e17/RMax			= 3.375 mm
+d:Ge/Poco3e17/RMin			= 0. mm
+d:Ge/Poco3e17/HL			= 0.04 mm
+d:Ge/Poco3e17/TransX			= -56.56 mm
+d:Ge/Poco3e17/TransY			= 49.41 mm
+d:Ge/Poco3e17/TransZ			= 0 mm
+
+s:Ge/Poco3e18/Material			= "G4_WATER"
+s:Ge/Poco3e18/Parent			= "Camada1"
+s:Ge/Poco3e18/Type			= "TsCylinder"
+d:Ge/Poco3e18/RMax			= 3.375 mm
+d:Ge/Poco3e18/RMin			= 0. mm
+d:Ge/Poco3e18/HL			= 0.04 mm
+d:Ge/Poco3e18/TransX			= -56.56 mm
+d:Ge/Poco3e18/TransY			= 58.39 mm
+d:Ge/Poco3e18/TransZ			= 0 mm
+
+s:Ge/Poco3e19/Material			= "G4_WATER"
+s:Ge/Poco3e19/Parent			= "Camada1"
+s:Ge/Poco3e19/Type			= "TsCylinder"
+d:Ge/Poco3e19/RMax			= 3.375 mm
+d:Ge/Poco3e19/RMin			= 0. mm
+d:Ge/Poco3e19/HL			= 0.04 mm
+d:Ge/Poco3e19/TransX			= -56.56 mm
+d:Ge/Poco3e19/TransY			= 67.37 mm
+d:Ge/Poco3e19/TransZ			= 0 mm
+
+s:Ge/Poco3e20/Material			= "G4_WATER"
+s:Ge/Poco3e20/Parent			= "Camada1"
+s:Ge/Poco3e20/Type			= "TsCylinder"
+d:Ge/Poco3e20/RMax			= 3.375 mm
+d:Ge/Poco3e20/RMin			= 0. mm
+d:Ge/Poco3e20/HL			= 0.04 mm
+d:Ge/Poco3e20/TransX			= -56.56 mm
+d:Ge/Poco3e20/TransY			= 76.35 mm
+d:Ge/Poco3e20/TransZ			= 0 mm
+
+s:Ge/Poco3e21/Material			= "G4_WATER"
+s:Ge/Poco3e21/Parent			= "Camada1"
+s:Ge/Poco3e21/Type			= "TsCylinder"
+d:Ge/Poco3e21/RMax			= 3.375 mm
+d:Ge/Poco3e21/RMin			= 0. mm
+d:Ge/Poco3e21/HL			= 0.04 mm
+d:Ge/Poco3e21/TransX			= -56.56 mm
+d:Ge/Poco3e21/TransY			= 85.33 mm
+d:Ge/Poco3e21/TransZ			= 0 mm
+
+s:Ge/Poco3e22/Material			= "G4_WATER"
+s:Ge/Poco3e22/Parent			= "Camada1"
+s:Ge/Poco3e22/Type			= "TsCylinder"
+d:Ge/Poco3e22/RMax			= 3.375 mm
+d:Ge/Poco3e22/RMin			= 0. mm
+d:Ge/Poco3e22/HL			= 0.04 mm
+d:Ge/Poco3e22/TransX			= -56.56 mm
+d:Ge/Poco3e22/TransY			= 94.31 mm
+d:Ge/Poco3e22/TransZ			= 0 mm
+
+s:Ge/Poco3e23/Material			= "G4_WATER"
+s:Ge/Poco3e23/Parent			= "Camada1"
+s:Ge/Poco3e23/Type			= "TsCylinder"
+d:Ge/Poco3e23/RMax			= 3.375 mm
+d:Ge/Poco3e23/RMin			= 0. mm
+d:Ge/Poco3e23/HL			= 0.04 mm
+d:Ge/Poco3e23/TransX			= -56.56 mm
+d:Ge/Poco3e23/TransY			= 103.29 mm
+d:Ge/Poco3e23/TransZ			= 0 mm
+
+s:Ge/Poco3e24/Material			= "G4_WATER"
+s:Ge/Poco3e24/Parent			= "Camada1"
+s:Ge/Poco3e24/Type			= "TsCylinder"
+d:Ge/Poco3e24/RMax			= 3.375 mm
+d:Ge/Poco3e24/RMin			= 0. mm
+d:Ge/Poco3e24/HL			= 0.04 mm
+d:Ge/Poco3e24/TransX			= -56.56 mm
+d:Ge/Poco3e24/TransY			= 112.27 mm
+d:Ge/Poco3e24/TransZ			= 0 mm
+
+s:Ge/Poco4e1/Material			= "G4_WATER"
+s:Ge/Poco4e1/Parent			= "Camada1"
+s:Ge/Poco4e1/Type			= "TsCylinder"
+d:Ge/Poco4e1/RMax			= 3.375 mm
+d:Ge/Poco4e1/RMin			= 0. mm
+d:Ge/Poco4e1/HL			= 0.04 mm
+d:Ge/Poco4e1/TransX			= -47.58 mm
+d:Ge/Poco4e1/TransY			= -112.27 mm
+d:Ge/Poco4e1/TransZ			= 0 mm
+
+s:Ge/Poco4e2/Material			= "G4_WATER"
+s:Ge/Poco4e2/Parent			= "Camada1"
+s:Ge/Poco4e2/Type			= "TsCylinder"
+d:Ge/Poco4e2/RMax			= 3.375 mm
+d:Ge/Poco4e2/RMin			= 0. mm
+d:Ge/Poco4e2/HL			= 0.04 mm
+d:Ge/Poco4e2/TransX			= -47.58 mm
+d:Ge/Poco4e2/TransY			= -103.29 mm
+d:Ge/Poco4e2/TransZ			= 0 mm
+
+s:Ge/Poco4e3/Material			= "G4_WATER"
+s:Ge/Poco4e3/Parent			= "Camada1"
+s:Ge/Poco4e3/Type			= "TsCylinder"
+d:Ge/Poco4e3/RMax			= 3.375 mm
+d:Ge/Poco4e3/RMin			= 0. mm
+d:Ge/Poco4e3/HL			= 0.04 mm
+d:Ge/Poco4e3/TransX			= -47.58 mm
+d:Ge/Poco4e3/TransY			= -94.31 mm
+d:Ge/Poco4e3/TransZ			= 0 mm
+
+s:Ge/Poco4e4/Material			= "G4_WATER"
+s:Ge/Poco4e4/Parent			= "Camada1"
+s:Ge/Poco4e4/Type			= "TsCylinder"
+d:Ge/Poco4e4/RMax			= 3.375 mm
+d:Ge/Poco4e4/RMin			= 0. mm
+d:Ge/Poco4e4/HL			= 0.04 mm
+d:Ge/Poco4e4/TransX			= -47.58 mm
+d:Ge/Poco4e4/TransY			= -85.33 mm
+d:Ge/Poco4e4/TransZ			= 0 mm
+
+s:Ge/Poco4e5/Material			= "G4_WATER"
+s:Ge/Poco4e5/Parent			= "Camada1"
+s:Ge/Poco4e5/Type			= "TsCylinder"
+d:Ge/Poco4e5/RMax			= 3.375 mm
+d:Ge/Poco4e5/RMin			= 0. mm
+d:Ge/Poco4e5/HL			= 0.04 mm
+d:Ge/Poco4e5/TransX			= -47.58 mm
+d:Ge/Poco4e5/TransY			= -76.35 mm
+d:Ge/Poco4e5/TransZ			= 0 mm
+
+s:Ge/Poco4e6/Material			= "G4_WATER"
+s:Ge/Poco4e6/Parent			= "Camada1"
+s:Ge/Poco4e6/Type			= "TsCylinder"
+d:Ge/Poco4e6/RMax			= 3.375 mm
+d:Ge/Poco4e6/RMin			= 0. mm
+d:Ge/Poco4e6/HL			= 0.04 mm
+d:Ge/Poco4e6/TransX			= -47.58 mm
+d:Ge/Poco4e6/TransY			= -67.37 mm
+d:Ge/Poco4e6/TransZ			= 0 mm
+
+s:Ge/Poco4e7/Material			= "G4_WATER"
+s:Ge/Poco4e7/Parent			= "Camada1"
+s:Ge/Poco4e7/Type			= "TsCylinder"
+d:Ge/Poco4e7/RMax			= 3.375 mm
+d:Ge/Poco4e7/RMin			= 0. mm
+d:Ge/Poco4e7/HL			= 0.04 mm
+d:Ge/Poco4e7/TransX			= -47.58 mm
+d:Ge/Poco4e7/TransY			= -58.39 mm
+d:Ge/Poco4e7/TransZ			= 0 mm
+
+s:Ge/Poco4e8/Material			= "G4_WATER"
+s:Ge/Poco4e8/Parent			= "Camada1"
+s:Ge/Poco4e8/Type			= "TsCylinder"
+d:Ge/Poco4e8/RMax			= 3.375 mm
+d:Ge/Poco4e8/RMin			= 0. mm
+d:Ge/Poco4e8/HL			= 0.04 mm
+d:Ge/Poco4e8/TransX			= -47.58 mm
+d:Ge/Poco4e8/TransY			= -49.41 mm
+d:Ge/Poco4e8/TransZ			= 0 mm
+
+s:Ge/Poco4e9/Material			= "G4_WATER"
+s:Ge/Poco4e9/Parent			= "Camada1"
+s:Ge/Poco4e9/Type			= "TsCylinder"
+d:Ge/Poco4e9/RMax			= 3.375 mm
+d:Ge/Poco4e9/RMin			= 0. mm
+d:Ge/Poco4e9/HL			= 0.04 mm
+d:Ge/Poco4e9/TransX			= -47.58 mm
+d:Ge/Poco4e9/TransY			= -40.51 mm
+d:Ge/Poco4e9/TransZ			= 0 mm
+
+s:Ge/Poco4e10/Material			= "G4_WATER"
+s:Ge/Poco4e10/Parent			= "Camada1"
+s:Ge/Poco4e10/Type			= "TsCylinder"
+d:Ge/Poco4e10/RMax			= 3.375 mm
+d:Ge/Poco4e10/RMin			= 0. mm
+d:Ge/Poco4e10/HL			= 0.04 mm
+d:Ge/Poco4e10/TransX			= -47.58 mm
+d:Ge/Poco4e10/TransY			= -31.53 mm
+d:Ge/Poco4e10/TransZ			= 0 mm
+
+s:Ge/Poco4e11/Material			= "G4_WATER"
+s:Ge/Poco4e11/Parent			= "Camada1"
+s:Ge/Poco4e11/Type			= "TsCylinder"
+d:Ge/Poco4e11/RMax			= 3.375 mm
+d:Ge/Poco4e11/RMin			= 0. mm
+d:Ge/Poco4e11/HL			= 0.04 mm
+d:Ge/Poco4e11/TransX			= -47.58 mm
+d:Ge/Poco4e11/TransY			= -22.55 mm
+d:Ge/Poco4e11/TransZ			= 0 mm
+
+s:Ge/Poco4e12/Material			= "G4_WATER"
+s:Ge/Poco4e12/Parent			= "Camada1"
+s:Ge/Poco4e12/Type			= "TsCylinder"
+d:Ge/Poco4e12/RMax			= 3.375 mm
+d:Ge/Poco4e12/RMin			= 0. mm
+d:Ge/Poco4e12/HL			= 0.04 mm
+d:Ge/Poco4e12/TransX			= -47.58 mm
+d:Ge/Poco4e12/TransY			= -13.54 mm
+d:Ge/Poco4e12/TransZ			= 0 mm
+
+s:Ge/Poco4e13/Material			= "G4_WATER"
+s:Ge/Poco4e13/Parent			= "Camada1"
+s:Ge/Poco4e13/Type			= "TsCylinder"
+d:Ge/Poco4e13/RMax			= 3.375 mm
+d:Ge/Poco4e13/RMin			= 0. mm
+d:Ge/Poco4e13/HL			= 0.04 mm
+d:Ge/Poco4e13/TransX			= -47.58 mm
+d:Ge/Poco4e13/TransY			= 13.54 mm
+d:Ge/Poco4e13/TransZ			= 0 mm
+
+s:Ge/Poco4e14/Material			= "G4_WATER"
+s:Ge/Poco4e14/Parent			= "Camada1"
+s:Ge/Poco4e14/Type			= "TsCylinder"
+d:Ge/Poco4e14/RMax			= 3.375 mm
+d:Ge/Poco4e14/RMin			= 0. mm
+d:Ge/Poco4e14/HL			= 0.04 mm
+d:Ge/Poco4e14/TransX			= -47.58 mm
+d:Ge/Poco4e14/TransY			= 22.55 mm
+d:Ge/Poco4e14/TransZ			= 0 mm
+
+s:Ge/Poco4e15/Material			= "G4_WATER"
+s:Ge/Poco4e15/Parent			= "Camada1"
+s:Ge/Poco4e15/Type			= "TsCylinder"
+d:Ge/Poco4e15/RMax			= 3.375 mm
+d:Ge/Poco4e15/RMin			= 0. mm
+d:Ge/Poco4e15/HL			= 0.04 mm
+d:Ge/Poco4e15/TransX			= -47.58 mm
+d:Ge/Poco4e15/TransY			= 31.53 mm
+d:Ge/Poco4e15/TransZ			= 0 mm
+
+s:Ge/Poco4e16/Material			= "G4_WATER"
+s:Ge/Poco4e16/Parent			= "Camada1"
+s:Ge/Poco4e16/Type			= "TsCylinder"
+d:Ge/Poco4e16/RMax			= 3.375 mm
+d:Ge/Poco4e16/RMin			= 0. mm
+d:Ge/Poco4e16/HL			= 0.04 mm
+d:Ge/Poco4e16/TransX			= -47.58 mm
+d:Ge/Poco4e16/TransY			= 40.51 mm
+d:Ge/Poco4e16/TransZ			= 0 mm
+
+s:Ge/Poco4e17/Material			= "G4_WATER"
+s:Ge/Poco4e17/Parent			= "Camada1"
+s:Ge/Poco4e17/Type			= "TsCylinder"
+d:Ge/Poco4e17/RMax			= 3.375 mm
+d:Ge/Poco4e17/RMin			= 0. mm
+d:Ge/Poco4e17/HL			= 0.04 mm
+d:Ge/Poco4e17/TransX			= -47.58 mm
+d:Ge/Poco4e17/TransY			= 49.41 mm
+d:Ge/Poco4e17/TransZ			= 0 mm
+
+s:Ge/Poco4e18/Material			= "G4_WATER"
+s:Ge/Poco4e18/Parent			= "Camada1"
+s:Ge/Poco4e18/Type			= "TsCylinder"
+d:Ge/Poco4e18/RMax			= 3.375 mm
+d:Ge/Poco4e18/RMin			= 0. mm
+d:Ge/Poco4e18/HL			= 0.04 mm
+d:Ge/Poco4e18/TransX			= -47.58 mm
+d:Ge/Poco4e18/TransY			= 58.39 mm
+d:Ge/Poco4e18/TransZ			= 0 mm
+
+s:Ge/Poco4e19/Material			= "G4_WATER"
+s:Ge/Poco4e19/Parent			= "Camada1"
+s:Ge/Poco4e19/Type			= "TsCylinder"
+d:Ge/Poco4e19/RMax			= 3.375 mm
+d:Ge/Poco4e19/RMin			= 0. mm
+d:Ge/Poco4e19/HL			= 0.04 mm
+d:Ge/Poco4e19/TransX			= -47.58 mm
+d:Ge/Poco4e19/TransY			= 67.37 mm
+d:Ge/Poco4e19/TransZ			= 0 mm
+
+s:Ge/Poco4e20/Material			= "G4_WATER"
+s:Ge/Poco4e20/Parent			= "Camada1"
+s:Ge/Poco4e20/Type			= "TsCylinder"
+d:Ge/Poco4e20/RMax			= 3.375 mm
+d:Ge/Poco4e20/RMin			= 0. mm
+d:Ge/Poco4e20/HL			= 0.04 mm
+d:Ge/Poco4e20/TransX			= -47.58 mm
+d:Ge/Poco4e20/TransY			= 76.35 mm
+d:Ge/Poco4e20/TransZ			= 0 mm
+
+s:Ge/Poco4e21/Material			= "G4_WATER"
+s:Ge/Poco4e21/Parent			= "Camada1"
+s:Ge/Poco4e21/Type			= "TsCylinder"
+d:Ge/Poco4e21/RMax			= 3.375 mm
+d:Ge/Poco4e21/RMin			= 0. mm
+d:Ge/Poco4e21/HL			= 0.04 mm
+d:Ge/Poco4e21/TransX			= -47.58 mm
+d:Ge/Poco4e21/TransY			= 85.33 mm
+d:Ge/Poco4e21/TransZ			= 0 mm
+
+s:Ge/Poco4e22/Material			= "G4_WATER"
+s:Ge/Poco4e22/Parent			= "Camada1"
+s:Ge/Poco4e22/Type			= "TsCylinder"
+d:Ge/Poco4e22/RMax			= 3.375 mm
+d:Ge/Poco4e22/RMin			= 0. mm
+d:Ge/Poco4e22/HL			= 0.04 mm
+d:Ge/Poco4e22/TransX			= -47.58 mm
+d:Ge/Poco4e22/TransY			= 94.31 mm
+d:Ge/Poco4e22/TransZ			= 0 mm
+
+s:Ge/Poco4e23/Material			= "G4_WATER"
+s:Ge/Poco4e23/Parent			= "Camada1"
+s:Ge/Poco4e23/Type			= "TsCylinder"
+d:Ge/Poco4e23/RMax			= 3.375 mm
+d:Ge/Poco4e23/RMin			= 0. mm
+d:Ge/Poco4e23/HL			= 0.04 mm
+d:Ge/Poco4e23/TransX			= -47.58 mm
+d:Ge/Poco4e23/TransY			= 103.29 mm
+d:Ge/Poco4e23/TransZ			= 0 mm
+
+s:Ge/Poco4e24/Material			= "G4_WATER"
+s:Ge/Poco4e24/Parent			= "Camada1"
+s:Ge/Poco4e24/Type			= "TsCylinder"
+d:Ge/Poco4e24/RMax			= 3.375 mm
+d:Ge/Poco4e24/RMin			= 0. mm
+d:Ge/Poco4e24/HL			= 0.04 mm
+d:Ge/Poco4e24/TransX			= -47.58 mm
+d:Ge/Poco4e24/TransY			= 112.27 mm
+d:Ge/Poco4e24/TransZ			= 0 mm
+
+s:Ge/Poco5e1/Material			= "G4_WATER"
+s:Ge/Poco5e1/Parent			= "Camada1"
+s:Ge/Poco5e1/Type			= "TsCylinder"
+d:Ge/Poco5e1/RMax			= 3.375 mm
+d:Ge/Poco5e1/RMin			= 0. mm
+d:Ge/Poco5e1/HL			= 0.04 mm
+d:Ge/Poco5e1/TransX			= -38.60 mm
+d:Ge/Poco5e1/TransY			= -112.27 mm
+d:Ge/Poco5e1/TransZ			= 0 mm
+
+s:Ge/Poco5e2/Material			= "G4_WATER"
+s:Ge/Poco5e2/Parent			= "Camada1"
+s:Ge/Poco5e2/Type			= "TsCylinder"
+d:Ge/Poco5e2/RMax			= 3.375 mm
+d:Ge/Poco5e2/RMin			= 0. mm
+d:Ge/Poco5e2/HL			= 0.04 mm
+d:Ge/Poco5e2/TransX			= -38.60 mm
+d:Ge/Poco5e2/TransY			= -103.29 mm
+d:Ge/Poco5e2/TransZ			= 0 mm
+
+s:Ge/Poco5e3/Material			= "G4_WATER"
+s:Ge/Poco5e3/Parent			= "Camada1"
+s:Ge/Poco5e3/Type			= "TsCylinder"
+d:Ge/Poco5e3/RMax			= 3.375 mm
+d:Ge/Poco5e3/RMin			= 0. mm
+d:Ge/Poco5e3/HL			= 0.04 mm
+d:Ge/Poco5e3/TransX			= -38.60 mm
+d:Ge/Poco5e3/TransY			= -94.31 mm
+d:Ge/Poco5e3/TransZ			= 0 mm
+
+s:Ge/Poco5e4/Material			= "G4_WATER"
+s:Ge/Poco5e4/Parent			= "Camada1"
+s:Ge/Poco5e4/Type			= "TsCylinder"
+d:Ge/Poco5e4/RMax			= 3.375 mm
+d:Ge/Poco5e4/RMin			= 0. mm
+d:Ge/Poco5e4/HL			= 0.04 mm
+d:Ge/Poco5e4/TransX			= -38.60 mm
+d:Ge/Poco5e4/TransY			= -85.33 mm
+d:Ge/Poco5e4/TransZ			= 0 mm
+
+s:Ge/Poco5e5/Material			= "G4_WATER"
+s:Ge/Poco5e5/Parent			= "Camada1"
+s:Ge/Poco5e5/Type			= "TsCylinder"
+d:Ge/Poco5e5/RMax			= 3.375 mm
+d:Ge/Poco5e5/RMin			= 0. mm
+d:Ge/Poco5e5/HL			= 0.04 mm
+d:Ge/Poco5e5/TransX			= -38.60 mm
+d:Ge/Poco5e5/TransY			= -76.35 mm
+d:Ge/Poco5e5/TransZ			= 0 mm
+
+s:Ge/Poco5e6/Material			= "G4_WATER"
+s:Ge/Poco5e6/Parent			= "Camada1"
+s:Ge/Poco5e6/Type			= "TsCylinder"
+d:Ge/Poco5e6/RMax			= 3.375 mm
+d:Ge/Poco5e6/RMin			= 0. mm
+d:Ge/Poco5e6/HL			= 0.04 mm
+d:Ge/Poco5e6/TransX			= -38.60 mm
+d:Ge/Poco5e6/TransY			= -67.37 mm
+d:Ge/Poco5e6/TransZ			= 0 mm
+
+s:Ge/Poco5e7/Material			= "G4_WATER"
+s:Ge/Poco5e7/Parent			= "Camada1"
+s:Ge/Poco5e7/Type			= "TsCylinder"
+d:Ge/Poco5e7/RMax			= 3.375 mm
+d:Ge/Poco5e7/RMin			= 0. mm
+d:Ge/Poco5e7/HL			= 0.04 mm
+d:Ge/Poco5e7/TransX			= -38.60 mm
+d:Ge/Poco5e7/TransY			= -58.39 mm
+d:Ge/Poco5e7/TransZ			= 0 mm
+
+s:Ge/Poco5e8/Material			= "G4_WATER"
+s:Ge/Poco5e8/Parent			= "Camada1"
+s:Ge/Poco5e8/Type			= "TsCylinder"
+d:Ge/Poco5e8/RMax			= 3.375 mm
+d:Ge/Poco5e8/RMin			= 0. mm
+d:Ge/Poco5e8/HL			= 0.04 mm
+d:Ge/Poco5e8/TransX			= -38.60 mm
+d:Ge/Poco5e8/TransY			= -49.41 mm
+d:Ge/Poco5e8/TransZ			= 0 mm
+
+s:Ge/Poco5e9/Material			= "G4_WATER"
+s:Ge/Poco5e9/Parent			= "Camada1"
+s:Ge/Poco5e9/Type			= "TsCylinder"
+d:Ge/Poco5e9/RMax			= 3.375 mm
+d:Ge/Poco5e9/RMin			= 0. mm
+d:Ge/Poco5e9/HL			= 0.04 mm
+d:Ge/Poco5e9/TransX			= -38.60 mm
+d:Ge/Poco5e9/TransY			= -40.51 mm
+d:Ge/Poco5e9/TransZ			= 0 mm
+
+s:Ge/Poco5e10/Material			= "G4_WATER"
+s:Ge/Poco5e10/Parent			= "Camada1"
+s:Ge/Poco5e10/Type			= "TsCylinder"
+d:Ge/Poco5e10/RMax			= 3.375 mm
+d:Ge/Poco5e10/RMin			= 0. mm
+d:Ge/Poco5e10/HL			= 0.04 mm
+d:Ge/Poco5e10/TransX			= -38.60 mm
+d:Ge/Poco5e10/TransY			= -31.53 mm
+d:Ge/Poco5e10/TransZ			= 0 mm
+
+s:Ge/Poco5e11/Material			= "G4_WATER"
+s:Ge/Poco5e11/Parent			= "Camada1"
+s:Ge/Poco5e11/Type			= "TsCylinder"
+d:Ge/Poco5e11/RMax			= 3.375 mm
+d:Ge/Poco5e11/RMin			= 0. mm
+d:Ge/Poco5e11/HL			= 0.04 mm
+d:Ge/Poco5e11/TransX			= -38.60 mm
+d:Ge/Poco5e11/TransY			= -22.55 mm
+d:Ge/Poco5e11/TransZ			= 0 mm
+
+s:Ge/Poco5e12/Material			= "G4_WATER"
+s:Ge/Poco5e12/Parent			= "Camada1"
+s:Ge/Poco5e12/Type			= "TsCylinder"
+d:Ge/Poco5e12/RMax			= 3.375 mm
+d:Ge/Poco5e12/RMin			= 0. mm
+d:Ge/Poco5e12/HL			= 0.04 mm
+d:Ge/Poco5e12/TransX			= -38.60 mm
+d:Ge/Poco5e12/TransY			= -13.54 mm
+d:Ge/Poco5e12/TransZ			= 0 mm
+
+s:Ge/Poco5e13/Material			= "G4_WATER"
+s:Ge/Poco5e13/Parent			= "Camada1"
+s:Ge/Poco5e13/Type			= "TsCylinder"
+d:Ge/Poco5e13/RMax			= 3.375 mm
+d:Ge/Poco5e13/RMin			= 0. mm
+d:Ge/Poco5e13/HL			= 0.04 mm
+d:Ge/Poco5e13/TransX			= -38.60 mm
+d:Ge/Poco5e13/TransY			= 13.54 mm
+d:Ge/Poco5e13/TransZ			= 0 mm
+
+s:Ge/Poco5e14/Material			= "G4_WATER"
+s:Ge/Poco5e14/Parent			= "Camada1"
+s:Ge/Poco5e14/Type			= "TsCylinder"
+d:Ge/Poco5e14/RMax			= 3.375 mm
+d:Ge/Poco5e14/RMin			= 0. mm
+d:Ge/Poco5e14/HL			= 0.04 mm
+d:Ge/Poco5e14/TransX			= -38.60 mm
+d:Ge/Poco5e14/TransY			= 22.55 mm
+d:Ge/Poco5e14/TransZ			= 0 mm
+
+s:Ge/Poco5e15/Material			= "G4_WATER"
+s:Ge/Poco5e15/Parent			= "Camada1"
+s:Ge/Poco5e15/Type			= "TsCylinder"
+d:Ge/Poco5e15/RMax			= 3.375 mm
+d:Ge/Poco5e15/RMin			= 0. mm
+d:Ge/Poco5e15/HL			= 0.04 mm
+d:Ge/Poco5e15/TransX			= -38.60 mm
+d:Ge/Poco5e15/TransY			= 31.53 mm
+d:Ge/Poco5e15/TransZ			= 0 mm
+
+s:Ge/Poco5e16/Material			= "G4_WATER"
+s:Ge/Poco5e16/Parent			= "Camada1"
+s:Ge/Poco5e16/Type			= "TsCylinder"
+d:Ge/Poco5e16/RMax			= 3.375 mm
+d:Ge/Poco5e16/RMin			= 0. mm
+d:Ge/Poco5e16/HL			= 0.04 mm
+d:Ge/Poco5e16/TransX			= -38.60 mm
+d:Ge/Poco5e16/TransY			= 40.51 mm
+d:Ge/Poco5e16/TransZ			= 0 mm
+
+s:Ge/Poco5e17/Material			= "G4_WATER"
+s:Ge/Poco5e17/Parent			= "Camada1"
+s:Ge/Poco5e17/Type			= "TsCylinder"
+d:Ge/Poco5e17/RMax			= 3.375 mm
+d:Ge/Poco5e17/RMin			= 0. mm
+d:Ge/Poco5e17/HL			= 0.04 mm
+d:Ge/Poco5e17/TransX			= -38.60 mm
+d:Ge/Poco5e17/TransY			= 49.41 mm
+d:Ge/Poco5e17/TransZ			= 0 mm
+
+s:Ge/Poco5e18/Material			= "G4_WATER"
+s:Ge/Poco5e18/Parent			= "Camada1"
+s:Ge/Poco5e18/Type			= "TsCylinder"
+d:Ge/Poco5e18/RMax			= 3.375 mm
+d:Ge/Poco5e18/RMin			= 0. mm
+d:Ge/Poco5e18/HL			= 0.04 mm
+d:Ge/Poco5e18/TransX			= -38.60 mm
+d:Ge/Poco5e18/TransY			= 58.39 mm
+d:Ge/Poco5e18/TransZ			= 0 mm
+
+s:Ge/Poco5e19/Material			= "G4_WATER"
+s:Ge/Poco5e19/Parent			= "Camada1"
+s:Ge/Poco5e19/Type			= "TsCylinder"
+d:Ge/Poco5e19/RMax			= 3.375 mm
+d:Ge/Poco5e19/RMin			= 0. mm
+d:Ge/Poco5e19/HL			= 0.04 mm
+d:Ge/Poco5e19/TransX			= -38.60 mm
+d:Ge/Poco5e19/TransY			= 67.37 mm
+d:Ge/Poco5e19/TransZ			= 0 mm
+
+s:Ge/Poco5e20/Material			= "G4_WATER"
+s:Ge/Poco5e20/Parent			= "Camada1"
+s:Ge/Poco5e20/Type			= "TsCylinder"
+d:Ge/Poco5e20/RMax			= 3.375 mm
+d:Ge/Poco5e20/RMin			= 0. mm
+d:Ge/Poco5e20/HL			= 0.04 mm
+d:Ge/Poco5e20/TransX			= -38.60 mm
+d:Ge/Poco5e20/TransY			= 76.35 mm
+d:Ge/Poco5e20/TransZ			= 0 mm
+
+s:Ge/Poco5e21/Material			= "G4_WATER"
+s:Ge/Poco5e21/Parent			= "Camada1"
+s:Ge/Poco5e21/Type			= "TsCylinder"
+d:Ge/Poco5e21/RMax			= 3.375 mm
+d:Ge/Poco5e21/RMin			= 0. mm
+d:Ge/Poco5e21/HL			= 0.04 mm
+d:Ge/Poco5e21/TransX			= -38.60 mm
+d:Ge/Poco5e21/TransY			= 85.33 mm
+d:Ge/Poco5e21/TransZ			= 0 mm
+
+s:Ge/Poco5e22/Material			= "G4_WATER"
+s:Ge/Poco5e22/Parent			= "Camada1"
+s:Ge/Poco5e22/Type			= "TsCylinder"
+d:Ge/Poco5e22/RMax			= 3.375 mm
+d:Ge/Poco5e22/RMin			= 0. mm
+d:Ge/Poco5e22/HL			= 0.04 mm
+d:Ge/Poco5e22/TransX			= -38.60 mm
+d:Ge/Poco5e22/TransY			= 94.31 mm
+d:Ge/Poco5e22/TransZ			= 0 mm
+
+s:Ge/Poco5e23/Material			= "G4_WATER"
+s:Ge/Poco5e23/Parent			= "Camada1"
+s:Ge/Poco5e23/Type			= "TsCylinder"
+d:Ge/Poco5e23/RMax			= 3.375 mm
+d:Ge/Poco5e23/RMin			= 0. mm
+d:Ge/Poco5e23/HL			= 0.04 mm
+d:Ge/Poco5e23/TransX			= -38.60 mm
+d:Ge/Poco5e23/TransY			= 103.29 mm
+d:Ge/Poco5e23/TransZ			= 0 mm
+
+s:Ge/Poco5e24/Material			= "G4_WATER"
+s:Ge/Poco5e24/Parent			= "Camada1"
+s:Ge/Poco5e24/Type			= "TsCylinder"
+d:Ge/Poco5e24/RMax			= 3.375 mm
+d:Ge/Poco5e24/RMin			= 0. mm
+d:Ge/Poco5e24/HL			= 0.04 mm
+d:Ge/Poco5e24/TransX			= -38.60 mm
+d:Ge/Poco5e24/TransY			= 112.27 mm
+d:Ge/Poco5e24/TransZ			= 0 mm
+
+s:Ge/Poco6e1/Material			= "G4_WATER"
+s:Ge/Poco6e1/Parent			= "Camada1"
+s:Ge/Poco6e1/Type			= "TsCylinder"
+d:Ge/Poco6e1/RMax			= 3.375 mm
+d:Ge/Poco6e1/RMin			= 0. mm
+d:Ge/Poco6e1/HL			= 0.04 mm
+d:Ge/Poco6e1/TransX			= -29.62 mm
+d:Ge/Poco6e1/TransY			= -112.27 mm
+d:Ge/Poco6e1/TransZ			= 0 mm
+
+s:Ge/Poco6e2/Material			= "G4_WATER"
+s:Ge/Poco6e2/Parent			= "Camada1"
+s:Ge/Poco6e2/Type			= "TsCylinder"
+d:Ge/Poco6e2/RMax			= 3.375 mm
+d:Ge/Poco6e2/RMin			= 0. mm
+d:Ge/Poco6e2/HL			= 0.04 mm
+d:Ge/Poco6e2/TransX			= -29.62 mm
+d:Ge/Poco6e2/TransY			= -103.29 mm
+d:Ge/Poco6e2/TransZ			= 0 mm
+
+s:Ge/Poco6e3/Material			= "G4_WATER"
+s:Ge/Poco6e3/Parent			= "Camada1"
+s:Ge/Poco6e3/Type			= "TsCylinder"
+d:Ge/Poco6e3/RMax			= 3.375 mm
+d:Ge/Poco6e3/RMin			= 0. mm
+d:Ge/Poco6e3/HL			= 0.04 mm
+d:Ge/Poco6e3/TransX			= -29.62 mm
+d:Ge/Poco6e3/TransY			= -94.31 mm
+d:Ge/Poco6e3/TransZ			= 0 mm
+
+s:Ge/Poco6e4/Material			= "G4_WATER"
+s:Ge/Poco6e4/Parent			= "Camada1"
+s:Ge/Poco6e4/Type			= "TsCylinder"
+d:Ge/Poco6e4/RMax			= 3.375 mm
+d:Ge/Poco6e4/RMin			= 0. mm
+d:Ge/Poco6e4/HL			= 0.04 mm
+d:Ge/Poco6e4/TransX			= -29.62 mm
+d:Ge/Poco6e4/TransY			= -85.33 mm
+d:Ge/Poco6e4/TransZ			= 0 mm
+
+s:Ge/Poco6e5/Material			= "G4_WATER"
+s:Ge/Poco6e5/Parent			= "Camada1"
+s:Ge/Poco6e5/Type			= "TsCylinder"
+d:Ge/Poco6e5/RMax			= 3.375 mm
+d:Ge/Poco6e5/RMin			= 0. mm
+d:Ge/Poco6e5/HL			= 0.04 mm
+d:Ge/Poco6e5/TransX			= -29.62 mm
+d:Ge/Poco6e5/TransY			= -76.35 mm
+d:Ge/Poco6e5/TransZ			= 0 mm
+
+s:Ge/Poco6e6/Material			= "G4_WATER"
+s:Ge/Poco6e6/Parent			= "Camada1"
+s:Ge/Poco6e6/Type			= "TsCylinder"
+d:Ge/Poco6e6/RMax			= 3.375 mm
+d:Ge/Poco6e6/RMin			= 0. mm
+d:Ge/Poco6e6/HL			= 0.04 mm
+d:Ge/Poco6e6/TransX			= -29.62 mm
+d:Ge/Poco6e6/TransY			= -67.37 mm
+d:Ge/Poco6e6/TransZ			= 0 mm
+
+s:Ge/Poco6e7/Material			= "G4_WATER"
+s:Ge/Poco6e7/Parent			= "Camada1"
+s:Ge/Poco6e7/Type			= "TsCylinder"
+d:Ge/Poco6e7/RMax			= 3.375 mm
+d:Ge/Poco6e7/RMin			= 0. mm
+d:Ge/Poco6e7/HL			= 0.04 mm
+d:Ge/Poco6e7/TransX			= -29.62 mm
+d:Ge/Poco6e7/TransY			= -58.39 mm
+d:Ge/Poco6e7/TransZ			= 0 mm
+
+s:Ge/Poco6e8/Material			= "G4_WATER"
+s:Ge/Poco6e8/Parent			= "Camada1"
+s:Ge/Poco6e8/Type			= "TsCylinder"
+d:Ge/Poco6e8/RMax			= 3.375 mm
+d:Ge/Poco6e8/RMin			= 0. mm
+d:Ge/Poco6e8/HL			= 0.04 mm
+d:Ge/Poco6e8/TransX			= -29.62 mm
+d:Ge/Poco6e8/TransY			= -49.41 mm
+d:Ge/Poco6e8/TransZ			= 0 mm
+
+s:Ge/Poco6e9/Material			= "G4_WATER"
+s:Ge/Poco6e9/Parent			= "Camada1"
+s:Ge/Poco6e9/Type			= "TsCylinder"
+d:Ge/Poco6e9/RMax			= 3.375 mm
+d:Ge/Poco6e9/RMin			= 0. mm
+d:Ge/Poco6e9/HL			= 0.04 mm
+d:Ge/Poco6e9/TransX			= -29.62 mm
+d:Ge/Poco6e9/TransY			= -40.51 mm
+d:Ge/Poco6e9/TransZ			= 0 mm
+
+s:Ge/Poco6e10/Material			= "G4_WATER"
+s:Ge/Poco6e10/Parent			= "Camada1"
+s:Ge/Poco6e10/Type			= "TsCylinder"
+d:Ge/Poco6e10/RMax			= 3.375 mm
+d:Ge/Poco6e10/RMin			= 0. mm
+d:Ge/Poco6e10/HL			= 0.04 mm
+d:Ge/Poco6e10/TransX			= -29.62 mm
+d:Ge/Poco6e10/TransY			= -31.53 mm
+d:Ge/Poco6e10/TransZ			= 0 mm
+
+s:Ge/Poco6e11/Material			= "G4_WATER"
+s:Ge/Poco6e11/Parent			= "Camada1"
+s:Ge/Poco6e11/Type			= "TsCylinder"
+d:Ge/Poco6e11/RMax			= 3.375 mm
+d:Ge/Poco6e11/RMin			= 0. mm
+d:Ge/Poco6e11/HL			= 0.04 mm
+d:Ge/Poco6e11/TransX			= -29.62 mm
+d:Ge/Poco6e11/TransY			= -22.55 mm
+d:Ge/Poco6e11/TransZ			= 0 mm
+
+s:Ge/Poco6e12/Material			= "G4_WATER"
+s:Ge/Poco6e12/Parent			= "Camada1"
+s:Ge/Poco6e12/Type			= "TsCylinder"
+d:Ge/Poco6e12/RMax			= 3.375 mm
+d:Ge/Poco6e12/RMin			= 0. mm
+d:Ge/Poco6e12/HL			= 0.04 mm
+d:Ge/Poco6e12/TransX			= -29.62 mm
+d:Ge/Poco6e12/TransY			= -13.54 mm
+d:Ge/Poco6e12/TransZ			= 0 mm
+
+s:Ge/Poco6e13/Material			= "G4_WATER"
+s:Ge/Poco6e13/Parent			= "Camada1"
+s:Ge/Poco6e13/Type			= "TsCylinder"
+d:Ge/Poco6e13/RMax			= 3.375 mm
+d:Ge/Poco6e13/RMin			= 0. mm
+d:Ge/Poco6e13/HL			= 0.04 mm
+d:Ge/Poco6e13/TransX			= -29.62 mm
+d:Ge/Poco6e13/TransY			= 13.54 mm
+d:Ge/Poco6e13/TransZ			= 0 mm
+
+s:Ge/Poco6e14/Material			= "G4_WATER"
+s:Ge/Poco6e14/Parent			= "Camada1"
+s:Ge/Poco6e14/Type			= "TsCylinder"
+d:Ge/Poco6e14/RMax			= 3.375 mm
+d:Ge/Poco6e14/RMin			= 0. mm
+d:Ge/Poco6e14/HL			= 0.04 mm
+d:Ge/Poco6e14/TransX			= -29.62 mm
+d:Ge/Poco6e14/TransY			= 22.55 mm
+d:Ge/Poco6e14/TransZ			= 0 mm
+
+s:Ge/Poco6e15/Material			= "G4_WATER"
+s:Ge/Poco6e15/Parent			= "Camada1"
+s:Ge/Poco6e15/Type			= "TsCylinder"
+d:Ge/Poco6e15/RMax			= 3.375 mm
+d:Ge/Poco6e15/RMin			= 0. mm
+d:Ge/Poco6e15/HL			= 0.04 mm
+d:Ge/Poco6e15/TransX			= -29.62 mm
+d:Ge/Poco6e15/TransY			= 31.53 mm
+d:Ge/Poco6e15/TransZ			= 0 mm
+
+s:Ge/Poco6e16/Material			= "G4_WATER"
+s:Ge/Poco6e16/Parent			= "Camada1"
+s:Ge/Poco6e16/Type			= "TsCylinder"
+d:Ge/Poco6e16/RMax			= 3.375 mm
+d:Ge/Poco6e16/RMin			= 0. mm
+d:Ge/Poco6e16/HL			= 0.04 mm
+d:Ge/Poco6e16/TransX			= -29.62 mm
+d:Ge/Poco6e16/TransY			= 40.51 mm
+d:Ge/Poco6e16/TransZ			= 0 mm
+
+s:Ge/Poco6e17/Material			= "G4_WATER"
+s:Ge/Poco6e17/Parent			= "Camada1"
+s:Ge/Poco6e17/Type			= "TsCylinder"
+d:Ge/Poco6e17/RMax			= 3.375 mm
+d:Ge/Poco6e17/RMin			= 0. mm
+d:Ge/Poco6e17/HL			= 0.04 mm
+d:Ge/Poco6e17/TransX			= -29.62 mm
+d:Ge/Poco6e17/TransY			= 49.41 mm
+d:Ge/Poco6e17/TransZ			= 0 mm
+
+s:Ge/Poco6e18/Material			= "G4_WATER"
+s:Ge/Poco6e18/Parent			= "Camada1"
+s:Ge/Poco6e18/Type			= "TsCylinder"
+d:Ge/Poco6e18/RMax			= 3.375 mm
+d:Ge/Poco6e18/RMin			= 0. mm
+d:Ge/Poco6e18/HL			= 0.04 mm
+d:Ge/Poco6e18/TransX			= -29.62 mm
+d:Ge/Poco6e18/TransY			= 58.39 mm
+d:Ge/Poco6e18/TransZ			= 0 mm
+
+s:Ge/Poco6e19/Material			= "G4_WATER"
+s:Ge/Poco6e19/Parent			= "Camada1"
+s:Ge/Poco6e19/Type			= "TsCylinder"
+d:Ge/Poco6e19/RMax			= 3.375 mm
+d:Ge/Poco6e19/RMin			= 0. mm
+d:Ge/Poco6e19/HL			= 0.04 mm
+d:Ge/Poco6e19/TransX			= -29.62 mm
+d:Ge/Poco6e19/TransY			= 67.37 mm
+d:Ge/Poco6e19/TransZ			= 0 mm
+
+s:Ge/Poco6e20/Material			= "G4_WATER"
+s:Ge/Poco6e20/Parent			= "Camada1"
+s:Ge/Poco6e20/Type			= "TsCylinder"
+d:Ge/Poco6e20/RMax			= 3.375 mm
+d:Ge/Poco6e20/RMin			= 0. mm
+d:Ge/Poco6e20/HL			= 0.04 mm
+d:Ge/Poco6e20/TransX			= -29.62 mm
+d:Ge/Poco6e20/TransY			= 76.35 mm
+d:Ge/Poco6e20/TransZ			= 0 mm
+
+s:Ge/Poco6e21/Material			= "G4_WATER"
+s:Ge/Poco6e21/Parent			= "Camada1"
+s:Ge/Poco6e21/Type			= "TsCylinder"
+d:Ge/Poco6e21/RMax			= 3.375 mm
+d:Ge/Poco6e21/RMin			= 0. mm
+d:Ge/Poco6e21/HL			= 0.04 mm
+d:Ge/Poco6e21/TransX			= -29.62 mm
+d:Ge/Poco6e21/TransY			= 85.33 mm
+d:Ge/Poco6e21/TransZ			= 0 mm
+
+s:Ge/Poco6e22/Material			= "G4_WATER"
+s:Ge/Poco6e22/Parent			= "Camada1"
+s:Ge/Poco6e22/Type			= "TsCylinder"
+d:Ge/Poco6e22/RMax			= 3.375 mm
+d:Ge/Poco6e22/RMin			= 0. mm
+d:Ge/Poco6e22/HL			= 0.04 mm
+d:Ge/Poco6e22/TransX			= -29.62 mm
+d:Ge/Poco6e22/TransY			= 94.31 mm
+d:Ge/Poco6e22/TransZ			= 0 mm
+
+s:Ge/Poco6e23/Material			= "G4_WATER"
+s:Ge/Poco6e23/Parent			= "Camada1"
+s:Ge/Poco6e23/Type			= "TsCylinder"
+d:Ge/Poco6e23/RMax			= 3.375 mm
+d:Ge/Poco6e23/RMin			= 0. mm
+d:Ge/Poco6e23/HL			= 0.04 mm
+d:Ge/Poco6e23/TransX			= -29.62 mm
+d:Ge/Poco6e23/TransY			= 103.29 mm
+d:Ge/Poco6e23/TransZ			= 0 mm
+
+s:Ge/Poco6e24/Material			= "G4_WATER"
+s:Ge/Poco6e24/Parent			= "Camada1"
+s:Ge/Poco6e24/Type			= "TsCylinder"
+d:Ge/Poco6e24/RMax			= 3.375 mm
+d:Ge/Poco6e24/RMin			= 0. mm
+d:Ge/Poco6e24/HL			= 0.04 mm
+d:Ge/Poco6e24/TransX			= -29.62 mm
+d:Ge/Poco6e24/TransY			= 112.27 mm
+d:Ge/Poco6e24/TransZ			= 0 mm
+
+s:Ge/Poco7e1/Material			= "G4_WATER"
+s:Ge/Poco7e1/Parent			= "Camada1"
+s:Ge/Poco7e1/Type			= "TsCylinder"
+d:Ge/Poco7e1/RMax			= 3.375 mm
+d:Ge/Poco7e1/RMin			= 0. mm
+d:Ge/Poco7e1/HL			= 0.04 mm
+d:Ge/Poco7e1/TransX			= -20.64 mm
+d:Ge/Poco7e1/TransY			= -112.27 mm
+d:Ge/Poco7e1/TransZ			= 0 mm
+
+s:Ge/Poco7e2/Material			= "G4_WATER"
+s:Ge/Poco7e2/Parent			= "Camada1"
+s:Ge/Poco7e2/Type			= "TsCylinder"
+d:Ge/Poco7e2/RMax			= 3.375 mm
+d:Ge/Poco7e2/RMin			= 0. mm
+d:Ge/Poco7e2/HL			= 0.04 mm
+d:Ge/Poco7e2/TransX			= -20.64 mm
+d:Ge/Poco7e2/TransY			= -103.29 mm
+d:Ge/Poco7e2/TransZ			= 0 mm
+
+s:Ge/Poco7e3/Material			= "G4_WATER"
+s:Ge/Poco7e3/Parent			= "Camada1"
+s:Ge/Poco7e3/Type			= "TsCylinder"
+d:Ge/Poco7e3/RMax			= 3.375 mm
+d:Ge/Poco7e3/RMin			= 0. mm
+d:Ge/Poco7e3/HL			= 0.04 mm
+d:Ge/Poco7e3/TransX			= -20.64 mm
+d:Ge/Poco7e3/TransY			= -94.31 mm
+d:Ge/Poco7e3/TransZ			= 0 mm
+
+s:Ge/Poco7e4/Material			= "G4_WATER"
+s:Ge/Poco7e4/Parent			= "Camada1"
+s:Ge/Poco7e4/Type			= "TsCylinder"
+d:Ge/Poco7e4/RMax			= 3.375 mm
+d:Ge/Poco7e4/RMin			= 0. mm
+d:Ge/Poco7e4/HL			= 0.04 mm
+d:Ge/Poco7e4/TransX			= -20.64 mm
+d:Ge/Poco7e4/TransY			= -85.33 mm
+d:Ge/Poco7e4/TransZ			= 0 mm
+
+s:Ge/Poco7e5/Material			= "G4_WATER"
+s:Ge/Poco7e5/Parent			= "Camada1"
+s:Ge/Poco7e5/Type			= "TsCylinder"
+d:Ge/Poco7e5/RMax			= 3.375 mm
+d:Ge/Poco7e5/RMin			= 0. mm
+d:Ge/Poco7e5/HL			= 0.04 mm
+d:Ge/Poco7e5/TransX			= -20.64 mm
+d:Ge/Poco7e5/TransY			= -76.35 mm
+d:Ge/Poco7e5/TransZ			= 0 mm
+
+s:Ge/Poco7e6/Material			= "G4_WATER"
+s:Ge/Poco7e6/Parent			= "Camada1"
+s:Ge/Poco7e6/Type			= "TsCylinder"
+d:Ge/Poco7e6/RMax			= 3.375 mm
+d:Ge/Poco7e6/RMin			= 0. mm
+d:Ge/Poco7e6/HL			= 0.04 mm
+d:Ge/Poco7e6/TransX			= -20.64 mm
+d:Ge/Poco7e6/TransY			= -67.37 mm
+d:Ge/Poco7e6/TransZ			= 0 mm
+
+s:Ge/Poco7e7/Material			= "G4_WATER"
+s:Ge/Poco7e7/Parent			= "Camada1"
+s:Ge/Poco7e7/Type			= "TsCylinder"
+d:Ge/Poco7e7/RMax			= 3.375 mm
+d:Ge/Poco7e7/RMin			= 0. mm
+d:Ge/Poco7e7/HL			= 0.04 mm
+d:Ge/Poco7e7/TransX			= -20.64 mm
+d:Ge/Poco7e7/TransY			= -58.39 mm
+d:Ge/Poco7e7/TransZ			= 0 mm
+
+s:Ge/Poco7e8/Material			= "G4_WATER"
+s:Ge/Poco7e8/Parent			= "Camada1"
+s:Ge/Poco7e8/Type			= "TsCylinder"
+d:Ge/Poco7e8/RMax			= 3.375 mm
+d:Ge/Poco7e8/RMin			= 0. mm
+d:Ge/Poco7e8/HL			= 0.04 mm
+d:Ge/Poco7e8/TransX			= -20.64 mm
+d:Ge/Poco7e8/TransY			= -49.41 mm
+d:Ge/Poco7e8/TransZ			= 0 mm
+
+s:Ge/Poco7e9/Material			= "G4_WATER"
+s:Ge/Poco7e9/Parent			= "Camada1"
+s:Ge/Poco7e9/Type			= "TsCylinder"
+d:Ge/Poco7e9/RMax			= 3.375 mm
+d:Ge/Poco7e9/RMin			= 0. mm
+d:Ge/Poco7e9/HL			= 0.04 mm
+d:Ge/Poco7e9/TransX			= -20.64 mm
+d:Ge/Poco7e9/TransY			= -40.51 mm
+d:Ge/Poco7e9/TransZ			= 0 mm
+
+s:Ge/Poco7e10/Material			= "G4_WATER"
+s:Ge/Poco7e10/Parent			= "Camada1"
+s:Ge/Poco7e10/Type			= "TsCylinder"
+d:Ge/Poco7e10/RMax			= 3.375 mm
+d:Ge/Poco7e10/RMin			= 0. mm
+d:Ge/Poco7e10/HL			= 0.04 mm
+d:Ge/Poco7e10/TransX			= -20.64 mm
+d:Ge/Poco7e10/TransY			= -31.53 mm
+d:Ge/Poco7e10/TransZ			= 0 mm
+
+s:Ge/Poco7e11/Material			= "G4_WATER"
+s:Ge/Poco7e11/Parent			= "Camada1"
+s:Ge/Poco7e11/Type			= "TsCylinder"
+d:Ge/Poco7e11/RMax			= 3.375 mm
+d:Ge/Poco7e11/RMin			= 0. mm
+d:Ge/Poco7e11/HL			= 0.04 mm
+d:Ge/Poco7e11/TransX			= -20.64 mm
+d:Ge/Poco7e11/TransY			= -22.55 mm
+d:Ge/Poco7e11/TransZ			= 0 mm
+
+s:Ge/Poco7e12/Material			= "G4_WATER"
+s:Ge/Poco7e12/Parent			= "Camada1"
+s:Ge/Poco7e12/Type			= "TsCylinder"
+d:Ge/Poco7e12/RMax			= 3.375 mm
+d:Ge/Poco7e12/RMin			= 0. mm
+d:Ge/Poco7e12/HL			= 0.04 mm
+d:Ge/Poco7e12/TransX			= -20.64 mm
+d:Ge/Poco7e12/TransY			= -13.54 mm
+d:Ge/Poco7e12/TransZ			= 0 mm
+
+s:Ge/Poco7e13/Material			= "G4_WATER"
+s:Ge/Poco7e13/Parent			= "Camada1"
+s:Ge/Poco7e13/Type			= "TsCylinder"
+d:Ge/Poco7e13/RMax			= 3.375 mm
+d:Ge/Poco7e13/RMin			= 0. mm
+d:Ge/Poco7e13/HL			= 0.04 mm
+d:Ge/Poco7e13/TransX			= -20.64 mm
+d:Ge/Poco7e13/TransY			= 13.54 mm
+d:Ge/Poco7e13/TransZ			= 0 mm
+
+s:Ge/Poco7e14/Material			= "G4_WATER"
+s:Ge/Poco7e14/Parent			= "Camada1"
+s:Ge/Poco7e14/Type			= "TsCylinder"
+d:Ge/Poco7e14/RMax			= 3.375 mm
+d:Ge/Poco7e14/RMin			= 0. mm
+d:Ge/Poco7e14/HL			= 0.04 mm
+d:Ge/Poco7e14/TransX			= -20.64 mm
+d:Ge/Poco7e14/TransY			= 22.55 mm
+d:Ge/Poco7e14/TransZ			= 0 mm
+
+s:Ge/Poco7e15/Material			= "G4_WATER"
+s:Ge/Poco7e15/Parent			= "Camada1"
+s:Ge/Poco7e15/Type			= "TsCylinder"
+d:Ge/Poco7e15/RMax			= 3.375 mm
+d:Ge/Poco7e15/RMin			= 0. mm
+d:Ge/Poco7e15/HL			= 0.04 mm
+d:Ge/Poco7e15/TransX			= -20.64 mm
+d:Ge/Poco7e15/TransY			= 31.53 mm
+d:Ge/Poco7e15/TransZ			= 0 mm
+
+s:Ge/Poco7e16/Material			= "G4_WATER"
+s:Ge/Poco7e16/Parent			= "Camada1"
+s:Ge/Poco7e16/Type			= "TsCylinder"
+d:Ge/Poco7e16/RMax			= 3.375 mm
+d:Ge/Poco7e16/RMin			= 0. mm
+d:Ge/Poco7e16/HL			= 0.04 mm
+d:Ge/Poco7e16/TransX			= -20.64 mm
+d:Ge/Poco7e16/TransY			= 40.51 mm
+d:Ge/Poco7e16/TransZ			= 0 mm
+
+s:Ge/Poco7e17/Material			= "G4_WATER"
+s:Ge/Poco7e17/Parent			= "Camada1"
+s:Ge/Poco7e17/Type			= "TsCylinder"
+d:Ge/Poco7e17/RMax			= 3.375 mm
+d:Ge/Poco7e17/RMin			= 0. mm
+d:Ge/Poco7e17/HL			= 0.04 mm
+d:Ge/Poco7e17/TransX			= -20.64 mm
+d:Ge/Poco7e17/TransY			= 49.41 mm
+d:Ge/Poco7e17/TransZ			= 0 mm
+
+s:Ge/Poco7e18/Material			= "G4_WATER"
+s:Ge/Poco7e18/Parent			= "Camada1"
+s:Ge/Poco7e18/Type			= "TsCylinder"
+d:Ge/Poco7e18/RMax			= 3.375 mm
+d:Ge/Poco7e18/RMin			= 0. mm
+d:Ge/Poco7e18/HL			= 0.04 mm
+d:Ge/Poco7e18/TransX			= -20.64 mm
+d:Ge/Poco7e18/TransY			= 58.39 mm
+d:Ge/Poco7e18/TransZ			= 0 mm
+
+s:Ge/Poco7e19/Material			= "G4_WATER"
+s:Ge/Poco7e19/Parent			= "Camada1"
+s:Ge/Poco7e19/Type			= "TsCylinder"
+d:Ge/Poco7e19/RMax			= 3.375 mm
+d:Ge/Poco7e19/RMin			= 0. mm
+d:Ge/Poco7e19/HL			= 0.04 mm
+d:Ge/Poco7e19/TransX			= -20.64 mm
+d:Ge/Poco7e19/TransY			= 67.37 mm
+d:Ge/Poco7e19/TransZ			= 0 mm
+
+s:Ge/Poco7e20/Material			= "G4_WATER"
+s:Ge/Poco7e20/Parent			= "Camada1"
+s:Ge/Poco7e20/Type			= "TsCylinder"
+d:Ge/Poco7e20/RMax			= 3.375 mm
+d:Ge/Poco7e20/RMin			= 0. mm
+d:Ge/Poco7e20/HL			= 0.04 mm
+d:Ge/Poco7e20/TransX			= -20.64 mm
+d:Ge/Poco7e20/TransY			= 76.35 mm
+d:Ge/Poco7e20/TransZ			= 0 mm
+
+s:Ge/Poco7e21/Material			= "G4_WATER"
+s:Ge/Poco7e21/Parent			= "Camada1"
+s:Ge/Poco7e21/Type			= "TsCylinder"
+d:Ge/Poco7e21/RMax			= 3.375 mm
+d:Ge/Poco7e21/RMin			= 0. mm
+d:Ge/Poco7e21/HL			= 0.04 mm
+d:Ge/Poco7e21/TransX			= -20.64 mm
+d:Ge/Poco7e21/TransY			= 85.33 mm
+d:Ge/Poco7e21/TransZ			= 0 mm
+
+s:Ge/Poco7e22/Material			= "G4_WATER"
+s:Ge/Poco7e22/Parent			= "Camada1"
+s:Ge/Poco7e22/Type			= "TsCylinder"
+d:Ge/Poco7e22/RMax			= 3.375 mm
+d:Ge/Poco7e22/RMin			= 0. mm
+d:Ge/Poco7e22/HL			= 0.04 mm
+d:Ge/Poco7e22/TransX			= -20.64 mm
+d:Ge/Poco7e22/TransY			= 94.31 mm
+d:Ge/Poco7e22/TransZ			= 0 mm
+
+s:Ge/Poco7e23/Material			= "G4_WATER"
+s:Ge/Poco7e23/Parent			= "Camada1"
+s:Ge/Poco7e23/Type			= "TsCylinder"
+d:Ge/Poco7e23/RMax			= 3.375 mm
+d:Ge/Poco7e23/RMin			= 0. mm
+d:Ge/Poco7e23/HL			= 0.04 mm
+d:Ge/Poco7e23/TransX			= -20.64 mm
+d:Ge/Poco7e23/TransY			= 103.29 mm
+d:Ge/Poco7e23/TransZ			= 0 mm
+
+s:Ge/Poco7e24/Material			= "G4_WATER"
+s:Ge/Poco7e24/Parent			= "Camada1"
+s:Ge/Poco7e24/Type			= "TsCylinder"
+d:Ge/Poco7e24/RMax			= 3.375 mm
+d:Ge/Poco7e24/RMin			= 0. mm
+d:Ge/Poco7e24/HL			= 0.04 mm
+d:Ge/Poco7e24/TransX			= -20.64 mm
+d:Ge/Poco7e24/TransY			= 112.27 mm
+d:Ge/Poco7e24/TransZ			= 0 mm
+
+s:Ge/Poco8e1/Material			= "G4_WATER"
+s:Ge/Poco8e1/Parent			= "Camada1"
+s:Ge/Poco8e1/Type			= "TsCylinder"
+d:Ge/Poco8e1/RMax			= 3.375 mm
+d:Ge/Poco8e1/RMin			= 0. mm
+d:Ge/Poco8e1/HL			= 0.04 mm
+d:Ge/Poco8e1/TransX			= -11.66 mm
+d:Ge/Poco8e1/TransY			= -112.27 mm
+d:Ge/Poco8e1/TransZ			= 0 mm
+
+s:Ge/Poco8e2/Material			= "G4_WATER"
+s:Ge/Poco8e2/Parent			= "Camada1"
+s:Ge/Poco8e2/Type			= "TsCylinder"
+d:Ge/Poco8e2/RMax			= 3.375 mm
+d:Ge/Poco8e2/RMin			= 0. mm
+d:Ge/Poco8e2/HL			= 0.04 mm
+d:Ge/Poco8e2/TransX			= -11.66 mm
+d:Ge/Poco8e2/TransY			= -103.29 mm
+d:Ge/Poco8e2/TransZ			= 0 mm
+
+s:Ge/Poco8e3/Material			= "G4_WATER"
+s:Ge/Poco8e3/Parent			= "Camada1"
+s:Ge/Poco8e3/Type			= "TsCylinder"
+d:Ge/Poco8e3/RMax			= 3.375 mm
+d:Ge/Poco8e3/RMin			= 0. mm
+d:Ge/Poco8e3/HL			= 0.04 mm
+d:Ge/Poco8e3/TransX			= -11.66 mm
+d:Ge/Poco8e3/TransY			= -94.31 mm
+d:Ge/Poco8e3/TransZ			= 0 mm
+
+s:Ge/Poco8e4/Material			= "G4_WATER"
+s:Ge/Poco8e4/Parent			= "Camada1"
+s:Ge/Poco8e4/Type			= "TsCylinder"
+d:Ge/Poco8e4/RMax			= 3.375 mm
+d:Ge/Poco8e4/RMin			= 0. mm
+d:Ge/Poco8e4/HL			= 0.04 mm
+d:Ge/Poco8e4/TransX			= -11.66 mm
+d:Ge/Poco8e4/TransY			= -85.33 mm
+d:Ge/Poco8e4/TransZ			= 0 mm
+
+s:Ge/Poco8e5/Material			= "G4_WATER"
+s:Ge/Poco8e5/Parent			= "Camada1"
+s:Ge/Poco8e5/Type			= "TsCylinder"
+d:Ge/Poco8e5/RMax			= 3.375 mm
+d:Ge/Poco8e5/RMin			= 0. mm
+d:Ge/Poco8e5/HL			= 0.04 mm
+d:Ge/Poco8e5/TransX			= -11.66 mm
+d:Ge/Poco8e5/TransY			= -76.35 mm
+d:Ge/Poco8e5/TransZ			= 0 mm
+
+s:Ge/Poco8e6/Material			= "G4_WATER"
+s:Ge/Poco8e6/Parent			= "Camada1"
+s:Ge/Poco8e6/Type			= "TsCylinder"
+d:Ge/Poco8e6/RMax			= 3.375 mm
+d:Ge/Poco8e6/RMin			= 0. mm
+d:Ge/Poco8e6/HL			= 0.04 mm
+d:Ge/Poco8e6/TransX			= -11.66 mm
+d:Ge/Poco8e6/TransY			= -67.37 mm
+d:Ge/Poco8e6/TransZ			= 0 mm
+
+s:Ge/Poco8e7/Material			= "G4_WATER"
+s:Ge/Poco8e7/Parent			= "Camada1"
+s:Ge/Poco8e7/Type			= "TsCylinder"
+d:Ge/Poco8e7/RMax			= 3.375 mm
+d:Ge/Poco8e7/RMin			= 0. mm
+d:Ge/Poco8e7/HL			= 0.04 mm
+d:Ge/Poco8e7/TransX			= -11.66 mm
+d:Ge/Poco8e7/TransY			= -58.39 mm
+d:Ge/Poco8e7/TransZ			= 0 mm
+
+s:Ge/Poco8e8/Material			= "G4_WATER"
+s:Ge/Poco8e8/Parent			= "Camada1"
+s:Ge/Poco8e8/Type			= "TsCylinder"
+d:Ge/Poco8e8/RMax			= 3.375 mm
+d:Ge/Poco8e8/RMin			= 0. mm
+d:Ge/Poco8e8/HL			= 0.04 mm
+d:Ge/Poco8e8/TransX			= -11.66 mm
+d:Ge/Poco8e8/TransY			= -49.41 mm
+d:Ge/Poco8e8/TransZ			= 0 mm
+
+s:Ge/Poco8e9/Material			= "G4_WATER"
+s:Ge/Poco8e9/Parent			= "Camada1"
+s:Ge/Poco8e9/Type			= "TsCylinder"
+d:Ge/Poco8e9/RMax			= 3.375 mm
+d:Ge/Poco8e9/RMin			= 0. mm
+d:Ge/Poco8e9/HL			= 0.04 mm
+d:Ge/Poco8e9/TransX			= -11.66 mm
+d:Ge/Poco8e9/TransY			= -40.51 mm
+d:Ge/Poco8e9/TransZ			= 0 mm
+
+s:Ge/Poco8e10/Material			= "G4_WATER"
+s:Ge/Poco8e10/Parent			= "Camada1"
+s:Ge/Poco8e10/Type			= "TsCylinder"
+d:Ge/Poco8e10/RMax			= 3.375 mm
+d:Ge/Poco8e10/RMin			= 0. mm
+d:Ge/Poco8e10/HL			= 0.04 mm
+d:Ge/Poco8e10/TransX			= -11.66 mm
+d:Ge/Poco8e10/TransY			= -31.53 mm
+d:Ge/Poco8e10/TransZ			= 0 mm
+
+s:Ge/Poco8e11/Material			= "G4_WATER"
+s:Ge/Poco8e11/Parent			= "Camada1"
+s:Ge/Poco8e11/Type			= "TsCylinder"
+d:Ge/Poco8e11/RMax			= 3.375 mm
+d:Ge/Poco8e11/RMin			= 0. mm
+d:Ge/Poco8e11/HL			= 0.04 mm
+d:Ge/Poco8e11/TransX			= -11.66 mm
+d:Ge/Poco8e11/TransY			= -22.55 mm
+d:Ge/Poco8e11/TransZ			= 0 mm
+
+s:Ge/Poco8e12/Material			= "G4_WATER"
+s:Ge/Poco8e12/Parent			= "Camada1"
+s:Ge/Poco8e12/Type			= "TsCylinder"
+d:Ge/Poco8e12/RMax			= 3.375 mm
+d:Ge/Poco8e12/RMin			= 0. mm
+d:Ge/Poco8e12/HL			= 0.04 mm
+d:Ge/Poco8e12/TransX			= -11.66 mm
+d:Ge/Poco8e12/TransY			= -13.54 mm
+d:Ge/Poco8e12/TransZ			= 0 mm
+
+s:Ge/Poco8e13/Material			= "G4_WATER"
+s:Ge/Poco8e13/Parent			= "Camada1"
+s:Ge/Poco8e13/Type			= "TsCylinder"
+d:Ge/Poco8e13/RMax			= 3.375 mm
+d:Ge/Poco8e13/RMin			= 0. mm
+d:Ge/Poco8e13/HL			= 0.04 mm
+d:Ge/Poco8e13/TransX			= -11.66 mm
+d:Ge/Poco8e13/TransY			= 13.54 mm
+d:Ge/Poco8e13/TransZ			= 0 mm
+
+s:Ge/Poco8e14/Material			= "G4_WATER"
+s:Ge/Poco8e14/Parent			= "Camada1"
+s:Ge/Poco8e14/Type			= "TsCylinder"
+d:Ge/Poco8e14/RMax			= 3.375 mm
+d:Ge/Poco8e14/RMin			= 0. mm
+d:Ge/Poco8e14/HL			= 0.04 mm
+d:Ge/Poco8e14/TransX			= -11.66 mm
+d:Ge/Poco8e14/TransY			= 22.55 mm
+d:Ge/Poco8e14/TransZ			= 0 mm
+
+s:Ge/Poco8e15/Material			= "G4_WATER"
+s:Ge/Poco8e15/Parent			= "Camada1"
+s:Ge/Poco8e15/Type			= "TsCylinder"
+d:Ge/Poco8e15/RMax			= 3.375 mm
+d:Ge/Poco8e15/RMin			= 0. mm
+d:Ge/Poco8e15/HL			= 0.04 mm
+d:Ge/Poco8e15/TransX			= -11.66 mm
+d:Ge/Poco8e15/TransY			= 31.53 mm
+d:Ge/Poco8e15/TransZ			= 0 mm
+
+s:Ge/Poco8e16/Material			= "G4_WATER"
+s:Ge/Poco8e16/Parent			= "Camada1"
+s:Ge/Poco8e16/Type			= "TsCylinder"
+d:Ge/Poco8e16/RMax			= 3.375 mm
+d:Ge/Poco8e16/RMin			= 0. mm
+d:Ge/Poco8e16/HL			= 0.04 mm
+d:Ge/Poco8e16/TransX			= -11.66 mm
+d:Ge/Poco8e16/TransY			= 40.51 mm
+d:Ge/Poco8e16/TransZ			= 0 mm
+
+s:Ge/Poco8e17/Material			= "G4_WATER"
+s:Ge/Poco8e17/Parent			= "Camada1"
+s:Ge/Poco8e17/Type			= "TsCylinder"
+d:Ge/Poco8e17/RMax			= 3.375 mm
+d:Ge/Poco8e17/RMin			= 0. mm
+d:Ge/Poco8e17/HL			= 0.04 mm
+d:Ge/Poco8e17/TransX			= -11.66 mm
+d:Ge/Poco8e17/TransY			= 49.41 mm
+d:Ge/Poco8e17/TransZ			= 0 mm
+
+s:Ge/Poco8e18/Material			= "G4_WATER"
+s:Ge/Poco8e18/Parent			= "Camada1"
+s:Ge/Poco8e18/Type			= "TsCylinder"
+d:Ge/Poco8e18/RMax			= 3.375 mm
+d:Ge/Poco8e18/RMin			= 0. mm
+d:Ge/Poco8e18/HL			= 0.04 mm
+d:Ge/Poco8e18/TransX			= -11.66 mm
+d:Ge/Poco8e18/TransY			= 58.39 mm
+d:Ge/Poco8e18/TransZ			= 0 mm
+
+s:Ge/Poco8e19/Material			= "G4_WATER"
+s:Ge/Poco8e19/Parent			= "Camada1"
+s:Ge/Poco8e19/Type			= "TsCylinder"
+d:Ge/Poco8e19/RMax			= 3.375 mm
+d:Ge/Poco8e19/RMin			= 0. mm
+d:Ge/Poco8e19/HL			= 0.04 mm
+d:Ge/Poco8e19/TransX			= -11.66 mm
+d:Ge/Poco8e19/TransY			= 67.37 mm
+d:Ge/Poco8e19/TransZ			= 0 mm
+
+s:Ge/Poco8e20/Material			= "G4_WATER"
+s:Ge/Poco8e20/Parent			= "Camada1"
+s:Ge/Poco8e20/Type			= "TsCylinder"
+d:Ge/Poco8e20/RMax			= 3.375 mm
+d:Ge/Poco8e20/RMin			= 0. mm
+d:Ge/Poco8e20/HL			= 0.04 mm
+d:Ge/Poco8e20/TransX			= -11.66 mm
+d:Ge/Poco8e20/TransY			= 76.35 mm
+d:Ge/Poco8e20/TransZ			= 0 mm
+
+s:Ge/Poco8e21/Material			= "G4_WATER"
+s:Ge/Poco8e21/Parent			= "Camada1"
+s:Ge/Poco8e21/Type			= "TsCylinder"
+d:Ge/Poco8e21/RMax			= 3.375 mm
+d:Ge/Poco8e21/RMin			= 0. mm
+d:Ge/Poco8e21/HL			= 0.04 mm
+d:Ge/Poco8e21/TransX			= -11.66 mm
+d:Ge/Poco8e21/TransY			= 85.33 mm
+d:Ge/Poco8e21/TransZ			= 0 mm
+
+s:Ge/Poco8e22/Material			= "G4_WATER"
+s:Ge/Poco8e22/Parent			= "Camada1"
+s:Ge/Poco8e22/Type			= "TsCylinder"
+d:Ge/Poco8e22/RMax			= 3.375 mm
+d:Ge/Poco8e22/RMin			= 0. mm
+d:Ge/Poco8e22/HL			= 0.04 mm
+d:Ge/Poco8e22/TransX			= -11.66 mm
+d:Ge/Poco8e22/TransY			= 94.31 mm
+d:Ge/Poco8e22/TransZ			= 0 mm
+
+s:Ge/Poco8e23/Material			= "G4_WATER"
+s:Ge/Poco8e23/Parent			= "Camada1"
+s:Ge/Poco8e23/Type			= "TsCylinder"
+d:Ge/Poco8e23/RMax			= 3.375 mm
+d:Ge/Poco8e23/RMin			= 0. mm
+d:Ge/Poco8e23/HL			= 0.04 mm
+d:Ge/Poco8e23/TransX			= -11.66 mm
+d:Ge/Poco8e23/TransY			= 103.29 mm
+d:Ge/Poco8e23/TransZ			= 0 mm
+
+s:Ge/Poco8e24/Material			= "G4_WATER"
+s:Ge/Poco8e24/Parent			= "Camada1"
+s:Ge/Poco8e24/Type			= "TsCylinder"
+d:Ge/Poco8e24/RMax			= 3.375 mm
+d:Ge/Poco8e24/RMin			= 0. mm
+d:Ge/Poco8e24/HL			= 0.04 mm
+d:Ge/Poco8e24/TransX			= -11.66 mm
+d:Ge/Poco8e24/TransY			= 112.27 mm
+d:Ge/Poco8e24/TransZ			= 0 mm
+
+s:Ge/Poco9e1/Material			= "G4_WATER"
+s:Ge/Poco9e1/Parent			= "Camada1"
+s:Ge/Poco9e1/Type			= "TsCylinder"
+d:Ge/Poco9e1/RMax			= 3.375 mm
+d:Ge/Poco9e1/RMin			= 0. mm
+d:Ge/Poco9e1/HL			= 0.04 mm
+d:Ge/Poco9e1/TransX			= 11.66 mm
+d:Ge/Poco9e1/TransY			= -112.27 mm
+d:Ge/Poco9e1/TransZ			= 0 mm
+
+s:Ge/Poco9e2/Material			= "G4_WATER"
+s:Ge/Poco9e2/Parent			= "Camada1"
+s:Ge/Poco9e2/Type			= "TsCylinder"
+d:Ge/Poco9e2/RMax			= 3.375 mm
+d:Ge/Poco9e2/RMin			= 0. mm
+d:Ge/Poco9e2/HL			= 0.04 mm
+d:Ge/Poco9e2/TransX			= 11.66 mm
+d:Ge/Poco9e2/TransY			= -103.29 mm
+d:Ge/Poco9e2/TransZ			= 0 mm
+
+s:Ge/Poco9e3/Material			= "G4_WATER"
+s:Ge/Poco9e3/Parent			= "Camada1"
+s:Ge/Poco9e3/Type			= "TsCylinder"
+d:Ge/Poco9e3/RMax			= 3.375 mm
+d:Ge/Poco9e3/RMin			= 0. mm
+d:Ge/Poco9e3/HL			= 0.04 mm
+d:Ge/Poco9e3/TransX			= 11.66 mm
+d:Ge/Poco9e3/TransY			= -94.31 mm
+d:Ge/Poco9e3/TransZ			= 0 mm
+
+s:Ge/Poco9e4/Material			= "G4_WATER"
+s:Ge/Poco9e4/Parent			= "Camada1"
+s:Ge/Poco9e4/Type			= "TsCylinder"
+d:Ge/Poco9e4/RMax			= 3.375 mm
+d:Ge/Poco9e4/RMin			= 0. mm
+d:Ge/Poco9e4/HL			= 0.04 mm
+d:Ge/Poco9e4/TransX			= 11.66 mm
+d:Ge/Poco9e4/TransY			= -85.33 mm
+d:Ge/Poco9e4/TransZ			= 0 mm
+
+s:Ge/Poco9e5/Material			= "G4_WATER"
+s:Ge/Poco9e5/Parent			= "Camada1"
+s:Ge/Poco9e5/Type			= "TsCylinder"
+d:Ge/Poco9e5/RMax			= 3.375 mm
+d:Ge/Poco9e5/RMin			= 0. mm
+d:Ge/Poco9e5/HL			= 0.04 mm
+d:Ge/Poco9e5/TransX			= 11.66 mm
+d:Ge/Poco9e5/TransY			= -76.35 mm
+d:Ge/Poco9e5/TransZ			= 0 mm
+
+s:Ge/Poco9e6/Material			= "G4_WATER"
+s:Ge/Poco9e6/Parent			= "Camada1"
+s:Ge/Poco9e6/Type			= "TsCylinder"
+d:Ge/Poco9e6/RMax			= 3.375 mm
+d:Ge/Poco9e6/RMin			= 0. mm
+d:Ge/Poco9e6/HL			= 0.04 mm
+d:Ge/Poco9e6/TransX			= 11.66 mm
+d:Ge/Poco9e6/TransY			= -67.37 mm
+d:Ge/Poco9e6/TransZ			= 0 mm
+
+s:Ge/Poco9e7/Material			= "G4_WATER"
+s:Ge/Poco9e7/Parent			= "Camada1"
+s:Ge/Poco9e7/Type			= "TsCylinder"
+d:Ge/Poco9e7/RMax			= 3.375 mm
+d:Ge/Poco9e7/RMin			= 0. mm
+d:Ge/Poco9e7/HL			= 0.04 mm
+d:Ge/Poco9e7/TransX			= 11.66 mm
+d:Ge/Poco9e7/TransY			= -58.39 mm
+d:Ge/Poco9e7/TransZ			= 0 mm
+
+s:Ge/Poco9e8/Material			= "G4_WATER"
+s:Ge/Poco9e8/Parent			= "Camada1"
+s:Ge/Poco9e8/Type			= "TsCylinder"
+d:Ge/Poco9e8/RMax			= 3.375 mm
+d:Ge/Poco9e8/RMin			= 0. mm
+d:Ge/Poco9e8/HL			= 0.04 mm
+d:Ge/Poco9e8/TransX			= 11.66 mm
+d:Ge/Poco9e8/TransY			= -49.41 mm
+d:Ge/Poco9e8/TransZ			= 0 mm
+
+s:Ge/Poco9e9/Material			= "G4_WATER"
+s:Ge/Poco9e9/Parent			= "Camada1"
+s:Ge/Poco9e9/Type			= "TsCylinder"
+d:Ge/Poco9e9/RMax			= 3.375 mm
+d:Ge/Poco9e9/RMin			= 0. mm
+d:Ge/Poco9e9/HL			= 0.04 mm
+d:Ge/Poco9e9/TransX			= 11.66 mm
+d:Ge/Poco9e9/TransY			= -40.51 mm
+d:Ge/Poco9e9/TransZ			= 0 mm
+
+s:Ge/Poco9e10/Material			= "G4_WATER"
+s:Ge/Poco9e10/Parent			= "Camada1"
+s:Ge/Poco9e10/Type			= "TsCylinder"
+d:Ge/Poco9e10/RMax			= 3.375 mm
+d:Ge/Poco9e10/RMin			= 0. mm
+d:Ge/Poco9e10/HL			= 0.04 mm
+d:Ge/Poco9e10/TransX			= 11.66 mm
+d:Ge/Poco9e10/TransY			= -31.53 mm
+d:Ge/Poco9e10/TransZ			= 0 mm
+
+s:Ge/Poco9e11/Material			= "G4_WATER"
+s:Ge/Poco9e11/Parent			= "Camada1"
+s:Ge/Poco9e11/Type			= "TsCylinder"
+d:Ge/Poco9e11/RMax			= 3.375 mm
+d:Ge/Poco9e11/RMin			= 0. mm
+d:Ge/Poco9e11/HL			= 0.04 mm
+d:Ge/Poco9e11/TransX			= 11.66 mm
+d:Ge/Poco9e11/TransY			= -22.55 mm
+d:Ge/Poco9e11/TransZ			= 0 mm
+
+s:Ge/Poco9e12/Material			= "G4_WATER"
+s:Ge/Poco9e12/Parent			= "Camada1"
+s:Ge/Poco9e12/Type			= "TsCylinder"
+d:Ge/Poco9e12/RMax			= 3.375 mm
+d:Ge/Poco9e12/RMin			= 0. mm
+d:Ge/Poco9e12/HL			= 0.04 mm
+d:Ge/Poco9e12/TransX			= 11.66 mm
+d:Ge/Poco9e12/TransY			= -13.54 mm
+d:Ge/Poco9e12/TransZ			= 0 mm
+
+s:Ge/Poco9e13/Material			= "G4_WATER"
+s:Ge/Poco9e13/Parent			= "Camada1"
+s:Ge/Poco9e13/Type			= "TsCylinder"
+d:Ge/Poco9e13/RMax			= 3.375 mm
+d:Ge/Poco9e13/RMin			= 0. mm
+d:Ge/Poco9e13/HL			= 0.04 mm
+d:Ge/Poco9e13/TransX			= 11.66 mm
+d:Ge/Poco9e13/TransY			= 13.54 mm
+d:Ge/Poco9e13/TransZ			= 0 mm
+
+s:Ge/Poco9e14/Material			= "G4_WATER"
+s:Ge/Poco9e14/Parent			= "Camada1"
+s:Ge/Poco9e14/Type			= "TsCylinder"
+d:Ge/Poco9e14/RMax			= 3.375 mm
+d:Ge/Poco9e14/RMin			= 0. mm
+d:Ge/Poco9e14/HL			= 0.04 mm
+d:Ge/Poco9e14/TransX			= 11.66 mm
+d:Ge/Poco9e14/TransY			= 22.55 mm
+d:Ge/Poco9e14/TransZ			= 0 mm
+
+s:Ge/Poco9e15/Material			= "G4_WATER"
+s:Ge/Poco9e15/Parent			= "Camada1"
+s:Ge/Poco9e15/Type			= "TsCylinder"
+d:Ge/Poco9e15/RMax			= 3.375 mm
+d:Ge/Poco9e15/RMin			= 0. mm
+d:Ge/Poco9e15/HL			= 0.04 mm
+d:Ge/Poco9e15/TransX			= 11.66 mm
+d:Ge/Poco9e15/TransY			= 31.53 mm
+d:Ge/Poco9e15/TransZ			= 0 mm
+
+s:Ge/Poco9e16/Material			= "G4_WATER"
+s:Ge/Poco9e16/Parent			= "Camada1"
+s:Ge/Poco9e16/Type			= "TsCylinder"
+d:Ge/Poco9e16/RMax			= 3.375 mm
+d:Ge/Poco9e16/RMin			= 0. mm
+d:Ge/Poco9e16/HL			= 0.04 mm
+d:Ge/Poco9e16/TransX			= 11.66 mm
+d:Ge/Poco9e16/TransY			= 40.51 mm
+d:Ge/Poco9e16/TransZ			= 0 mm
+
+s:Ge/Poco9e17/Material			= "G4_WATER"
+s:Ge/Poco9e17/Parent			= "Camada1"
+s:Ge/Poco9e17/Type			= "TsCylinder"
+d:Ge/Poco9e17/RMax			= 3.375 mm
+d:Ge/Poco9e17/RMin			= 0. mm
+d:Ge/Poco9e17/HL			= 0.04 mm
+d:Ge/Poco9e17/TransX			= 11.66 mm
+d:Ge/Poco9e17/TransY			= 49.41 mm
+d:Ge/Poco9e17/TransZ			= 0 mm
+
+s:Ge/Poco9e18/Material			= "G4_WATER"
+s:Ge/Poco9e18/Parent			= "Camada1"
+s:Ge/Poco9e18/Type			= "TsCylinder"
+d:Ge/Poco9e18/RMax			= 3.375 mm
+d:Ge/Poco9e18/RMin			= 0. mm
+d:Ge/Poco9e18/HL			= 0.04 mm
+d:Ge/Poco9e18/TransX			= 11.66 mm
+d:Ge/Poco9e18/TransY			= 58.39 mm
+d:Ge/Poco9e18/TransZ			= 0 mm
+
+s:Ge/Poco9e19/Material			= "G4_WATER"
+s:Ge/Poco9e19/Parent			= "Camada1"
+s:Ge/Poco9e19/Type			= "TsCylinder"
+d:Ge/Poco9e19/RMax			= 3.375 mm
+d:Ge/Poco9e19/RMin			= 0. mm
+d:Ge/Poco9e19/HL			= 0.04 mm
+d:Ge/Poco9e19/TransX			= 11.66 mm
+d:Ge/Poco9e19/TransY			= 67.37 mm
+d:Ge/Poco9e19/TransZ			= 0 mm
+
+s:Ge/Poco9e20/Material			= "G4_WATER"
+s:Ge/Poco9e20/Parent			= "Camada1"
+s:Ge/Poco9e20/Type			= "TsCylinder"
+d:Ge/Poco9e20/RMax			= 3.375 mm
+d:Ge/Poco9e20/RMin			= 0. mm
+d:Ge/Poco9e20/HL			= 0.04 mm
+d:Ge/Poco9e20/TransX			= 11.66 mm
+d:Ge/Poco9e20/TransY			= 76.35 mm
+d:Ge/Poco9e20/TransZ			= 0 mm
+
+s:Ge/Poco9e21/Material			= "G4_WATER"
+s:Ge/Poco9e21/Parent			= "Camada1"
+s:Ge/Poco9e21/Type			= "TsCylinder"
+d:Ge/Poco9e21/RMax			= 3.375 mm
+d:Ge/Poco9e21/RMin			= 0. mm
+d:Ge/Poco9e21/HL			= 0.04 mm
+d:Ge/Poco9e21/TransX			= 11.66 mm
+d:Ge/Poco9e21/TransY			= 85.33 mm
+d:Ge/Poco9e21/TransZ			= 0 mm
+
+s:Ge/Poco9e22/Material			= "G4_WATER"
+s:Ge/Poco9e22/Parent			= "Camada1"
+s:Ge/Poco9e22/Type			= "TsCylinder"
+d:Ge/Poco9e22/RMax			= 3.375 mm
+d:Ge/Poco9e22/RMin			= 0. mm
+d:Ge/Poco9e22/HL			= 0.04 mm
+d:Ge/Poco9e22/TransX			= 11.66 mm
+d:Ge/Poco9e22/TransY			= 94.31 mm
+d:Ge/Poco9e22/TransZ			= 0 mm
+
+s:Ge/Poco9e23/Material			= "G4_WATER"
+s:Ge/Poco9e23/Parent			= "Camada1"
+s:Ge/Poco9e23/Type			= "TsCylinder"
+d:Ge/Poco9e23/RMax			= 3.375 mm
+d:Ge/Poco9e23/RMin			= 0. mm
+d:Ge/Poco9e23/HL			= 0.04 mm
+d:Ge/Poco9e23/TransX			= 11.66 mm
+d:Ge/Poco9e23/TransY			= 103.29 mm
+d:Ge/Poco9e23/TransZ			= 0 mm
+
+s:Ge/Poco9e24/Material			= "G4_WATER"
+s:Ge/Poco9e24/Parent			= "Camada1"
+s:Ge/Poco9e24/Type			= "TsCylinder"
+d:Ge/Poco9e24/RMax			= 3.375 mm
+d:Ge/Poco9e24/RMin			= 0. mm
+d:Ge/Poco9e24/HL			= 0.04 mm
+d:Ge/Poco9e24/TransX			= 11.66 mm
+d:Ge/Poco9e24/TransY			= 112.27 mm
+d:Ge/Poco9e24/TransZ			= 0 mm
+
+s:Ge/Poco10e1/Material			= "G4_WATER"
+s:Ge/Poco10e1/Parent			= "Camada1"
+s:Ge/Poco10e1/Type			= "TsCylinder"
+d:Ge/Poco10e1/RMax			= 3.375 mm
+d:Ge/Poco10e1/RMin			= 0. mm
+d:Ge/Poco10e1/HL			= 0.04 mm
+d:Ge/Poco10e1/TransX			= 20.64 mm
+d:Ge/Poco10e1/TransY			= -112.27 mm
+d:Ge/Poco10e1/TransZ			= 0 mm
+
+s:Ge/Poco10e2/Material			= "G4_WATER"
+s:Ge/Poco10e2/Parent			= "Camada1"
+s:Ge/Poco10e2/Type			= "TsCylinder"
+d:Ge/Poco10e2/RMax			= 3.375 mm
+d:Ge/Poco10e2/RMin			= 0. mm
+d:Ge/Poco10e2/HL			= 0.04 mm
+d:Ge/Poco10e2/TransX			= 20.64 mm
+d:Ge/Poco10e2/TransY			= -103.29 mm
+d:Ge/Poco10e2/TransZ			= 0 mm
+
+s:Ge/Poco10e3/Material			= "G4_WATER"
+s:Ge/Poco10e3/Parent			= "Camada1"
+s:Ge/Poco10e3/Type			= "TsCylinder"
+d:Ge/Poco10e3/RMax			= 3.375 mm
+d:Ge/Poco10e3/RMin			= 0. mm
+d:Ge/Poco10e3/HL			= 0.04 mm
+d:Ge/Poco10e3/TransX			= 20.64 mm
+d:Ge/Poco10e3/TransY			= -94.31 mm
+d:Ge/Poco10e3/TransZ			= 0 mm
+
+s:Ge/Poco10e4/Material			= "G4_WATER"
+s:Ge/Poco10e4/Parent			= "Camada1"
+s:Ge/Poco10e4/Type			= "TsCylinder"
+d:Ge/Poco10e4/RMax			= 3.375 mm
+d:Ge/Poco10e4/RMin			= 0. mm
+d:Ge/Poco10e4/HL			= 0.04 mm
+d:Ge/Poco10e4/TransX			= 20.64 mm
+d:Ge/Poco10e4/TransY			= -85.33 mm
+d:Ge/Poco10e4/TransZ			= 0 mm
+
+s:Ge/Poco10e5/Material			= "G4_WATER"
+s:Ge/Poco10e5/Parent			= "Camada1"
+s:Ge/Poco10e5/Type			= "TsCylinder"
+d:Ge/Poco10e5/RMax			= 3.375 mm
+d:Ge/Poco10e5/RMin			= 0. mm
+d:Ge/Poco10e5/HL			= 0.04 mm
+d:Ge/Poco10e5/TransX			= 20.64 mm
+d:Ge/Poco10e5/TransY			= -76.35 mm
+d:Ge/Poco10e5/TransZ			= 0 mm
+
+s:Ge/Poco10e6/Material			= "G4_WATER"
+s:Ge/Poco10e6/Parent			= "Camada1"
+s:Ge/Poco10e6/Type			= "TsCylinder"
+d:Ge/Poco10e6/RMax			= 3.375 mm
+d:Ge/Poco10e6/RMin			= 0. mm
+d:Ge/Poco10e6/HL			= 0.04 mm
+d:Ge/Poco10e6/TransX			= 20.64 mm
+d:Ge/Poco10e6/TransY			= -67.37 mm
+d:Ge/Poco10e6/TransZ			= 0 mm
+
+s:Ge/Poco10e7/Material			= "G4_WATER"
+s:Ge/Poco10e7/Parent			= "Camada1"
+s:Ge/Poco10e7/Type			= "TsCylinder"
+d:Ge/Poco10e7/RMax			= 3.375 mm
+d:Ge/Poco10e7/RMin			= 0. mm
+d:Ge/Poco10e7/HL			= 0.04 mm
+d:Ge/Poco10e7/TransX			= 20.64 mm
+d:Ge/Poco10e7/TransY			= -58.39 mm
+d:Ge/Poco10e7/TransZ			= 0 mm
+
+s:Ge/Poco10e8/Material			= "G4_WATER"
+s:Ge/Poco10e8/Parent			= "Camada1"
+s:Ge/Poco10e8/Type			= "TsCylinder"
+d:Ge/Poco10e8/RMax			= 3.375 mm
+d:Ge/Poco10e8/RMin			= 0. mm
+d:Ge/Poco10e8/HL			= 0.04 mm
+d:Ge/Poco10e8/TransX			= 20.64 mm
+d:Ge/Poco10e8/TransY			= -49.41 mm
+d:Ge/Poco10e8/TransZ			= 0 mm
+
+s:Ge/Poco10e9/Material			= "G4_WATER"
+s:Ge/Poco10e9/Parent			= "Camada1"
+s:Ge/Poco10e9/Type			= "TsCylinder"
+d:Ge/Poco10e9/RMax			= 3.375 mm
+d:Ge/Poco10e9/RMin			= 0. mm
+d:Ge/Poco10e9/HL			= 0.04 mm
+d:Ge/Poco10e9/TransX			= 20.64 mm
+d:Ge/Poco10e9/TransY			= -40.51 mm
+d:Ge/Poco10e9/TransZ			= 0 mm
+
+s:Ge/Poco10e10/Material			= "G4_WATER"
+s:Ge/Poco10e10/Parent			= "Camada1"
+s:Ge/Poco10e10/Type			= "TsCylinder"
+d:Ge/Poco10e10/RMax			= 3.375 mm
+d:Ge/Poco10e10/RMin			= 0. mm
+d:Ge/Poco10e10/HL			= 0.04 mm
+d:Ge/Poco10e10/TransX			= 20.64 mm
+d:Ge/Poco10e10/TransY			= -31.53 mm
+d:Ge/Poco10e10/TransZ			= 0 mm
+
+s:Ge/Poco10e11/Material			= "G4_WATER"
+s:Ge/Poco10e11/Parent			= "Camada1"
+s:Ge/Poco10e11/Type			= "TsCylinder"
+d:Ge/Poco10e11/RMax			= 3.375 mm
+d:Ge/Poco10e11/RMin			= 0. mm
+d:Ge/Poco10e11/HL			= 0.04 mm
+d:Ge/Poco10e11/TransX			= 20.64 mm
+d:Ge/Poco10e11/TransY			= -22.55 mm
+d:Ge/Poco10e11/TransZ			= 0 mm
+
+s:Ge/Poco10e12/Material			= "G4_WATER"
+s:Ge/Poco10e12/Parent			= "Camada1"
+s:Ge/Poco10e12/Type			= "TsCylinder"
+d:Ge/Poco10e12/RMax			= 3.375 mm
+d:Ge/Poco10e12/RMin			= 0. mm
+d:Ge/Poco10e12/HL			= 0.04 mm
+d:Ge/Poco10e12/TransX			= 20.64 mm
+d:Ge/Poco10e12/TransY			= -13.54 mm
+d:Ge/Poco10e12/TransZ			= 0 mm
+
+s:Ge/Poco10e13/Material			= "G4_WATER"
+s:Ge/Poco10e13/Parent			= "Camada1"
+s:Ge/Poco10e13/Type			= "TsCylinder"
+d:Ge/Poco10e13/RMax			= 3.375 mm
+d:Ge/Poco10e13/RMin			= 0. mm
+d:Ge/Poco10e13/HL			= 0.04 mm
+d:Ge/Poco10e13/TransX			= 20.64 mm
+d:Ge/Poco10e13/TransY			= 13.54 mm
+d:Ge/Poco10e13/TransZ			= 0 mm
+
+s:Ge/Poco10e14/Material			= "G4_WATER"
+s:Ge/Poco10e14/Parent			= "Camada1"
+s:Ge/Poco10e14/Type			= "TsCylinder"
+d:Ge/Poco10e14/RMax			= 3.375 mm
+d:Ge/Poco10e14/RMin			= 0. mm
+d:Ge/Poco10e14/HL			= 0.04 mm
+d:Ge/Poco10e14/TransX			= 20.64 mm
+d:Ge/Poco10e14/TransY			= 22.55 mm
+d:Ge/Poco10e14/TransZ			= 0 mm
+
+s:Ge/Poco10e15/Material			= "G4_WATER"
+s:Ge/Poco10e15/Parent			= "Camada1"
+s:Ge/Poco10e15/Type			= "TsCylinder"
+d:Ge/Poco10e15/RMax			= 3.375 mm
+d:Ge/Poco10e15/RMin			= 0. mm
+d:Ge/Poco10e15/HL			= 0.04 mm
+d:Ge/Poco10e15/TransX			= 20.64 mm
+d:Ge/Poco10e15/TransY			= 31.53 mm
+d:Ge/Poco10e15/TransZ			= 0 mm
+
+s:Ge/Poco10e16/Material			= "G4_WATER"
+s:Ge/Poco10e16/Parent			= "Camada1"
+s:Ge/Poco10e16/Type			= "TsCylinder"
+d:Ge/Poco10e16/RMax			= 3.375 mm
+d:Ge/Poco10e16/RMin			= 0. mm
+d:Ge/Poco10e16/HL			= 0.04 mm
+d:Ge/Poco10e16/TransX			= 20.64 mm
+d:Ge/Poco10e16/TransY			= 40.51 mm
+d:Ge/Poco10e16/TransZ			= 0 mm
+
+s:Ge/Poco10e17/Material			= "G4_WATER"
+s:Ge/Poco10e17/Parent			= "Camada1"
+s:Ge/Poco10e17/Type			= "TsCylinder"
+d:Ge/Poco10e17/RMax			= 3.375 mm
+d:Ge/Poco10e17/RMin			= 0. mm
+d:Ge/Poco10e17/HL			= 0.04 mm
+d:Ge/Poco10e17/TransX			= 20.64 mm
+d:Ge/Poco10e17/TransY			= 49.41 mm
+d:Ge/Poco10e17/TransZ			= 0 mm
+
+s:Ge/Poco10e18/Material			= "G4_WATER"
+s:Ge/Poco10e18/Parent			= "Camada1"
+s:Ge/Poco10e18/Type			= "TsCylinder"
+d:Ge/Poco10e18/RMax			= 3.375 mm
+d:Ge/Poco10e18/RMin			= 0. mm
+d:Ge/Poco10e18/HL			= 0.04 mm
+d:Ge/Poco10e18/TransX			= 20.64 mm
+d:Ge/Poco10e18/TransY			= 58.39 mm
+d:Ge/Poco10e18/TransZ			= 0 mm
+
+s:Ge/Poco10e19/Material			= "G4_WATER"
+s:Ge/Poco10e19/Parent			= "Camada1"
+s:Ge/Poco10e19/Type			= "TsCylinder"
+d:Ge/Poco10e19/RMax			= 3.375 mm
+d:Ge/Poco10e19/RMin			= 0. mm
+d:Ge/Poco10e19/HL			= 0.04 mm
+d:Ge/Poco10e19/TransX			= 20.64 mm
+d:Ge/Poco10e19/TransY			= 67.37 mm
+d:Ge/Poco10e19/TransZ			= 0 mm
+
+s:Ge/Poco10e20/Material			= "G4_WATER"
+s:Ge/Poco10e20/Parent			= "Camada1"
+s:Ge/Poco10e20/Type			= "TsCylinder"
+d:Ge/Poco10e20/RMax			= 3.375 mm
+d:Ge/Poco10e20/RMin			= 0. mm
+d:Ge/Poco10e20/HL			= 0.04 mm
+d:Ge/Poco10e20/TransX			= 20.64 mm
+d:Ge/Poco10e20/TransY			= 76.35 mm
+d:Ge/Poco10e20/TransZ			= 0 mm
+
+s:Ge/Poco10e21/Material			= "G4_WATER"
+s:Ge/Poco10e21/Parent			= "Camada1"
+s:Ge/Poco10e21/Type			= "TsCylinder"
+d:Ge/Poco10e21/RMax			= 3.375 mm
+d:Ge/Poco10e21/RMin			= 0. mm
+d:Ge/Poco10e21/HL			= 0.04 mm
+d:Ge/Poco10e21/TransX			= 20.64 mm
+d:Ge/Poco10e21/TransY			= 85.33 mm
+d:Ge/Poco10e21/TransZ			= 0 mm
+
+s:Ge/Poco10e22/Material			= "G4_WATER"
+s:Ge/Poco10e22/Parent			= "Camada1"
+s:Ge/Poco10e22/Type			= "TsCylinder"
+d:Ge/Poco10e22/RMax			= 3.375 mm
+d:Ge/Poco10e22/RMin			= 0. mm
+d:Ge/Poco10e22/HL			= 0.04 mm
+d:Ge/Poco10e22/TransX			= 20.64 mm
+d:Ge/Poco10e22/TransY			= 94.31 mm
+d:Ge/Poco10e22/TransZ			= 0 mm
+
+s:Ge/Poco10e23/Material			= "G4_WATER"
+s:Ge/Poco10e23/Parent			= "Camada1"
+s:Ge/Poco10e23/Type			= "TsCylinder"
+d:Ge/Poco10e23/RMax			= 3.375 mm
+d:Ge/Poco10e23/RMin			= 0. mm
+d:Ge/Poco10e23/HL			= 0.04 mm
+d:Ge/Poco10e23/TransX			= 20.64 mm
+d:Ge/Poco10e23/TransY			= 103.29 mm
+d:Ge/Poco10e23/TransZ			= 0 mm
+
+s:Ge/Poco10e24/Material			= "G4_WATER"
+s:Ge/Poco10e24/Parent			= "Camada1"
+s:Ge/Poco10e24/Type			= "TsCylinder"
+d:Ge/Poco10e24/RMax			= 3.375 mm
+d:Ge/Poco10e24/RMin			= 0. mm
+d:Ge/Poco10e24/HL			= 0.04 mm
+d:Ge/Poco10e24/TransX			= 20.64 mm
+d:Ge/Poco10e24/TransY			= 112.27 mm
+d:Ge/Poco10e24/TransZ			= 0 mm
+
+s:Ge/Poco11e1/Material			= "G4_WATER"
+s:Ge/Poco11e1/Parent			= "Camada1"
+s:Ge/Poco11e1/Type			= "TsCylinder"
+d:Ge/Poco11e1/RMax			= 3.375 mm
+d:Ge/Poco11e1/RMin			= 0. mm
+d:Ge/Poco11e1/HL			= 0.04 mm
+d:Ge/Poco11e1/TransX			= 29.62 mm
+d:Ge/Poco11e1/TransY			= -112.27 mm
+d:Ge/Poco11e1/TransZ			= 0 mm
+
+s:Ge/Poco11e2/Material			= "G4_WATER"
+s:Ge/Poco11e2/Parent			= "Camada1"
+s:Ge/Poco11e2/Type			= "TsCylinder"
+d:Ge/Poco11e2/RMax			= 3.375 mm
+d:Ge/Poco11e2/RMin			= 0. mm
+d:Ge/Poco11e2/HL			= 0.04 mm
+d:Ge/Poco11e2/TransX			= 29.62 mm
+d:Ge/Poco11e2/TransY			= -103.29 mm
+d:Ge/Poco11e2/TransZ			= 0 mm
+
+s:Ge/Poco11e3/Material			= "G4_WATER"
+s:Ge/Poco11e3/Parent			= "Camada1"
+s:Ge/Poco11e3/Type			= "TsCylinder"
+d:Ge/Poco11e3/RMax			= 3.375 mm
+d:Ge/Poco11e3/RMin			= 0. mm
+d:Ge/Poco11e3/HL			= 0.04 mm
+d:Ge/Poco11e3/TransX			= 29.62 mm
+d:Ge/Poco11e3/TransY			= -94.31 mm
+d:Ge/Poco11e3/TransZ			= 0 mm
+
+s:Ge/Poco11e4/Material			= "G4_WATER"
+s:Ge/Poco11e4/Parent			= "Camada1"
+s:Ge/Poco11e4/Type			= "TsCylinder"
+d:Ge/Poco11e4/RMax			= 3.375 mm
+d:Ge/Poco11e4/RMin			= 0. mm
+d:Ge/Poco11e4/HL			= 0.04 mm
+d:Ge/Poco11e4/TransX			= 29.62 mm
+d:Ge/Poco11e4/TransY			= -85.33 mm
+d:Ge/Poco11e4/TransZ			= 0 mm
+
+s:Ge/Poco11e5/Material			= "G4_WATER"
+s:Ge/Poco11e5/Parent			= "Camada1"
+s:Ge/Poco11e5/Type			= "TsCylinder"
+d:Ge/Poco11e5/RMax			= 3.375 mm
+d:Ge/Poco11e5/RMin			= 0. mm
+d:Ge/Poco11e5/HL			= 0.04 mm
+d:Ge/Poco11e5/TransX			= 29.62 mm
+d:Ge/Poco11e5/TransY			= -76.35 mm
+d:Ge/Poco11e5/TransZ			= 0 mm
+
+s:Ge/Poco11e6/Material			= "G4_WATER"
+s:Ge/Poco11e6/Parent			= "Camada1"
+s:Ge/Poco11e6/Type			= "TsCylinder"
+d:Ge/Poco11e6/RMax			= 3.375 mm
+d:Ge/Poco11e6/RMin			= 0. mm
+d:Ge/Poco11e6/HL			= 0.04 mm
+d:Ge/Poco11e6/TransX			= 29.62 mm
+d:Ge/Poco11e6/TransY			= -67.37 mm
+d:Ge/Poco11e6/TransZ			= 0 mm
+
+s:Ge/Poco11e7/Material			= "G4_WATER"
+s:Ge/Poco11e7/Parent			= "Camada1"
+s:Ge/Poco11e7/Type			= "TsCylinder"
+d:Ge/Poco11e7/RMax			= 3.375 mm
+d:Ge/Poco11e7/RMin			= 0. mm
+d:Ge/Poco11e7/HL			= 0.04 mm
+d:Ge/Poco11e7/TransX			= 29.62 mm
+d:Ge/Poco11e7/TransY			= -58.39 mm
+d:Ge/Poco11e7/TransZ			= 0 mm
+
+s:Ge/Poco11e8/Material			= "G4_WATER"
+s:Ge/Poco11e8/Parent			= "Camada1"
+s:Ge/Poco11e8/Type			= "TsCylinder"
+d:Ge/Poco11e8/RMax			= 3.375 mm
+d:Ge/Poco11e8/RMin			= 0. mm
+d:Ge/Poco11e8/HL			= 0.04 mm
+d:Ge/Poco11e8/TransX			= 29.62 mm
+d:Ge/Poco11e8/TransY			= -49.41 mm
+d:Ge/Poco11e8/TransZ			= 0 mm
+
+s:Ge/Poco11e9/Material			= "G4_WATER"
+s:Ge/Poco11e9/Parent			= "Camada1"
+s:Ge/Poco11e9/Type			= "TsCylinder"
+d:Ge/Poco11e9/RMax			= 3.375 mm
+d:Ge/Poco11e9/RMin			= 0. mm
+d:Ge/Poco11e9/HL			= 0.04 mm
+d:Ge/Poco11e9/TransX			= 29.62 mm
+d:Ge/Poco11e9/TransY			= -40.51 mm
+d:Ge/Poco11e9/TransZ			= 0 mm
+
+s:Ge/Poco11e10/Material			= "G4_WATER"
+s:Ge/Poco11e10/Parent			= "Camada1"
+s:Ge/Poco11e10/Type			= "TsCylinder"
+d:Ge/Poco11e10/RMax			= 3.375 mm
+d:Ge/Poco11e10/RMin			= 0. mm
+d:Ge/Poco11e10/HL			= 0.04 mm
+d:Ge/Poco11e10/TransX			= 29.62 mm
+d:Ge/Poco11e10/TransY			= -31.53 mm
+d:Ge/Poco11e10/TransZ			= 0 mm
+
+s:Ge/Poco11e11/Material			= "G4_WATER"
+s:Ge/Poco11e11/Parent			= "Camada1"
+s:Ge/Poco11e11/Type			= "TsCylinder"
+d:Ge/Poco11e11/RMax			= 3.375 mm
+d:Ge/Poco11e11/RMin			= 0. mm
+d:Ge/Poco11e11/HL			= 0.04 mm
+d:Ge/Poco11e11/TransX			= 29.62 mm
+d:Ge/Poco11e11/TransY			= -22.55 mm
+d:Ge/Poco11e11/TransZ			= 0 mm
+
+s:Ge/Poco11e12/Material			= "G4_WATER"
+s:Ge/Poco11e12/Parent			= "Camada1"
+s:Ge/Poco11e12/Type			= "TsCylinder"
+d:Ge/Poco11e12/RMax			= 3.375 mm
+d:Ge/Poco11e12/RMin			= 0. mm
+d:Ge/Poco11e12/HL			= 0.04 mm
+d:Ge/Poco11e12/TransX			= 29.62 mm
+d:Ge/Poco11e12/TransY			= -13.54 mm
+d:Ge/Poco11e12/TransZ			= 0 mm
+
+s:Ge/Poco11e13/Material			= "G4_WATER"
+s:Ge/Poco11e13/Parent			= "Camada1"
+s:Ge/Poco11e13/Type			= "TsCylinder"
+d:Ge/Poco11e13/RMax			= 3.375 mm
+d:Ge/Poco11e13/RMin			= 0. mm
+d:Ge/Poco11e13/HL			= 0.04 mm
+d:Ge/Poco11e13/TransX			= 29.62 mm
+d:Ge/Poco11e13/TransY			= 13.54 mm
+d:Ge/Poco11e13/TransZ			= 0 mm
+
+s:Ge/Poco11e14/Material			= "G4_WATER"
+s:Ge/Poco11e14/Parent			= "Camada1"
+s:Ge/Poco11e14/Type			= "TsCylinder"
+d:Ge/Poco11e14/RMax			= 3.375 mm
+d:Ge/Poco11e14/RMin			= 0. mm
+d:Ge/Poco11e14/HL			= 0.04 mm
+d:Ge/Poco11e14/TransX			= 29.62 mm
+d:Ge/Poco11e14/TransY			= 22.55 mm
+d:Ge/Poco11e14/TransZ			= 0 mm
+
+s:Ge/Poco11e15/Material			= "G4_WATER"
+s:Ge/Poco11e15/Parent			= "Camada1"
+s:Ge/Poco11e15/Type			= "TsCylinder"
+d:Ge/Poco11e15/RMax			= 3.375 mm
+d:Ge/Poco11e15/RMin			= 0. mm
+d:Ge/Poco11e15/HL			= 0.04 mm
+d:Ge/Poco11e15/TransX			= 29.62 mm
+d:Ge/Poco11e15/TransY			= 31.53 mm
+d:Ge/Poco11e15/TransZ			= 0 mm
+
+s:Ge/Poco11e16/Material			= "G4_WATER"
+s:Ge/Poco11e16/Parent			= "Camada1"
+s:Ge/Poco11e16/Type			= "TsCylinder"
+d:Ge/Poco11e16/RMax			= 3.375 mm
+d:Ge/Poco11e16/RMin			= 0. mm
+d:Ge/Poco11e16/HL			= 0.04 mm
+d:Ge/Poco11e16/TransX			= 29.62 mm
+d:Ge/Poco11e16/TransY			= 40.51 mm
+d:Ge/Poco11e16/TransZ			= 0 mm
+
+s:Ge/Poco11e17/Material			= "G4_WATER"
+s:Ge/Poco11e17/Parent			= "Camada1"
+s:Ge/Poco11e17/Type			= "TsCylinder"
+d:Ge/Poco11e17/RMax			= 3.375 mm
+d:Ge/Poco11e17/RMin			= 0. mm
+d:Ge/Poco11e17/HL			= 0.04 mm
+d:Ge/Poco11e17/TransX			= 29.62 mm
+d:Ge/Poco11e17/TransY			= 49.41 mm
+d:Ge/Poco11e17/TransZ			= 0 mm
+
+s:Ge/Poco11e18/Material			= "G4_WATER"
+s:Ge/Poco11e18/Parent			= "Camada1"
+s:Ge/Poco11e18/Type			= "TsCylinder"
+d:Ge/Poco11e18/RMax			= 3.375 mm
+d:Ge/Poco11e18/RMin			= 0. mm
+d:Ge/Poco11e18/HL			= 0.04 mm
+d:Ge/Poco11e18/TransX			= 29.62 mm
+d:Ge/Poco11e18/TransY			= 58.39 mm
+d:Ge/Poco11e18/TransZ			= 0 mm
+
+s:Ge/Poco11e19/Material			= "G4_WATER"
+s:Ge/Poco11e19/Parent			= "Camada1"
+s:Ge/Poco11e19/Type			= "TsCylinder"
+d:Ge/Poco11e19/RMax			= 3.375 mm
+d:Ge/Poco11e19/RMin			= 0. mm
+d:Ge/Poco11e19/HL			= 0.04 mm
+d:Ge/Poco11e19/TransX			= 29.62 mm
+d:Ge/Poco11e19/TransY			= 67.37 mm
+d:Ge/Poco11e19/TransZ			= 0 mm
+
+s:Ge/Poco11e20/Material			= "G4_WATER"
+s:Ge/Poco11e20/Parent			= "Camada1"
+s:Ge/Poco11e20/Type			= "TsCylinder"
+d:Ge/Poco11e20/RMax			= 3.375 mm
+d:Ge/Poco11e20/RMin			= 0. mm
+d:Ge/Poco11e20/HL			= 0.04 mm
+d:Ge/Poco11e20/TransX			= 29.62 mm
+d:Ge/Poco11e20/TransY			= 76.35 mm
+d:Ge/Poco11e20/TransZ			= 0 mm
+
+s:Ge/Poco11e21/Material			= "G4_WATER"
+s:Ge/Poco11e21/Parent			= "Camada1"
+s:Ge/Poco11e21/Type			= "TsCylinder"
+d:Ge/Poco11e21/RMax			= 3.375 mm
+d:Ge/Poco11e21/RMin			= 0. mm
+d:Ge/Poco11e21/HL			= 0.04 mm
+d:Ge/Poco11e21/TransX			= 29.62 mm
+d:Ge/Poco11e21/TransY			= 85.33 mm
+d:Ge/Poco11e21/TransZ			= 0 mm
+
+s:Ge/Poco11e22/Material			= "G4_WATER"
+s:Ge/Poco11e22/Parent			= "Camada1"
+s:Ge/Poco11e22/Type			= "TsCylinder"
+d:Ge/Poco11e22/RMax			= 3.375 mm
+d:Ge/Poco11e22/RMin			= 0. mm
+d:Ge/Poco11e22/HL			= 0.04 mm
+d:Ge/Poco11e22/TransX			= 29.62 mm
+d:Ge/Poco11e22/TransY			= 94.31 mm
+d:Ge/Poco11e22/TransZ			= 0 mm
+
+s:Ge/Poco11e23/Material			= "G4_WATER"
+s:Ge/Poco11e23/Parent			= "Camada1"
+s:Ge/Poco11e23/Type			= "TsCylinder"
+d:Ge/Poco11e23/RMax			= 3.375 mm
+d:Ge/Poco11e23/RMin			= 0. mm
+d:Ge/Poco11e23/HL			= 0.04 mm
+d:Ge/Poco11e23/TransX			= 29.62 mm
+d:Ge/Poco11e23/TransY			= 103.29 mm
+d:Ge/Poco11e23/TransZ			= 0 mm
+
+s:Ge/Poco11e24/Material			= "G4_WATER"
+s:Ge/Poco11e24/Parent			= "Camada1"
+s:Ge/Poco11e24/Type			= "TsCylinder"
+d:Ge/Poco11e24/RMax			= 3.375 mm
+d:Ge/Poco11e24/RMin			= 0. mm
+d:Ge/Poco11e24/HL			= 0.04 mm
+d:Ge/Poco11e24/TransX			= 29.62 mm
+d:Ge/Poco11e24/TransY			= 112.27 mm
+d:Ge/Poco11e24/TransZ			= 0 mm
+
+s:Ge/Poco12e1/Material			= "G4_WATER"
+s:Ge/Poco12e1/Parent			= "Camada1"
+s:Ge/Poco12e1/Type			= "TsCylinder"
+d:Ge/Poco12e1/RMax			= 3.375 mm
+d:Ge/Poco12e1/RMin			= 0. mm
+d:Ge/Poco12e1/HL			= 0.04 mm
+d:Ge/Poco12e1/TransX			= 38.60 mm
+d:Ge/Poco12e1/TransY			= -112.27 mm
+d:Ge/Poco12e1/TransZ			= 0 mm
+
+s:Ge/Poco12e2/Material			= "G4_WATER"
+s:Ge/Poco12e2/Parent			= "Camada1"
+s:Ge/Poco12e2/Type			= "TsCylinder"
+d:Ge/Poco12e2/RMax			= 3.375 mm
+d:Ge/Poco12e2/RMin			= 0. mm
+d:Ge/Poco12e2/HL			= 0.04 mm
+d:Ge/Poco12e2/TransX			= 38.60 mm
+d:Ge/Poco12e2/TransY			= -103.29 mm
+d:Ge/Poco12e2/TransZ			= 0 mm
+
+s:Ge/Poco12e3/Material			= "G4_WATER"
+s:Ge/Poco12e3/Parent			= "Camada1"
+s:Ge/Poco12e3/Type			= "TsCylinder"
+d:Ge/Poco12e3/RMax			= 3.375 mm
+d:Ge/Poco12e3/RMin			= 0. mm
+d:Ge/Poco12e3/HL			= 0.04 mm
+d:Ge/Poco12e3/TransX			= 38.60 mm
+d:Ge/Poco12e3/TransY			= -94.31 mm
+d:Ge/Poco12e3/TransZ			= 0 mm
+
+s:Ge/Poco12e4/Material			= "G4_WATER"
+s:Ge/Poco12e4/Parent			= "Camada1"
+s:Ge/Poco12e4/Type			= "TsCylinder"
+d:Ge/Poco12e4/RMax			= 3.375 mm
+d:Ge/Poco12e4/RMin			= 0. mm
+d:Ge/Poco12e4/HL			= 0.04 mm
+d:Ge/Poco12e4/TransX			= 38.60 mm
+d:Ge/Poco12e4/TransY			= -85.33 mm
+d:Ge/Poco12e4/TransZ			= 0 mm
+
+s:Ge/Poco12e5/Material			= "G4_WATER"
+s:Ge/Poco12e5/Parent			= "Camada1"
+s:Ge/Poco12e5/Type			= "TsCylinder"
+d:Ge/Poco12e5/RMax			= 3.375 mm
+d:Ge/Poco12e5/RMin			= 0. mm
+d:Ge/Poco12e5/HL			= 0.04 mm
+d:Ge/Poco12e5/TransX			= 38.60 mm
+d:Ge/Poco12e5/TransY			= -76.35 mm
+d:Ge/Poco12e5/TransZ			= 0 mm
+
+s:Ge/Poco12e6/Material			= "G4_WATER"
+s:Ge/Poco12e6/Parent			= "Camada1"
+s:Ge/Poco12e6/Type			= "TsCylinder"
+d:Ge/Poco12e6/RMax			= 3.375 mm
+d:Ge/Poco12e6/RMin			= 0. mm
+d:Ge/Poco12e6/HL			= 0.04 mm
+d:Ge/Poco12e6/TransX			= 38.60 mm
+d:Ge/Poco12e6/TransY			= -67.37 mm
+d:Ge/Poco12e6/TransZ			= 0 mm
+
+s:Ge/Poco12e7/Material			= "G4_WATER"
+s:Ge/Poco12e7/Parent			= "Camada1"
+s:Ge/Poco12e7/Type			= "TsCylinder"
+d:Ge/Poco12e7/RMax			= 3.375 mm
+d:Ge/Poco12e7/RMin			= 0. mm
+d:Ge/Poco12e7/HL			= 0.04 mm
+d:Ge/Poco12e7/TransX			= 38.60 mm
+d:Ge/Poco12e7/TransY			= -58.39 mm
+d:Ge/Poco12e7/TransZ			= 0 mm
+
+s:Ge/Poco12e8/Material			= "G4_WATER"
+s:Ge/Poco12e8/Parent			= "Camada1"
+s:Ge/Poco12e8/Type			= "TsCylinder"
+d:Ge/Poco12e8/RMax			= 3.375 mm
+d:Ge/Poco12e8/RMin			= 0. mm
+d:Ge/Poco12e8/HL			= 0.04 mm
+d:Ge/Poco12e8/TransX			= 38.60 mm
+d:Ge/Poco12e8/TransY			= -49.41 mm
+d:Ge/Poco12e8/TransZ			= 0 mm
+
+s:Ge/Poco12e9/Material			= "G4_WATER"
+s:Ge/Poco12e9/Parent			= "Camada1"
+s:Ge/Poco12e9/Type			= "TsCylinder"
+d:Ge/Poco12e9/RMax			= 3.375 mm
+d:Ge/Poco12e9/RMin			= 0. mm
+d:Ge/Poco12e9/HL			= 0.04 mm
+d:Ge/Poco12e9/TransX			= 38.60 mm
+d:Ge/Poco12e9/TransY			= -40.51 mm
+d:Ge/Poco12e9/TransZ			= 0 mm
+
+s:Ge/Poco12e10/Material			= "G4_WATER"
+s:Ge/Poco12e10/Parent			= "Camada1"
+s:Ge/Poco12e10/Type			= "TsCylinder"
+d:Ge/Poco12e10/RMax			= 3.375 mm
+d:Ge/Poco12e10/RMin			= 0. mm
+d:Ge/Poco12e10/HL			= 0.04 mm
+d:Ge/Poco12e10/TransX			= 38.60 mm
+d:Ge/Poco12e10/TransY			= -31.53 mm
+d:Ge/Poco12e10/TransZ			= 0 mm
+
+s:Ge/Poco12e11/Material			= "G4_WATER"
+s:Ge/Poco12e11/Parent			= "Camada1"
+s:Ge/Poco12e11/Type			= "TsCylinder"
+d:Ge/Poco12e11/RMax			= 3.375 mm
+d:Ge/Poco12e11/RMin			= 0. mm
+d:Ge/Poco12e11/HL			= 0.04 mm
+d:Ge/Poco12e11/TransX			= 38.60 mm
+d:Ge/Poco12e11/TransY			= -22.55 mm
+d:Ge/Poco12e11/TransZ			= 0 mm
+
+s:Ge/Poco12e12/Material			= "G4_WATER"
+s:Ge/Poco12e12/Parent			= "Camada1"
+s:Ge/Poco12e12/Type			= "TsCylinder"
+d:Ge/Poco12e12/RMax			= 3.375 mm
+d:Ge/Poco12e12/RMin			= 0. mm
+d:Ge/Poco12e12/HL			= 0.04 mm
+d:Ge/Poco12e12/TransX			= 38.60 mm
+d:Ge/Poco12e12/TransY			= -13.54 mm
+d:Ge/Poco12e12/TransZ			= 0 mm
+
+s:Ge/Poco12e13/Material			= "G4_WATER"
+s:Ge/Poco12e13/Parent			= "Camada1"
+s:Ge/Poco12e13/Type			= "TsCylinder"
+d:Ge/Poco12e13/RMax			= 3.375 mm
+d:Ge/Poco12e13/RMin			= 0. mm
+d:Ge/Poco12e13/HL			= 0.04 mm
+d:Ge/Poco12e13/TransX			= 38.60 mm
+d:Ge/Poco12e13/TransY			= 13.54 mm
+d:Ge/Poco12e13/TransZ			= 0 mm
+
+s:Ge/Poco12e14/Material			= "G4_WATER"
+s:Ge/Poco12e14/Parent			= "Camada1"
+s:Ge/Poco12e14/Type			= "TsCylinder"
+d:Ge/Poco12e14/RMax			= 3.375 mm
+d:Ge/Poco12e14/RMin			= 0. mm
+d:Ge/Poco12e14/HL			= 0.04 mm
+d:Ge/Poco12e14/TransX			= 38.60 mm
+d:Ge/Poco12e14/TransY			= 22.55 mm
+d:Ge/Poco12e14/TransZ			= 0 mm
+
+s:Ge/Poco12e15/Material			= "G4_WATER"
+s:Ge/Poco12e15/Parent			= "Camada1"
+s:Ge/Poco12e15/Type			= "TsCylinder"
+d:Ge/Poco12e15/RMax			= 3.375 mm
+d:Ge/Poco12e15/RMin			= 0. mm
+d:Ge/Poco12e15/HL			= 0.04 mm
+d:Ge/Poco12e15/TransX			= 38.60 mm
+d:Ge/Poco12e15/TransY			= 31.53 mm
+d:Ge/Poco12e15/TransZ			= 0 mm
+
+s:Ge/Poco12e16/Material			= "G4_WATER"
+s:Ge/Poco12e16/Parent			= "Camada1"
+s:Ge/Poco12e16/Type			= "TsCylinder"
+d:Ge/Poco12e16/RMax			= 3.375 mm
+d:Ge/Poco12e16/RMin			= 0. mm
+d:Ge/Poco12e16/HL			= 0.04 mm
+d:Ge/Poco12e16/TransX			= 38.60 mm
+d:Ge/Poco12e16/TransY			= 40.51 mm
+d:Ge/Poco12e16/TransZ			= 0 mm
+
+s:Ge/Poco12e17/Material			= "G4_WATER"
+s:Ge/Poco12e17/Parent			= "Camada1"
+s:Ge/Poco12e17/Type			= "TsCylinder"
+d:Ge/Poco12e17/RMax			= 3.375 mm
+d:Ge/Poco12e17/RMin			= 0. mm
+d:Ge/Poco12e17/HL			= 0.04 mm
+d:Ge/Poco12e17/TransX			= 38.60 mm
+d:Ge/Poco12e17/TransY			= 49.41 mm
+d:Ge/Poco12e17/TransZ			= 0 mm
+
+s:Ge/Poco12e18/Material			= "G4_WATER"
+s:Ge/Poco12e18/Parent			= "Camada1"
+s:Ge/Poco12e18/Type			= "TsCylinder"
+d:Ge/Poco12e18/RMax			= 3.375 mm
+d:Ge/Poco12e18/RMin			= 0. mm
+d:Ge/Poco12e18/HL			= 0.04 mm
+d:Ge/Poco12e18/TransX			= 38.60 mm
+d:Ge/Poco12e18/TransY			= 58.39 mm
+d:Ge/Poco12e18/TransZ			= 0 mm
+
+s:Ge/Poco12e19/Material			= "G4_WATER"
+s:Ge/Poco12e19/Parent			= "Camada1"
+s:Ge/Poco12e19/Type			= "TsCylinder"
+d:Ge/Poco12e19/RMax			= 3.375 mm
+d:Ge/Poco12e19/RMin			= 0. mm
+d:Ge/Poco12e19/HL			= 0.04 mm
+d:Ge/Poco12e19/TransX			= 38.60 mm
+d:Ge/Poco12e19/TransY			= 67.37 mm
+d:Ge/Poco12e19/TransZ			= 0 mm
+
+s:Ge/Poco12e20/Material			= "G4_WATER"
+s:Ge/Poco12e20/Parent			= "Camada1"
+s:Ge/Poco12e20/Type			= "TsCylinder"
+d:Ge/Poco12e20/RMax			= 3.375 mm
+d:Ge/Poco12e20/RMin			= 0. mm
+d:Ge/Poco12e20/HL			= 0.04 mm
+d:Ge/Poco12e20/TransX			= 38.60 mm
+d:Ge/Poco12e20/TransY			= 76.35 mm
+d:Ge/Poco12e20/TransZ			= 0 mm
+
+s:Ge/Poco12e21/Material			= "G4_WATER"
+s:Ge/Poco12e21/Parent			= "Camada1"
+s:Ge/Poco12e21/Type			= "TsCylinder"
+d:Ge/Poco12e21/RMax			= 3.375 mm
+d:Ge/Poco12e21/RMin			= 0. mm
+d:Ge/Poco12e21/HL			= 0.04 mm
+d:Ge/Poco12e21/TransX			= 38.60 mm
+d:Ge/Poco12e21/TransY			= 85.33 mm
+d:Ge/Poco12e21/TransZ			= 0 mm
+
+s:Ge/Poco12e22/Material			= "G4_WATER"
+s:Ge/Poco12e22/Parent			= "Camada1"
+s:Ge/Poco12e22/Type			= "TsCylinder"
+d:Ge/Poco12e22/RMax			= 3.375 mm
+d:Ge/Poco12e22/RMin			= 0. mm
+d:Ge/Poco12e22/HL			= 0.04 mm
+d:Ge/Poco12e22/TransX			= 38.60 mm
+d:Ge/Poco12e22/TransY			= 94.31 mm
+d:Ge/Poco12e22/TransZ			= 0 mm
+
+s:Ge/Poco12e23/Material			= "G4_WATER"
+s:Ge/Poco12e23/Parent			= "Camada1"
+s:Ge/Poco12e23/Type			= "TsCylinder"
+d:Ge/Poco12e23/RMax			= 3.375 mm
+d:Ge/Poco12e23/RMin			= 0. mm
+d:Ge/Poco12e23/HL			= 0.04 mm
+d:Ge/Poco12e23/TransX			= 38.60 mm
+d:Ge/Poco12e23/TransY			= 103.29 mm
+d:Ge/Poco12e23/TransZ			= 0 mm
+
+s:Ge/Poco12e24/Material			= "G4_WATER"
+s:Ge/Poco12e24/Parent			= "Camada1"
+s:Ge/Poco12e24/Type			= "TsCylinder"
+d:Ge/Poco12e24/RMax			= 3.375 mm
+d:Ge/Poco12e24/RMin			= 0. mm
+d:Ge/Poco12e24/HL			= 0.04 mm
+d:Ge/Poco12e24/TransX			= 38.60 mm
+d:Ge/Poco12e24/TransY			= 112.27 mm
+d:Ge/Poco12e24/TransZ			= 0 mm
+
+s:Ge/Poco13e1/Material			= "G4_WATER"
+s:Ge/Poco13e1/Parent			= "Camada1"
+s:Ge/Poco13e1/Type			= "TsCylinder"
+d:Ge/Poco13e1/RMax			= 3.375 mm
+d:Ge/Poco13e1/RMin			= 0. mm
+d:Ge/Poco13e1/HL			= 0.04 mm
+d:Ge/Poco13e1/TransX			= 47.58 mm
+d:Ge/Poco13e1/TransY			= -112.27 mm
+d:Ge/Poco13e1/TransZ			= 0 mm
+
+s:Ge/Poco13e2/Material			= "G4_WATER"
+s:Ge/Poco13e2/Parent			= "Camada1"
+s:Ge/Poco13e2/Type			= "TsCylinder"
+d:Ge/Poco13e2/RMax			= 3.375 mm
+d:Ge/Poco13e2/RMin			= 0. mm
+d:Ge/Poco13e2/HL			= 0.04 mm
+d:Ge/Poco13e2/TransX			= 47.58 mm
+d:Ge/Poco13e2/TransY			= -103.29 mm
+d:Ge/Poco13e2/TransZ			= 0 mm
+
+s:Ge/Poco13e3/Material			= "G4_WATER"
+s:Ge/Poco13e3/Parent			= "Camada1"
+s:Ge/Poco13e3/Type			= "TsCylinder"
+d:Ge/Poco13e3/RMax			= 3.375 mm
+d:Ge/Poco13e3/RMin			= 0. mm
+d:Ge/Poco13e3/HL			= 0.04 mm
+d:Ge/Poco13e3/TransX			= 47.58 mm
+d:Ge/Poco13e3/TransY			= -94.31 mm
+d:Ge/Poco13e3/TransZ			= 0 mm
+
+s:Ge/Poco13e4/Material			= "G4_WATER"
+s:Ge/Poco13e4/Parent			= "Camada1"
+s:Ge/Poco13e4/Type			= "TsCylinder"
+d:Ge/Poco13e4/RMax			= 3.375 mm
+d:Ge/Poco13e4/RMin			= 0. mm
+d:Ge/Poco13e4/HL			= 0.04 mm
+d:Ge/Poco13e4/TransX			= 47.58 mm
+d:Ge/Poco13e4/TransY			= -85.33 mm
+d:Ge/Poco13e4/TransZ			= 0 mm
+
+s:Ge/Poco13e5/Material			= "G4_WATER"
+s:Ge/Poco13e5/Parent			= "Camada1"
+s:Ge/Poco13e5/Type			= "TsCylinder"
+d:Ge/Poco13e5/RMax			= 3.375 mm
+d:Ge/Poco13e5/RMin			= 0. mm
+d:Ge/Poco13e5/HL			= 0.04 mm
+d:Ge/Poco13e5/TransX			= 47.58 mm
+d:Ge/Poco13e5/TransY			= -76.35 mm
+d:Ge/Poco13e5/TransZ			= 0 mm
+
+s:Ge/Poco13e6/Material			= "G4_WATER"
+s:Ge/Poco13e6/Parent			= "Camada1"
+s:Ge/Poco13e6/Type			= "TsCylinder"
+d:Ge/Poco13e6/RMax			= 3.375 mm
+d:Ge/Poco13e6/RMin			= 0. mm
+d:Ge/Poco13e6/HL			= 0.04 mm
+d:Ge/Poco13e6/TransX			= 47.58 mm
+d:Ge/Poco13e6/TransY			= -67.37 mm
+d:Ge/Poco13e6/TransZ			= 0 mm
+
+s:Ge/Poco13e7/Material			= "G4_WATER"
+s:Ge/Poco13e7/Parent			= "Camada1"
+s:Ge/Poco13e7/Type			= "TsCylinder"
+d:Ge/Poco13e7/RMax			= 3.375 mm
+d:Ge/Poco13e7/RMin			= 0. mm
+d:Ge/Poco13e7/HL			= 0.04 mm
+d:Ge/Poco13e7/TransX			= 47.58 mm
+d:Ge/Poco13e7/TransY			= -58.39 mm
+d:Ge/Poco13e7/TransZ			= 0 mm
+
+s:Ge/Poco13e8/Material			= "G4_WATER"
+s:Ge/Poco13e8/Parent			= "Camada1"
+s:Ge/Poco13e8/Type			= "TsCylinder"
+d:Ge/Poco13e8/RMax			= 3.375 mm
+d:Ge/Poco13e8/RMin			= 0. mm
+d:Ge/Poco13e8/HL			= 0.04 mm
+d:Ge/Poco13e8/TransX			= 47.58 mm
+d:Ge/Poco13e8/TransY			= -49.41 mm
+d:Ge/Poco13e8/TransZ			= 0 mm
+
+s:Ge/Poco13e9/Material			= "G4_WATER"
+s:Ge/Poco13e9/Parent			= "Camada1"
+s:Ge/Poco13e9/Type			= "TsCylinder"
+d:Ge/Poco13e9/RMax			= 3.375 mm
+d:Ge/Poco13e9/RMin			= 0. mm
+d:Ge/Poco13e9/HL			= 0.04 mm
+d:Ge/Poco13e9/TransX			= 47.58 mm
+d:Ge/Poco13e9/TransY			= -40.51 mm
+d:Ge/Poco13e9/TransZ			= 0 mm
+
+s:Ge/Poco13e10/Material			= "G4_WATER"
+s:Ge/Poco13e10/Parent			= "Camada1"
+s:Ge/Poco13e10/Type			= "TsCylinder"
+d:Ge/Poco13e10/RMax			= 3.375 mm
+d:Ge/Poco13e10/RMin			= 0. mm
+d:Ge/Poco13e10/HL			= 0.04 mm
+d:Ge/Poco13e10/TransX			= 47.58 mm
+d:Ge/Poco13e10/TransY			= -31.53 mm
+d:Ge/Poco13e10/TransZ			= 0 mm
+
+s:Ge/Poco13e11/Material			= "G4_WATER"
+s:Ge/Poco13e11/Parent			= "Camada1"
+s:Ge/Poco13e11/Type			= "TsCylinder"
+d:Ge/Poco13e11/RMax			= 3.375 mm
+d:Ge/Poco13e11/RMin			= 0. mm
+d:Ge/Poco13e11/HL			= 0.04 mm
+d:Ge/Poco13e11/TransX			= 47.58 mm
+d:Ge/Poco13e11/TransY			= -22.55 mm
+d:Ge/Poco13e11/TransZ			= 0 mm
+
+s:Ge/Poco13e12/Material			= "G4_WATER"
+s:Ge/Poco13e12/Parent			= "Camada1"
+s:Ge/Poco13e12/Type			= "TsCylinder"
+d:Ge/Poco13e12/RMax			= 3.375 mm
+d:Ge/Poco13e12/RMin			= 0. mm
+d:Ge/Poco13e12/HL			= 0.04 mm
+d:Ge/Poco13e12/TransX			= 47.58 mm
+d:Ge/Poco13e12/TransY			= -13.54 mm
+d:Ge/Poco13e12/TransZ			= 0 mm
+
+s:Ge/Poco13e13/Material			= "G4_WATER"
+s:Ge/Poco13e13/Parent			= "Camada1"
+s:Ge/Poco13e13/Type			= "TsCylinder"
+d:Ge/Poco13e13/RMax			= 3.375 mm
+d:Ge/Poco13e13/RMin			= 0. mm
+d:Ge/Poco13e13/HL			= 0.04 mm
+d:Ge/Poco13e13/TransX			= 47.58 mm
+d:Ge/Poco13e13/TransY			= 13.54 mm
+d:Ge/Poco13e13/TransZ			= 0 mm
+
+s:Ge/Poco13e14/Material			= "G4_WATER"
+s:Ge/Poco13e14/Parent			= "Camada1"
+s:Ge/Poco13e14/Type			= "TsCylinder"
+d:Ge/Poco13e14/RMax			= 3.375 mm
+d:Ge/Poco13e14/RMin			= 0. mm
+d:Ge/Poco13e14/HL			= 0.04 mm
+d:Ge/Poco13e14/TransX			= 47.58 mm
+d:Ge/Poco13e14/TransY			= 22.55 mm
+d:Ge/Poco13e14/TransZ			= 0 mm
+
+s:Ge/Poco13e15/Material			= "G4_WATER"
+s:Ge/Poco13e15/Parent			= "Camada1"
+s:Ge/Poco13e15/Type			= "TsCylinder"
+d:Ge/Poco13e15/RMax			= 3.375 mm
+d:Ge/Poco13e15/RMin			= 0. mm
+d:Ge/Poco13e15/HL			= 0.04 mm
+d:Ge/Poco13e15/TransX			= 47.58 mm
+d:Ge/Poco13e15/TransY			= 31.53 mm
+d:Ge/Poco13e15/TransZ			= 0 mm
+
+s:Ge/Poco13e16/Material			= "G4_WATER"
+s:Ge/Poco13e16/Parent			= "Camada1"
+s:Ge/Poco13e16/Type			= "TsCylinder"
+d:Ge/Poco13e16/RMax			= 3.375 mm
+d:Ge/Poco13e16/RMin			= 0. mm
+d:Ge/Poco13e16/HL			= 0.04 mm
+d:Ge/Poco13e16/TransX			= 47.58 mm
+d:Ge/Poco13e16/TransY			= 40.51 mm
+d:Ge/Poco13e16/TransZ			= 0 mm
+
+s:Ge/Poco13e17/Material			= "G4_WATER"
+s:Ge/Poco13e17/Parent			= "Camada1"
+s:Ge/Poco13e17/Type			= "TsCylinder"
+d:Ge/Poco13e17/RMax			= 3.375 mm
+d:Ge/Poco13e17/RMin			= 0. mm
+d:Ge/Poco13e17/HL			= 0.04 mm
+d:Ge/Poco13e17/TransX			= 47.58 mm
+d:Ge/Poco13e17/TransY			= 49.41 mm
+d:Ge/Poco13e17/TransZ			= 0 mm
+
+s:Ge/Poco13e18/Material			= "G4_WATER"
+s:Ge/Poco13e18/Parent			= "Camada1"
+s:Ge/Poco13e18/Type			= "TsCylinder"
+d:Ge/Poco13e18/RMax			= 3.375 mm
+d:Ge/Poco13e18/RMin			= 0. mm
+d:Ge/Poco13e18/HL			= 0.04 mm
+d:Ge/Poco13e18/TransX			= 47.58 mm
+d:Ge/Poco13e18/TransY			= 58.39 mm
+d:Ge/Poco13e18/TransZ			= 0 mm
+
+s:Ge/Poco13e19/Material			= "G4_WATER"
+s:Ge/Poco13e19/Parent			= "Camada1"
+s:Ge/Poco13e19/Type			= "TsCylinder"
+d:Ge/Poco13e19/RMax			= 3.375 mm
+d:Ge/Poco13e19/RMin			= 0. mm
+d:Ge/Poco13e19/HL			= 0.04 mm
+d:Ge/Poco13e19/TransX			= 47.58 mm
+d:Ge/Poco13e19/TransY			= 67.37 mm
+d:Ge/Poco13e19/TransZ			= 0 mm
+
+s:Ge/Poco13e20/Material			= "G4_WATER"
+s:Ge/Poco13e20/Parent			= "Camada1"
+s:Ge/Poco13e20/Type			= "TsCylinder"
+d:Ge/Poco13e20/RMax			= 3.375 mm
+d:Ge/Poco13e20/RMin			= 0. mm
+d:Ge/Poco13e20/HL			= 0.04 mm
+d:Ge/Poco13e20/TransX			= 47.58 mm
+d:Ge/Poco13e20/TransY			= 76.35 mm
+d:Ge/Poco13e20/TransZ			= 0 mm
+
+s:Ge/Poco13e21/Material			= "G4_WATER"
+s:Ge/Poco13e21/Parent			= "Camada1"
+s:Ge/Poco13e21/Type			= "TsCylinder"
+d:Ge/Poco13e21/RMax			= 3.375 mm
+d:Ge/Poco13e21/RMin			= 0. mm
+d:Ge/Poco13e21/HL			= 0.04 mm
+d:Ge/Poco13e21/TransX			= 47.58 mm
+d:Ge/Poco13e21/TransY			= 85.33 mm
+d:Ge/Poco13e21/TransZ			= 0 mm
+
+s:Ge/Poco13e22/Material			= "G4_WATER"
+s:Ge/Poco13e22/Parent			= "Camada1"
+s:Ge/Poco13e22/Type			= "TsCylinder"
+d:Ge/Poco13e22/RMax			= 3.375 mm
+d:Ge/Poco13e22/RMin			= 0. mm
+d:Ge/Poco13e22/HL			= 0.04 mm
+d:Ge/Poco13e22/TransX			= 47.58 mm
+d:Ge/Poco13e22/TransY			= 94.31 mm
+d:Ge/Poco13e22/TransZ			= 0 mm
+
+s:Ge/Poco13e23/Material			= "G4_WATER"
+s:Ge/Poco13e23/Parent			= "Camada1"
+s:Ge/Poco13e23/Type			= "TsCylinder"
+d:Ge/Poco13e23/RMax			= 3.375 mm
+d:Ge/Poco13e23/RMin			= 0. mm
+d:Ge/Poco13e23/HL			= 0.04 mm
+d:Ge/Poco13e23/TransX			= 47.58 mm
+d:Ge/Poco13e23/TransY			= 103.29 mm
+d:Ge/Poco13e23/TransZ			= 0 mm
+
+s:Ge/Poco13e24/Material			= "G4_WATER"
+s:Ge/Poco13e24/Parent			= "Camada1"
+s:Ge/Poco13e24/Type			= "TsCylinder"
+d:Ge/Poco13e24/RMax			= 3.375 mm
+d:Ge/Poco13e24/RMin			= 0. mm
+d:Ge/Poco13e24/HL			= 0.04 mm
+d:Ge/Poco13e24/TransX			= 47.58 mm
+d:Ge/Poco13e24/TransY			= 112.27 mm
+d:Ge/Poco13e24/TransZ			= 0 mm
+
+s:Ge/Poco14e1/Material			= "G4_WATER"
+s:Ge/Poco14e1/Parent			= "Camada1"
+s:Ge/Poco14e1/Type			= "TsCylinder"
+d:Ge/Poco14e1/RMax			= 3.375 mm
+d:Ge/Poco14e1/RMin			= 0. mm
+d:Ge/Poco14e1/HL			= 0.04 mm
+d:Ge/Poco14e1/TransX			= 56.56 mm
+d:Ge/Poco14e1/TransY			= -112.27 mm
+d:Ge/Poco14e1/TransZ			= 0 mm
+
+s:Ge/Poco14e2/Material			= "G4_WATER"
+s:Ge/Poco14e2/Parent			= "Camada1"
+s:Ge/Poco14e2/Type			= "TsCylinder"
+d:Ge/Poco14e2/RMax			= 3.375 mm
+d:Ge/Poco14e2/RMin			= 0. mm
+d:Ge/Poco14e2/HL			= 0.04 mm
+d:Ge/Poco14e2/TransX			= 56.56 mm
+d:Ge/Poco14e2/TransY			= -103.29 mm
+d:Ge/Poco14e2/TransZ			= 0 mm
+
+s:Ge/Poco14e3/Material			= "G4_WATER"
+s:Ge/Poco14e3/Parent			= "Camada1"
+s:Ge/Poco14e3/Type			= "TsCylinder"
+d:Ge/Poco14e3/RMax			= 3.375 mm
+d:Ge/Poco14e3/RMin			= 0. mm
+d:Ge/Poco14e3/HL			= 0.04 mm
+d:Ge/Poco14e3/TransX			= 56.56 mm
+d:Ge/Poco14e3/TransY			= -94.31 mm
+d:Ge/Poco14e3/TransZ			= 0 mm
+
+s:Ge/Poco14e4/Material			= "G4_WATER"
+s:Ge/Poco14e4/Parent			= "Camada1"
+s:Ge/Poco14e4/Type			= "TsCylinder"
+d:Ge/Poco14e4/RMax			= 3.375 mm
+d:Ge/Poco14e4/RMin			= 0. mm
+d:Ge/Poco14e4/HL			= 0.04 mm
+d:Ge/Poco14e4/TransX			= 56.56 mm
+d:Ge/Poco14e4/TransY			= -85.33 mm
+d:Ge/Poco14e4/TransZ			= 0 mm
+
+s:Ge/Poco14e5/Material			= "G4_WATER"
+s:Ge/Poco14e5/Parent			= "Camada1"
+s:Ge/Poco14e5/Type			= "TsCylinder"
+d:Ge/Poco14e5/RMax			= 3.375 mm
+d:Ge/Poco14e5/RMin			= 0. mm
+d:Ge/Poco14e5/HL			= 0.04 mm
+d:Ge/Poco14e5/TransX			= 56.56 mm
+d:Ge/Poco14e5/TransY			= -76.35 mm
+d:Ge/Poco14e5/TransZ			= 0 mm
+
+s:Ge/Poco14e6/Material			= "G4_WATER"
+s:Ge/Poco14e6/Parent			= "Camada1"
+s:Ge/Poco14e6/Type			= "TsCylinder"
+d:Ge/Poco14e6/RMax			= 3.375 mm
+d:Ge/Poco14e6/RMin			= 0. mm
+d:Ge/Poco14e6/HL			= 0.04 mm
+d:Ge/Poco14e6/TransX			= 56.56 mm
+d:Ge/Poco14e6/TransY			= -67.37 mm
+d:Ge/Poco14e6/TransZ			= 0 mm
+
+s:Ge/Poco14e7/Material			= "G4_WATER"
+s:Ge/Poco14e7/Parent			= "Camada1"
+s:Ge/Poco14e7/Type			= "TsCylinder"
+d:Ge/Poco14e7/RMax			= 3.375 mm
+d:Ge/Poco14e7/RMin			= 0. mm
+d:Ge/Poco14e7/HL			= 0.04 mm
+d:Ge/Poco14e7/TransX			= 56.56 mm
+d:Ge/Poco14e7/TransY			= -58.39 mm
+d:Ge/Poco14e7/TransZ			= 0 mm
+
+s:Ge/Poco14e8/Material			= "G4_WATER"
+s:Ge/Poco14e8/Parent			= "Camada1"
+s:Ge/Poco14e8/Type			= "TsCylinder"
+d:Ge/Poco14e8/RMax			= 3.375 mm
+d:Ge/Poco14e8/RMin			= 0. mm
+d:Ge/Poco14e8/HL			= 0.04 mm
+d:Ge/Poco14e8/TransX			= 56.56 mm
+d:Ge/Poco14e8/TransY			= -49.41 mm
+d:Ge/Poco14e8/TransZ			= 0 mm
+
+s:Ge/Poco14e9/Material			= "G4_WATER"
+s:Ge/Poco14e9/Parent			= "Camada1"
+s:Ge/Poco14e9/Type			= "TsCylinder"
+d:Ge/Poco14e9/RMax			= 3.375 mm
+d:Ge/Poco14e9/RMin			= 0. mm
+d:Ge/Poco14e9/HL			= 0.04 mm
+d:Ge/Poco14e9/TransX			= 56.56 mm
+d:Ge/Poco14e9/TransY			= -40.51 mm
+d:Ge/Poco14e9/TransZ			= 0 mm
+
+s:Ge/Poco14e10/Material			= "G4_WATER"
+s:Ge/Poco14e10/Parent			= "Camada1"
+s:Ge/Poco14e10/Type			= "TsCylinder"
+d:Ge/Poco14e10/RMax			= 3.375 mm
+d:Ge/Poco14e10/RMin			= 0. mm
+d:Ge/Poco14e10/HL			= 0.04 mm
+d:Ge/Poco14e10/TransX			= 56.56 mm
+d:Ge/Poco14e10/TransY			= -31.53 mm
+d:Ge/Poco14e10/TransZ			= 0 mm
+
+s:Ge/Poco14e11/Material			= "G4_WATER"
+s:Ge/Poco14e11/Parent			= "Camada1"
+s:Ge/Poco14e11/Type			= "TsCylinder"
+d:Ge/Poco14e11/RMax			= 3.375 mm
+d:Ge/Poco14e11/RMin			= 0. mm
+d:Ge/Poco14e11/HL			= 0.04 mm
+d:Ge/Poco14e11/TransX			= 56.56 mm
+d:Ge/Poco14e11/TransY			= -22.55 mm
+d:Ge/Poco14e11/TransZ			= 0 mm
+
+s:Ge/Poco14e12/Material			= "G4_WATER"
+s:Ge/Poco14e12/Parent			= "Camada1"
+s:Ge/Poco14e12/Type			= "TsCylinder"
+d:Ge/Poco14e12/RMax			= 3.375 mm
+d:Ge/Poco14e12/RMin			= 0. mm
+d:Ge/Poco14e12/HL			= 0.04 mm
+d:Ge/Poco14e12/TransX			= 56.56 mm
+d:Ge/Poco14e12/TransY			= -13.54 mm
+d:Ge/Poco14e12/TransZ			= 0 mm
+
+s:Ge/Poco14e13/Material			= "G4_WATER"
+s:Ge/Poco14e13/Parent			= "Camada1"
+s:Ge/Poco14e13/Type			= "TsCylinder"
+d:Ge/Poco14e13/RMax			= 3.375 mm
+d:Ge/Poco14e13/RMin			= 0. mm
+d:Ge/Poco14e13/HL			= 0.04 mm
+d:Ge/Poco14e13/TransX			= 56.56 mm
+d:Ge/Poco14e13/TransY			= 13.54 mm
+d:Ge/Poco14e13/TransZ			= 0 mm
+
+s:Ge/Poco14e14/Material			= "G4_WATER"
+s:Ge/Poco14e14/Parent			= "Camada1"
+s:Ge/Poco14e14/Type			= "TsCylinder"
+d:Ge/Poco14e14/RMax			= 3.375 mm
+d:Ge/Poco14e14/RMin			= 0. mm
+d:Ge/Poco14e14/HL			= 0.04 mm
+d:Ge/Poco14e14/TransX			= 56.56 mm
+d:Ge/Poco14e14/TransY			= 22.55 mm
+d:Ge/Poco14e14/TransZ			= 0 mm
+
+s:Ge/Poco14e15/Material			= "G4_WATER"
+s:Ge/Poco14e15/Parent			= "Camada1"
+s:Ge/Poco14e15/Type			= "TsCylinder"
+d:Ge/Poco14e15/RMax			= 3.375 mm
+d:Ge/Poco14e15/RMin			= 0. mm
+d:Ge/Poco14e15/HL			= 0.04 mm
+d:Ge/Poco14e15/TransX			= 56.56 mm
+d:Ge/Poco14e15/TransY			= 31.53 mm
+d:Ge/Poco14e15/TransZ			= 0 mm
+
+s:Ge/Poco14e16/Material			= "G4_WATER"
+s:Ge/Poco14e16/Parent			= "Camada1"
+s:Ge/Poco14e16/Type			= "TsCylinder"
+d:Ge/Poco14e16/RMax			= 3.375 mm
+d:Ge/Poco14e16/RMin			= 0. mm
+d:Ge/Poco14e16/HL			= 0.04 mm
+d:Ge/Poco14e16/TransX			= 56.56 mm
+d:Ge/Poco14e16/TransY			= 40.51 mm
+d:Ge/Poco14e16/TransZ			= 0 mm
+
+s:Ge/Poco14e17/Material			= "G4_WATER"
+s:Ge/Poco14e17/Parent			= "Camada1"
+s:Ge/Poco14e17/Type			= "TsCylinder"
+d:Ge/Poco14e17/RMax			= 3.375 mm
+d:Ge/Poco14e17/RMin			= 0. mm
+d:Ge/Poco14e17/HL			= 0.04 mm
+d:Ge/Poco14e17/TransX			= 56.56 mm
+d:Ge/Poco14e17/TransY			= 49.41 mm
+d:Ge/Poco14e17/TransZ			= 0 mm
+
+s:Ge/Poco14e18/Material			= "G4_WATER"
+s:Ge/Poco14e18/Parent			= "Camada1"
+s:Ge/Poco14e18/Type			= "TsCylinder"
+d:Ge/Poco14e18/RMax			= 3.375 mm
+d:Ge/Poco14e18/RMin			= 0. mm
+d:Ge/Poco14e18/HL			= 0.04 mm
+d:Ge/Poco14e18/TransX			= 56.56 mm
+d:Ge/Poco14e18/TransY			= 58.39 mm
+d:Ge/Poco14e18/TransZ			= 0 mm
+
+s:Ge/Poco14e19/Material			= "G4_WATER"
+s:Ge/Poco14e19/Parent			= "Camada1"
+s:Ge/Poco14e19/Type			= "TsCylinder"
+d:Ge/Poco14e19/RMax			= 3.375 mm
+d:Ge/Poco14e19/RMin			= 0. mm
+d:Ge/Poco14e19/HL			= 0.04 mm
+d:Ge/Poco14e19/TransX			= 56.56 mm
+d:Ge/Poco14e19/TransY			= 67.37 mm
+d:Ge/Poco14e19/TransZ			= 0 mm
+
+s:Ge/Poco14e20/Material			= "G4_WATER"
+s:Ge/Poco14e20/Parent			= "Camada1"
+s:Ge/Poco14e20/Type			= "TsCylinder"
+d:Ge/Poco14e20/RMax			= 3.375 mm
+d:Ge/Poco14e20/RMin			= 0. mm
+d:Ge/Poco14e20/HL			= 0.04 mm
+d:Ge/Poco14e20/TransX			= 56.56 mm
+d:Ge/Poco14e20/TransY			= 76.35 mm
+d:Ge/Poco14e20/TransZ			= 0 mm
+
+s:Ge/Poco14e21/Material			= "G4_WATER"
+s:Ge/Poco14e21/Parent			= "Camada1"
+s:Ge/Poco14e21/Type			= "TsCylinder"
+d:Ge/Poco14e21/RMax			= 3.375 mm
+d:Ge/Poco14e21/RMin			= 0. mm
+d:Ge/Poco14e21/HL			= 0.04 mm
+d:Ge/Poco14e21/TransX			= 56.56 mm
+d:Ge/Poco14e21/TransY			= 85.33 mm
+d:Ge/Poco14e21/TransZ			= 0 mm
+
+s:Ge/Poco14e22/Material			= "G4_WATER"
+s:Ge/Poco14e22/Parent			= "Camada1"
+s:Ge/Poco14e22/Type			= "TsCylinder"
+d:Ge/Poco14e22/RMax			= 3.375 mm
+d:Ge/Poco14e22/RMin			= 0. mm
+d:Ge/Poco14e22/HL			= 0.04 mm
+d:Ge/Poco14e22/TransX			= 56.56 mm
+d:Ge/Poco14e22/TransY			= 94.31 mm
+d:Ge/Poco14e22/TransZ			= 0 mm
+
+s:Ge/Poco14e23/Material			= "G4_WATER"
+s:Ge/Poco14e23/Parent			= "Camada1"
+s:Ge/Poco14e23/Type			= "TsCylinder"
+d:Ge/Poco14e23/RMax			= 3.375 mm
+d:Ge/Poco14e23/RMin			= 0. mm
+d:Ge/Poco14e23/HL			= 0.04 mm
+d:Ge/Poco14e23/TransX			= 56.56 mm
+d:Ge/Poco14e23/TransY			= 103.29 mm
+d:Ge/Poco14e23/TransZ			= 0 mm
+
+s:Ge/Poco14e24/Material			= "G4_WATER"
+s:Ge/Poco14e24/Parent			= "Camada1"
+s:Ge/Poco14e24/Type			= "TsCylinder"
+d:Ge/Poco14e24/RMax			= 3.375 mm
+d:Ge/Poco14e24/RMin			= 0. mm
+d:Ge/Poco14e24/HL			= 0.04 mm
+d:Ge/Poco14e24/TransX			= 56.56 mm
+d:Ge/Poco14e24/TransY			= 112.27 mm
+d:Ge/Poco14e24/TransZ			= 0 mm
+
+s:Ge/Poco15e1/Material			= "G4_WATER"
+s:Ge/Poco15e1/Parent			= "Camada1"
+s:Ge/Poco15e1/Type			= "TsCylinder"
+d:Ge/Poco15e1/RMax			= 3.375 mm
+d:Ge/Poco15e1/RMin			= 0. mm
+d:Ge/Poco15e1/HL			= 0.04 mm
+d:Ge/Poco15e1/TransX			= 65.54 mm
+d:Ge/Poco15e1/TransY			= -112.27 mm
+d:Ge/Poco15e1/TransZ			= 0 mm
+
+s:Ge/Poco15e2/Material			= "G4_WATER"
+s:Ge/Poco15e2/Parent			= "Camada1"
+s:Ge/Poco15e2/Type			= "TsCylinder"
+d:Ge/Poco15e2/RMax			= 3.375 mm
+d:Ge/Poco15e2/RMin			= 0. mm
+d:Ge/Poco15e2/HL			= 0.04 mm
+d:Ge/Poco15e2/TransX			= 65.54 mm
+d:Ge/Poco15e2/TransY			= -103.29 mm
+d:Ge/Poco15e2/TransZ			= 0 mm
+
+s:Ge/Poco15e3/Material			= "G4_WATER"
+s:Ge/Poco15e3/Parent			= "Camada1"
+s:Ge/Poco15e3/Type			= "TsCylinder"
+d:Ge/Poco15e3/RMax			= 3.375 mm
+d:Ge/Poco15e3/RMin			= 0. mm
+d:Ge/Poco15e3/HL			= 0.04 mm
+d:Ge/Poco15e3/TransX			= 65.54 mm
+d:Ge/Poco15e3/TransY			= -94.31 mm
+d:Ge/Poco15e3/TransZ			= 0 mm
+
+s:Ge/Poco15e4/Material			= "G4_WATER"
+s:Ge/Poco15e4/Parent			= "Camada1"
+s:Ge/Poco15e4/Type			= "TsCylinder"
+d:Ge/Poco15e4/RMax			= 3.375 mm
+d:Ge/Poco15e4/RMin			= 0. mm
+d:Ge/Poco15e4/HL			= 0.04 mm
+d:Ge/Poco15e4/TransX			= 65.54 mm
+d:Ge/Poco15e4/TransY			= -85.33 mm
+d:Ge/Poco15e4/TransZ			= 0 mm
+
+s:Ge/Poco15e5/Material			= "G4_WATER"
+s:Ge/Poco15e5/Parent			= "Camada1"
+s:Ge/Poco15e5/Type			= "TsCylinder"
+d:Ge/Poco15e5/RMax			= 3.375 mm
+d:Ge/Poco15e5/RMin			= 0. mm
+d:Ge/Poco15e5/HL			= 0.04 mm
+d:Ge/Poco15e5/TransX			= 65.54 mm
+d:Ge/Poco15e5/TransY			= -76.35 mm
+d:Ge/Poco15e5/TransZ			= 0 mm
+
+s:Ge/Poco15e6/Material			= "G4_WATER"
+s:Ge/Poco15e6/Parent			= "Camada1"
+s:Ge/Poco15e6/Type			= "TsCylinder"
+d:Ge/Poco15e6/RMax			= 3.375 mm
+d:Ge/Poco15e6/RMin			= 0. mm
+d:Ge/Poco15e6/HL			= 0.04 mm
+d:Ge/Poco15e6/TransX			= 65.54 mm
+d:Ge/Poco15e6/TransY			= -67.37 mm
+d:Ge/Poco15e6/TransZ			= 0 mm
+
+s:Ge/Poco15e7/Material			= "G4_WATER"
+s:Ge/Poco15e7/Parent			= "Camada1"
+s:Ge/Poco15e7/Type			= "TsCylinder"
+d:Ge/Poco15e7/RMax			= 3.375 mm
+d:Ge/Poco15e7/RMin			= 0. mm
+d:Ge/Poco15e7/HL			= 0.04 mm
+d:Ge/Poco15e7/TransX			= 65.54 mm
+d:Ge/Poco15e7/TransY			= -58.39 mm
+d:Ge/Poco15e7/TransZ			= 0 mm
+
+s:Ge/Poco15e8/Material			= "G4_WATER"
+s:Ge/Poco15e8/Parent			= "Camada1"
+s:Ge/Poco15e8/Type			= "TsCylinder"
+d:Ge/Poco15e8/RMax			= 3.375 mm
+d:Ge/Poco15e8/RMin			= 0. mm
+d:Ge/Poco15e8/HL			= 0.04 mm
+d:Ge/Poco15e8/TransX			= 65.54 mm
+d:Ge/Poco15e8/TransY			= -49.41 mm
+d:Ge/Poco15e8/TransZ			= 0 mm
+
+s:Ge/Poco15e9/Material			= "G4_WATER"
+s:Ge/Poco15e9/Parent			= "Camada1"
+s:Ge/Poco15e9/Type			= "TsCylinder"
+d:Ge/Poco15e9/RMax			= 3.375 mm
+d:Ge/Poco15e9/RMin			= 0. mm
+d:Ge/Poco15e9/HL			= 0.04 mm
+d:Ge/Poco15e9/TransX			= 65.54 mm
+d:Ge/Poco15e9/TransY			= -40.51 mm
+d:Ge/Poco15e9/TransZ			= 0 mm
+
+s:Ge/Poco15e10/Material			= "G4_WATER"
+s:Ge/Poco15e10/Parent			= "Camada1"
+s:Ge/Poco15e10/Type			= "TsCylinder"
+d:Ge/Poco15e10/RMax			= 3.375 mm
+d:Ge/Poco15e10/RMin			= 0. mm
+d:Ge/Poco15e10/HL			= 0.04 mm
+d:Ge/Poco15e10/TransX			= 65.54 mm
+d:Ge/Poco15e10/TransY			= -31.53 mm
+d:Ge/Poco15e10/TransZ			= 0 mm
+
+s:Ge/Poco15e11/Material			= "G4_WATER"
+s:Ge/Poco15e11/Parent			= "Camada1"
+s:Ge/Poco15e11/Type			= "TsCylinder"
+d:Ge/Poco15e11/RMax			= 3.375 mm
+d:Ge/Poco15e11/RMin			= 0. mm
+d:Ge/Poco15e11/HL			= 0.04 mm
+d:Ge/Poco15e11/TransX			= 65.54 mm
+d:Ge/Poco15e11/TransY			= -22.55 mm
+d:Ge/Poco15e11/TransZ			= 0 mm
+
+s:Ge/Poco15e12/Material			= "G4_WATER"
+s:Ge/Poco15e12/Parent			= "Camada1"
+s:Ge/Poco15e12/Type			= "TsCylinder"
+d:Ge/Poco15e12/RMax			= 3.375 mm
+d:Ge/Poco15e12/RMin			= 0. mm
+d:Ge/Poco15e12/HL			= 0.04 mm
+d:Ge/Poco15e12/TransX			= 65.54 mm
+d:Ge/Poco15e12/TransY			= -13.54 mm
+d:Ge/Poco15e12/TransZ			= 0 mm
+
+s:Ge/Poco15e13/Material			= "G4_WATER"
+s:Ge/Poco15e13/Parent			= "Camada1"
+s:Ge/Poco15e13/Type			= "TsCylinder"
+d:Ge/Poco15e13/RMax			= 3.375 mm
+d:Ge/Poco15e13/RMin			= 0. mm
+d:Ge/Poco15e13/HL			= 0.04 mm
+d:Ge/Poco15e13/TransX			= 65.54 mm
+d:Ge/Poco15e13/TransY			= 13.54 mm
+d:Ge/Poco15e13/TransZ			= 0 mm
+
+s:Ge/Poco15e14/Material			= "G4_WATER"
+s:Ge/Poco15e14/Parent			= "Camada1"
+s:Ge/Poco15e14/Type			= "TsCylinder"
+d:Ge/Poco15e14/RMax			= 3.375 mm
+d:Ge/Poco15e14/RMin			= 0. mm
+d:Ge/Poco15e14/HL			= 0.04 mm
+d:Ge/Poco15e14/TransX			= 65.54 mm
+d:Ge/Poco15e14/TransY			= 22.55 mm
+d:Ge/Poco15e14/TransZ			= 0 mm
+
+s:Ge/Poco15e15/Material			= "G4_WATER"
+s:Ge/Poco15e15/Parent			= "Camada1"
+s:Ge/Poco15e15/Type			= "TsCylinder"
+d:Ge/Poco15e15/RMax			= 3.375 mm
+d:Ge/Poco15e15/RMin			= 0. mm
+d:Ge/Poco15e15/HL			= 0.04 mm
+d:Ge/Poco15e15/TransX			= 65.54 mm
+d:Ge/Poco15e15/TransY			= 31.53 mm
+d:Ge/Poco15e15/TransZ			= 0 mm
+
+s:Ge/Poco15e16/Material			= "G4_WATER"
+s:Ge/Poco15e16/Parent			= "Camada1"
+s:Ge/Poco15e16/Type			= "TsCylinder"
+d:Ge/Poco15e16/RMax			= 3.375 mm
+d:Ge/Poco15e16/RMin			= 0. mm
+d:Ge/Poco15e16/HL			= 0.04 mm
+d:Ge/Poco15e16/TransX			= 65.54 mm
+d:Ge/Poco15e16/TransY			= 40.51 mm
+d:Ge/Poco15e16/TransZ			= 0 mm
+
+s:Ge/Poco15e17/Material			= "G4_WATER"
+s:Ge/Poco15e17/Parent			= "Camada1"
+s:Ge/Poco15e17/Type			= "TsCylinder"
+d:Ge/Poco15e17/RMax			= 3.375 mm
+d:Ge/Poco15e17/RMin			= 0. mm
+d:Ge/Poco15e17/HL			= 0.04 mm
+d:Ge/Poco15e17/TransX			= 65.54 mm
+d:Ge/Poco15e17/TransY			= 49.41 mm
+d:Ge/Poco15e17/TransZ			= 0 mm
+
+s:Ge/Poco15e18/Material			= "G4_WATER"
+s:Ge/Poco15e18/Parent			= "Camada1"
+s:Ge/Poco15e18/Type			= "TsCylinder"
+d:Ge/Poco15e18/RMax			= 3.375 mm
+d:Ge/Poco15e18/RMin			= 0. mm
+d:Ge/Poco15e18/HL			= 0.04 mm
+d:Ge/Poco15e18/TransX			= 65.54 mm
+d:Ge/Poco15e18/TransY			= 58.39 mm
+d:Ge/Poco15e18/TransZ			= 0 mm
+
+s:Ge/Poco15e19/Material			= "G4_WATER"
+s:Ge/Poco15e19/Parent			= "Camada1"
+s:Ge/Poco15e19/Type			= "TsCylinder"
+d:Ge/Poco15e19/RMax			= 3.375 mm
+d:Ge/Poco15e19/RMin			= 0. mm
+d:Ge/Poco15e19/HL			= 0.04 mm
+d:Ge/Poco15e19/TransX			= 65.54 mm
+d:Ge/Poco15e19/TransY			= 67.37 mm
+d:Ge/Poco15e19/TransZ			= 0 mm
+
+s:Ge/Poco15e20/Material			= "G4_WATER"
+s:Ge/Poco15e20/Parent			= "Camada1"
+s:Ge/Poco15e20/Type			= "TsCylinder"
+d:Ge/Poco15e20/RMax			= 3.375 mm
+d:Ge/Poco15e20/RMin			= 0. mm
+d:Ge/Poco15e20/HL			= 0.04 mm
+d:Ge/Poco15e20/TransX			= 65.54 mm
+d:Ge/Poco15e20/TransY			= 76.35 mm
+d:Ge/Poco15e20/TransZ			= 0 mm
+
+s:Ge/Poco15e21/Material			= "G4_WATER"
+s:Ge/Poco15e21/Parent			= "Camada1"
+s:Ge/Poco15e21/Type			= "TsCylinder"
+d:Ge/Poco15e21/RMax			= 3.375 mm
+d:Ge/Poco15e21/RMin			= 0. mm
+d:Ge/Poco15e21/HL			= 0.04 mm
+d:Ge/Poco15e21/TransX			= 65.54 mm
+d:Ge/Poco15e21/TransY			= 85.33 mm
+d:Ge/Poco15e21/TransZ			= 0 mm
+
+s:Ge/Poco15e22/Material			= "G4_WATER"
+s:Ge/Poco15e22/Parent			= "Camada1"
+s:Ge/Poco15e22/Type			= "TsCylinder"
+d:Ge/Poco15e22/RMax			= 3.375 mm
+d:Ge/Poco15e22/RMin			= 0. mm
+d:Ge/Poco15e22/HL			= 0.04 mm
+d:Ge/Poco15e22/TransX			= 65.54 mm
+d:Ge/Poco15e22/TransY			= 94.31 mm
+d:Ge/Poco15e22/TransZ			= 0 mm
+
+s:Ge/Poco15e23/Material			= "G4_WATER"
+s:Ge/Poco15e23/Parent			= "Camada1"
+s:Ge/Poco15e23/Type			= "TsCylinder"
+d:Ge/Poco15e23/RMax			= 3.375 mm
+d:Ge/Poco15e23/RMin			= 0. mm
+d:Ge/Poco15e23/HL			= 0.04 mm
+d:Ge/Poco15e23/TransX			= 65.54 mm
+d:Ge/Poco15e23/TransY			= 103.29 mm
+d:Ge/Poco15e23/TransZ			= 0 mm
+
+s:Ge/Poco15e24/Material			= "G4_WATER"
+s:Ge/Poco15e24/Parent			= "Camada1"
+s:Ge/Poco15e24/Type			= "TsCylinder"
+d:Ge/Poco15e24/RMax			= 3.375 mm
+d:Ge/Poco15e24/RMin			= 0. mm
+d:Ge/Poco15e24/HL			= 0.04 mm
+d:Ge/Poco15e24/TransX			= 65.54 mm
+d:Ge/Poco15e24/TransY			= 112.27 mm
+d:Ge/Poco15e24/TransZ			= 0 mm
+
+s:Ge/Poco16e1/Material			= "G4_WATER"
+s:Ge/Poco16e1/Parent			= "Camada1"
+s:Ge/Poco16e1/Type			= "TsCylinder"
+d:Ge/Poco16e1/RMax			= 3.375 mm
+d:Ge/Poco16e1/RMin			= 0. mm
+d:Ge/Poco16e1/HL			= 0.04 mm
+d:Ge/Poco16e1/TransX			= 74.52 mm
+d:Ge/Poco16e1/TransY			= -112.27 mm
+d:Ge/Poco16e1/TransZ			= 0 mm
+
+s:Ge/Poco16e2/Material			= "G4_WATER"
+s:Ge/Poco16e2/Parent			= "Camada1"
+s:Ge/Poco16e2/Type			= "TsCylinder"
+d:Ge/Poco16e2/RMax			= 3.375 mm
+d:Ge/Poco16e2/RMin			= 0. mm
+d:Ge/Poco16e2/HL			= 0.04 mm
+d:Ge/Poco16e2/TransX			= 74.52 mm
+d:Ge/Poco16e2/TransY			= -103.29 mm
+d:Ge/Poco16e2/TransZ			= 0 mm
+
+s:Ge/Poco16e3/Material			= "G4_WATER"
+s:Ge/Poco16e3/Parent			= "Camada1"
+s:Ge/Poco16e3/Type			= "TsCylinder"
+d:Ge/Poco16e3/RMax			= 3.375 mm
+d:Ge/Poco16e3/RMin			= 0. mm
+d:Ge/Poco16e3/HL			= 0.04 mm
+d:Ge/Poco16e3/TransX			= 74.52 mm
+d:Ge/Poco16e3/TransY			= -94.31 mm
+d:Ge/Poco16e3/TransZ			= 0 mm
+
+s:Ge/Poco16e4/Material			= "G4_WATER"
+s:Ge/Poco16e4/Parent			= "Camada1"
+s:Ge/Poco16e4/Type			= "TsCylinder"
+d:Ge/Poco16e4/RMax			= 3.375 mm
+d:Ge/Poco16e4/RMin			= 0. mm
+d:Ge/Poco16e4/HL			= 0.04 mm
+d:Ge/Poco16e4/TransX			= 74.52 mm
+d:Ge/Poco16e4/TransY			= -85.33 mm
+d:Ge/Poco16e4/TransZ			= 0 mm
+
+s:Ge/Poco16e5/Material			= "G4_WATER"
+s:Ge/Poco16e5/Parent			= "Camada1"
+s:Ge/Poco16e5/Type			= "TsCylinder"
+d:Ge/Poco16e5/RMax			= 3.375 mm
+d:Ge/Poco16e5/RMin			= 0. mm
+d:Ge/Poco16e5/HL			= 0.04 mm
+d:Ge/Poco16e5/TransX			= 74.52 mm
+d:Ge/Poco16e5/TransY			= -76.35 mm
+d:Ge/Poco16e5/TransZ			= 0 mm
+
+s:Ge/Poco16e6/Material			= "G4_WATER"
+s:Ge/Poco16e6/Parent			= "Camada1"
+s:Ge/Poco16e6/Type			= "TsCylinder"
+d:Ge/Poco16e6/RMax			= 3.375 mm
+d:Ge/Poco16e6/RMin			= 0. mm
+d:Ge/Poco16e6/HL			= 0.04 mm
+d:Ge/Poco16e6/TransX			= 74.52 mm
+d:Ge/Poco16e6/TransY			= -67.37 mm
+d:Ge/Poco16e6/TransZ			= 0 mm
+
+s:Ge/Poco16e7/Material			= "G4_WATER"
+s:Ge/Poco16e7/Parent			= "Camada1"
+s:Ge/Poco16e7/Type			= "TsCylinder"
+d:Ge/Poco16e7/RMax			= 3.375 mm
+d:Ge/Poco16e7/RMin			= 0. mm
+d:Ge/Poco16e7/HL			= 0.04 mm
+d:Ge/Poco16e7/TransX			= 74.52 mm
+d:Ge/Poco16e7/TransY			= -58.39 mm
+d:Ge/Poco16e7/TransZ			= 0 mm
+
+s:Ge/Poco16e8/Material			= "G4_WATER"
+s:Ge/Poco16e8/Parent			= "Camada1"
+s:Ge/Poco16e8/Type			= "TsCylinder"
+d:Ge/Poco16e8/RMax			= 3.375 mm
+d:Ge/Poco16e8/RMin			= 0. mm
+d:Ge/Poco16e8/HL			= 0.04 mm
+d:Ge/Poco16e8/TransX			= 74.52 mm
+d:Ge/Poco16e8/TransY			= -49.41 mm
+d:Ge/Poco16e8/TransZ			= 0 mm
+
+s:Ge/Poco16e9/Material			= "G4_WATER"
+s:Ge/Poco16e9/Parent			= "Camada1"
+s:Ge/Poco16e9/Type			= "TsCylinder"
+d:Ge/Poco16e9/RMax			= 3.375 mm
+d:Ge/Poco16e9/RMin			= 0. mm
+d:Ge/Poco16e9/HL			= 0.04 mm
+d:Ge/Poco16e9/TransX			= 74.52 mm
+d:Ge/Poco16e9/TransY			= -40.51 mm
+d:Ge/Poco16e9/TransZ			= 0 mm
+
+s:Ge/Poco16e10/Material			= "G4_WATER"
+s:Ge/Poco16e10/Parent			= "Camada1"
+s:Ge/Poco16e10/Type			= "TsCylinder"
+d:Ge/Poco16e10/RMax			= 3.375 mm
+d:Ge/Poco16e10/RMin			= 0. mm
+d:Ge/Poco16e10/HL			= 0.04 mm
+d:Ge/Poco16e10/TransX			= 74.52 mm
+d:Ge/Poco16e10/TransY			= -31.53 mm
+d:Ge/Poco16e10/TransZ			= 0 mm
+
+s:Ge/Poco16e11/Material			= "G4_WATER"
+s:Ge/Poco16e11/Parent			= "Camada1"
+s:Ge/Poco16e11/Type			= "TsCylinder"
+d:Ge/Poco16e11/RMax			= 3.375 mm
+d:Ge/Poco16e11/RMin			= 0. mm
+d:Ge/Poco16e11/HL			= 0.04 mm
+d:Ge/Poco16e11/TransX			= 74.52 mm
+d:Ge/Poco16e11/TransY			= -22.55 mm
+d:Ge/Poco16e11/TransZ			= 0 mm
+
+s:Ge/Poco16e12/Material			= "G4_WATER"
+s:Ge/Poco16e12/Parent			= "Camada1"
+s:Ge/Poco16e12/Type			= "TsCylinder"
+d:Ge/Poco16e12/RMax			= 3.375 mm
+d:Ge/Poco16e12/RMin			= 0. mm
+d:Ge/Poco16e12/HL			= 0.04 mm
+d:Ge/Poco16e12/TransX			= 74.52 mm
+d:Ge/Poco16e12/TransY			= -13.54 mm
+d:Ge/Poco16e12/TransZ			= 0 mm
+
+s:Ge/Poco16e13/Material			= "G4_WATER"
+s:Ge/Poco16e13/Parent			= "Camada1"
+s:Ge/Poco16e13/Type			= "TsCylinder"
+d:Ge/Poco16e13/RMax			= 3.375 mm
+d:Ge/Poco16e13/RMin			= 0. mm
+d:Ge/Poco16e13/HL			= 0.04 mm
+d:Ge/Poco16e13/TransX			= 74.52 mm
+d:Ge/Poco16e13/TransY			= 13.54 mm
+d:Ge/Poco16e13/TransZ			= 0 mm
+
+s:Ge/Poco16e14/Material			= "G4_WATER"
+s:Ge/Poco16e14/Parent			= "Camada1"
+s:Ge/Poco16e14/Type			= "TsCylinder"
+d:Ge/Poco16e14/RMax			= 3.375 mm
+d:Ge/Poco16e14/RMin			= 0. mm
+d:Ge/Poco16e14/HL			= 0.04 mm
+d:Ge/Poco16e14/TransX			= 74.52 mm
+d:Ge/Poco16e14/TransY			= 22.55 mm
+d:Ge/Poco16e14/TransZ			= 0 mm
+
+s:Ge/Poco16e15/Material			= "G4_WATER"
+s:Ge/Poco16e15/Parent			= "Camada1"
+s:Ge/Poco16e15/Type			= "TsCylinder"
+d:Ge/Poco16e15/RMax			= 3.375 mm
+d:Ge/Poco16e15/RMin			= 0. mm
+d:Ge/Poco16e15/HL			= 0.04 mm
+d:Ge/Poco16e15/TransX			= 74.52 mm
+d:Ge/Poco16e15/TransY			= 31.53 mm
+d:Ge/Poco16e15/TransZ			= 0 mm
+
+s:Ge/Poco16e16/Material			= "G4_WATER"
+s:Ge/Poco16e16/Parent			= "Camada1"
+s:Ge/Poco16e16/Type			= "TsCylinder"
+d:Ge/Poco16e16/RMax			= 3.375 mm
+d:Ge/Poco16e16/RMin			= 0. mm
+d:Ge/Poco16e16/HL			= 0.04 mm
+d:Ge/Poco16e16/TransX			= 74.52 mm
+d:Ge/Poco16e16/TransY			= 40.51 mm
+d:Ge/Poco16e16/TransZ			= 0 mm
+
+s:Ge/Poco16e17/Material			= "G4_WATER"
+s:Ge/Poco16e17/Parent			= "Camada1"
+s:Ge/Poco16e17/Type			= "TsCylinder"
+d:Ge/Poco16e17/RMax			= 3.375 mm
+d:Ge/Poco16e17/RMin			= 0. mm
+d:Ge/Poco16e17/HL			= 0.04 mm
+d:Ge/Poco16e17/TransX			= 74.52 mm
+d:Ge/Poco16e17/TransY			= 49.41 mm
+d:Ge/Poco16e17/TransZ			= 0 mm
+
+s:Ge/Poco16e18/Material			= "G4_WATER"
+s:Ge/Poco16e18/Parent			= "Camada1"
+s:Ge/Poco16e18/Type			= "TsCylinder"
+d:Ge/Poco16e18/RMax			= 3.375 mm
+d:Ge/Poco16e18/RMin			= 0. mm
+d:Ge/Poco16e18/HL			= 0.04 mm
+d:Ge/Poco16e18/TransX			= 74.52 mm
+d:Ge/Poco16e18/TransY			= 58.39 mm
+d:Ge/Poco16e18/TransZ			= 0 mm
+
+s:Ge/Poco16e19/Material			= "G4_WATER"
+s:Ge/Poco16e19/Parent			= "Camada1"
+s:Ge/Poco16e19/Type			= "TsCylinder"
+d:Ge/Poco16e19/RMax			= 3.375 mm
+d:Ge/Poco16e19/RMin			= 0. mm
+d:Ge/Poco16e19/HL			= 0.04 mm
+d:Ge/Poco16e19/TransX			= 74.52 mm
+d:Ge/Poco16e19/TransY			= 67.37 mm
+d:Ge/Poco16e19/TransZ			= 0 mm
+
+s:Ge/Poco16e20/Material			= "G4_WATER"
+s:Ge/Poco16e20/Parent			= "Camada1"
+s:Ge/Poco16e20/Type			= "TsCylinder"
+d:Ge/Poco16e20/RMax			= 3.375 mm
+d:Ge/Poco16e20/RMin			= 0. mm
+d:Ge/Poco16e20/HL			= 0.04 mm
+d:Ge/Poco16e20/TransX			= 74.52 mm
+d:Ge/Poco16e20/TransY			= 76.35 mm
+d:Ge/Poco16e20/TransZ			= 0 mm
+
+s:Ge/Poco16e21/Material			= "G4_WATER"
+s:Ge/Poco16e21/Parent			= "Camada1"
+s:Ge/Poco16e21/Type			= "TsCylinder"
+d:Ge/Poco16e21/RMax			= 3.375 mm
+d:Ge/Poco16e21/RMin			= 0. mm
+d:Ge/Poco16e21/HL			= 0.04 mm
+d:Ge/Poco16e21/TransX			= 74.52 mm
+d:Ge/Poco16e21/TransY			= 85.33 mm
+d:Ge/Poco16e21/TransZ			= 0 mm
+
+s:Ge/Poco16e22/Material			= "G4_WATER"
+s:Ge/Poco16e22/Parent			= "Camada1"
+s:Ge/Poco16e22/Type			= "TsCylinder"
+d:Ge/Poco16e22/RMax			= 3.375 mm
+d:Ge/Poco16e22/RMin			= 0. mm
+d:Ge/Poco16e22/HL			= 0.04 mm
+d:Ge/Poco16e22/TransX			= 74.52 mm
+d:Ge/Poco16e22/TransY			= 94.31 mm
+d:Ge/Poco16e22/TransZ			= 0 mm
+
+s:Ge/Poco16e23/Material			= "G4_WATER"
+s:Ge/Poco16e23/Parent			= "Camada1"
+s:Ge/Poco16e23/Type			= "TsCylinder"
+d:Ge/Poco16e23/RMax			= 3.375 mm
+d:Ge/Poco16e23/RMin			= 0. mm
+d:Ge/Poco16e23/HL			= 0.04 mm
+d:Ge/Poco16e23/TransX			= 74.52 mm
+d:Ge/Poco16e23/TransY			= 103.29 mm
+d:Ge/Poco16e23/TransZ			= 0 mm
+
+s:Ge/Poco16e24/Material			= "G4_WATER"
+s:Ge/Poco16e24/Parent			= "Camada1"
+s:Ge/Poco16e24/Type			= "TsCylinder"
+d:Ge/Poco16e24/RMax			= 3.375 mm
+d:Ge/Poco16e24/RMin			= 0. mm
+d:Ge/Poco16e24/HL			= 0.04 mm
+d:Ge/Poco16e24/TransX			= 74.52 mm
+d:Ge/Poco16e24/TransY			= 112.27 mm
+d:Ge/Poco16e24/TransZ			= 0 mm
