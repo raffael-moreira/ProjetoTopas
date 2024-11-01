@@ -1,10 +1,10 @@
 library (ggplot2)
 #Tratamento dos dados (RODAR SOMENTE UMA VEZ!!!!!)
 arquivos <- c(
-  "/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada1.csv",
-  "/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada2.csv",
-  "/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada3.csv",
-  "/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada4.csv"
+  "/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada1.csv",
+  "/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada2.csv",
+  "/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada3.csv",
+  "/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada4.csv"
 )
 
 ajustar_cabecalho <- function(caminho) {
@@ -17,7 +17,7 @@ ajustar_cabecalho <- function(caminho) {
 lapply(arquivos, ajustar_cabecalho)# Aplica a função para cada arquivo na lista
 
 #Inferência dos Dados
-camada1 <- read.csv("/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada1.csv")
+camada1 <- read.csv("/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada1.csv")
 
 # Gráfico de mapa de calor
 ggplot(camada1, aes(x = X, y = Y, fill = Dose)) +
@@ -27,7 +27,7 @@ ggplot(camada1, aes(x = X, y = Y, fill = Dose)) +
   theme_minimal() +
   coord_fixed()  # Manter as proporções iguais para X e Y
 
-camada2 <- read.csv("/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada2.csv")
+camada2 <- read.csv("/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada2.csv")
 
 # Gráfico de mapa de calor
 ggplot(camada2, aes(x = X, y = Y, fill = Dose)) +
@@ -37,7 +37,7 @@ ggplot(camada2, aes(x = X, y = Y, fill = Dose)) +
   theme_minimal() +
   coord_fixed()  # Manter as proporções iguais para X e Y
 
-camada3 <- read.csv("/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada3.csv")
+camada3 <- read.csv("/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada3.csv")
 
 # Gráfico de mapa de calor
 ggplot(camada3, aes(x = X, y = Y, fill = Dose)) +
@@ -47,7 +47,7 @@ ggplot(camada3, aes(x = X, y = Y, fill = Dose)) +
   theme_minimal() +
   coord_fixed()  # Manter as proporções iguais para X e Y
 
-camada4 <- read.csv("/home/raffaelmoreira/topas/mysim/Output/dose/DoseCamada4.csv")
+camada4 <- read.csv("/home/topas/topas/ProjetoTopas/Output/dose/DoseCamada4.csv")
 
 # Gráfico de mapa de calor
 ggplot(camada4, aes(x = X, y = Y, fill = Dose)) +

@@ -1,0 +1,10 @@
+s:Sc/Dose/Quantity 						= "DoseToMedium"
+s:Sc/Dose/Component 					= "Microtitulacao"
+sc:Sc/Dose/OutputFile                	= "Output/dose/DoseCamada1"
+s:Sc/Dose/OutputType                	= "csv"
+s:Sc/Dose/IfOutputFileAlreadyExists 	= "increment"
+b:Sc/Dose/OutputToConsole 				= "True"
+b:Sc/Dose/PropagateToChildren 			= "True"
+i:Sc/Dose/XBins 						= 1
+i:Sc/Dose/YBins 						= 1
+i:Sc/Dose/ZBins	 						= 1

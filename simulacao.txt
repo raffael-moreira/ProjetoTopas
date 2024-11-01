@@ -1,8 +1,4 @@
-# Simulação de uma pequena caixa Parent de 85.18x125.76x14.48 (x, y, z) [42.59x62.88x7.24 HL] sólida de PS (G4_POLYSTYRENE) com 96 pequenos cilindros 
-# child sólidos de H2O (G4_WATER) com dimensões 3.375 de raio, e 10.91 de altura [5.455 HL], e espaçamento de 2.23 entre sí [1.115 HL]
-# A fonte produz raios gamma (raio-x) com energia fixa de 6 MeV, à uma distância de 1000 do isocentro. A fonte é estática e está à exatos 90º do plano 
-# cartesiano
-# Todas as dimensões de distância são em milímetros
+#
 
 #Geometria
 #includeFile 								= Camadas/Trash/Placas/geom1.txt
@@ -11,25 +7,18 @@ includeFile 								= Camadas/camadasolida2.txt
 includeFile									= Camadas/camadasolida3.txt
 includeFile									= Camadas/camadasolida4.txt
 
-s:Ge/Microtitulacao/Color					= "lightblue"
-s:Ge/2Microtitulacao/Color					= "lightblue"
-s:Ge/3Microtitulacao/Color					= "lightblue"
-s:Ge/4Microtitulacao/Color					= "lightblue"
-s:Ge/11Microtitulacao/Color					= "lightblue"
-s:Ge/12Microtitulacao/Color					= "lightblue"
-s:Ge/13Microtitulacao/Color					= "lightblue"
-s:Ge/14Microtitulacao/Color					= "lightblue"
-s:Ge/21Microtitulacao/Color					= "lightblue"
-s:Ge/22Microtitulacao/Color					= "lightblue"
-s:Ge/23Microtitulacao/Color					= "lightblue"
-s:Ge/24Microtitulacao/Color					= "lightblue"
-s:Ge/31Microtitulacao/Color					= "lightblue"
-s:Ge/32Microtitulacao/Color					= "lightblue"
-s:Ge/33Microtitulacao/Color					= "lightblue"
-s:Ge/34Microtitulacao/Color					= "lightblue"
-
 #Outputs
 includeFile 								= Scoring/dose.txt
+#includeFile 								= Scoring/dosegeom1.txt
+
+sv:Ts/ExtraSequenceFiles 					= 1 "Runs/Co60.txt"
+d:Ts/ExtraSequenceSleepInterval 			= 10. s
+d:Ts/ExtraSequenceSleepLimit 				= 3600. s
+i:Ts/RunIDPadding 							= 1
+b:Sc/Dose/OutputAfterRun 					= "True"
+b:Sc/Dose2/OutputAfterRun 					= "True"
+b:Sc/Dose3/OutputAfterRun 					= "True"
+b:Sc/Dose4/OutputAfterRun 					= "True"
 
 # Setando o Parent supremo "World" onde ocorrerá a simulação
 s:Ge/World/Type 							= "TsBox"
@@ -48,8 +37,7 @@ d:Ge/World/RotZ 							= 0. deg
 s:So/Fonte/Type 							= "Beam" 
 s:So/Fonte/Component 						= "BeamPosition"
 s:So/Fonte/BeamParticle 					= "gamma"
-d:So/Fonte/BeamEnergy 						= 6. MeV
-u:So/Fonte/BeamEnergySpread 				= 0.1
+dc:So/Fonte/BeamEnergy 						= 6. MeV
 s:So/Fonte/BeamPositionDistribution 		= "Flat"
 s:So/Fonte/BeamPositionCutoffShape 			= "Rectangle" 
 dc:So/Fonte/BeamPositionCutoffX 			= 86. mm
@@ -61,8 +49,9 @@ d:So/Fonte/BeamAngularCutoffX 				= 90. deg
 d:So/Fonte/BeamAngularCutoffY 				= 90. deg
 d:So/Fonte/BeamAngularSpreadX 				= 0.0032 rad
 d:So/Fonte/BeamAngularSpreadY 				= 0.0032 rad
-ic:So/Fonte/NumberOfHistoriesInRun 			= 100000
+ic:So/Fonte/NumberOfHistoriesInRun 			= 100000000
 i:So/Fonte/NumberOfHistoriesInRandomJob 	= 0
+i:Ts/ShowHistoryCountAtInterval 			= 10
 
 # Setando posicionamento da fonte 
 s:Ge/BeamPosition/Parent   					= "World"
@@ -85,9 +74,8 @@ i:Ge/NumberOfPointsPerOverlapCheck   		= 1000
 b:Ge/CheckForUnusedComponents        		= "False"
 
 # Configuração de visualizacão da interface gráfica
-Ts/UseQt					  				= "FALSE"
-
-b:Gr/Enable                   				= "FALSE"
+Ts/UseQt					  				= "False"
+b:Gr/Enable                   				= "False"
 s:Gr/eventos/Type            				= "OpenGL"
 i:Gr/eventos/WindowSizeX      				= 1366
 i:Gr/eventos/WindowSizeY      				= 768
@@ -112,3 +100,4 @@ d:Gr/eventos/AxesSize 		  				= 130 mm
 #Física
 sv:Ph/Default/Modules 						= 1 "g4em-standard_opt0" #física para testes
 #sv:Ph/Default/Modules 						= 6 "g4em-standard_opt4" "g4h-phy_QGSP_BIC_HP" "g4decay" "g4ion-binarycascade" "g4h-elastic_HP" “g4stopping"
+i:Ts/NumberOfThreads = 0

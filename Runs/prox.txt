@@ -1,0 +1,4 @@
+#Roda o mesmo teste pro acelerador linear com feixe 6 MeV
+
+
+dc:So/Fonte/BeamEnergy 						= 6. MeV
