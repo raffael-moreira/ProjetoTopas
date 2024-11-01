@@ -1,0 +1,2 @@
+dc:So/Fonte/BeamEnergy 					= 6 MeV
+ic:So/Fonte/NumberOfHistoriesInRun 		= 50
